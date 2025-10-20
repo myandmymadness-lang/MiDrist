@@ -1,0 +1,2227 @@
+USA_annex = { 
+
+	USA_join_the_war = {
+	 	available = { 
+			OR = {
+				has_war_with = JAP
+				any_country = { 
+				is_in_faction_with = GER 
+			OR = { 
+				controls_state = 331 
+				controls_state = 332
+				controls_state = 730
+				controls_state = 696 
+				controls_state = 695
+				controls_state = 689
+				controls_state = 311
+				controls_state = 690
+				controls_state = 693
+				controls_state = 464
+				controls_state = 860
+				controls_state = 863
+				controls_state = 468
+				controls_state = 465
+				controls_state = 694 
+				controls_state = 308 
+				controls_state = 692 
+				controls_state = 691 
+				controls_state = 687 
+				controls_state = 309 
+				controls_state = 310 
+				controls_state = 127
+				controls_state = 123 
+				controls_state = 130 
+				controls_state = 132
+				controls_state = 131
+				controls_state = 121
+				controls_state = 133
+				controls_state = 122
+			}
+			}
+			}
+		}
+				allowed = {	original_tag = USA }
+				fire_only_once = yes
+				cost = 0	
+				complete_effect = { 
+					hidden_effect = {
+						ENG = {
+							add_to_faction = USA
+							add_to_faction = MEX
+						}
+						set_rule = { can_join_factions = yes }	
+						MEX = {
+						set_rule = { can_join_factions = yes }
+						}
+					}
+					
+					add_to_war = { targeted_alliance = ENG	enemy = GER	}
+					MEX = {
+						add_to_war = { 
+							targeted_alliance = ENG	enemy = GER
+						}
+						add_to_war = { 
+							targeted_alliance = ENG	enemy = JAP
+						}
+					}
+				}
+			}
+	
+	GER_plan = {
+	
+		icon = eng_preparing_the_second_front
+
+		available = {
+		    has_war = yes
+			date > 1942.06.01
+		}
+
+		target_trigger = {
+			FROM = {
+				OR = {
+					original_tag = GER
+				}
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			hidden_effect = {
+			14 = {
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = ENG
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = CAN
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = FRA
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = SAF
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = RAJ
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = AST
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = USA
+					days = 90
+				}
+			}
+			23 = {
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = ENG
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = CAN
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = FRA
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = SAF
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = RAJ
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = AST
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = USA
+					days = 90
+				}
+			}
+			30 = {
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = ENG
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = CAN
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = FRA
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = SAF
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = RAJ
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = AST
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = USA
+					days = 90
+				}
+			}
+			806 = {
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = ENG
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = CAN
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = FRA
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = SAF
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = RAJ
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = AST
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = USA
+					days = 90
+				}
+			}
+			19 = {
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = ENG
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = CAN
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = FRA
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = SAF
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = RAJ
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = AST
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = USA
+					days = 90
+				}
+			}
+			15 = {
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = ENG
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = CAN
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = FRA
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = SAF
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = RAJ
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = AST
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = USA
+					days = 90
+				}
+			}
+			785 = {
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = ENG
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = CAN
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = FRA
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = SAF
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = RAJ
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = AST
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = USA
+					days = 90
+				}
+			}
+			29 = {
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = ENG
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = CAN
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = FRA
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = SAF
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = RAJ
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = AST
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = USA
+					days = 90
+				}
+			}
+			}
+			custom_effect_tooltip = USA_days_d_1	
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = USA_days_d
+		}
+	}
+	ITA_plan = {
+	
+		icon = ITA_italia_irredenta_achieved
+
+		available = {
+		    has_war = yes
+			date > 1941.05.01
+		}
+
+		target_trigger = {
+			FROM = {
+				OR = {
+					original_tag = ITA
+				}
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			hidden_effect = {
+			115 = {
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = ENG
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = CAN
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = FRA
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = SAF
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = RAJ
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = AST
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = USA
+					days = 90
+				}
+			}
+			156 = {
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = ENG
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = CAN
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = FRA
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = SAF
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = RAJ
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = AST
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = USA
+					days = 90
+				}
+			}
+			117 = {
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = ENG
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = CAN
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = FRA
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = SAF
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = RAJ
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = AST
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = USA
+					days = 90
+				}
+			}
+			849 = {
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = ENG
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = CAN
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = FRA
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = SAF
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = RAJ
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = AST
+					days = 90
+				}
+				add_dynamic_modifier = {
+					modifier = USA_days_d_and_haski
+					scope = USA
+					days = 90
+				}
+			}
+			}	
+		custom_effect_tooltip = USA_days_d_2	
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = USA_days_d
+		}
+	}
+
+	USA_annex_PHI = {
+	
+		icon = generic_ignite_civil_war
+
+		available = {
+			 	hidden_trigger = { always = no }
+		}
+
+		fire_only_once = yes
+		days_mission_timeout = 720
+		
+        activation = {
+		}
+		visible = {
+		}
+
+		is_good = yes
+		
+		cancel_if_not_visible = yes
+	
+		timeout_effect = {
+			annex_country = { target = PHI }
+			every_state = {
+				limit = {
+					is_core_of = PHI
+					is_controlled_by = USA
+				}
+				set_compliance = 100
+			}
+		}
+	}
+}
+
+USA_Pentagon_building = { 
+
+	USA_Acro_prom1 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 357      
+			}
+		}
+
+		visible = {
+			357 = { 
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+			has_completed_focus = USA_stroika10
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			357 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+
+	USA_Acro_prom2 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 358
+			}
+		}
+
+		visible = {
+			
+			358 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+			has_completed_focus = USA_stroika10
+			
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			358 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom3 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 359
+			}
+		}
+
+		visible = {
+			359 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+			has_completed_focus = USA_stroika10
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			359 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom4 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 360
+			}
+		}
+
+		visible = {
+			360 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+			has_completed_focus = USA_stroika10
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			360 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom5 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 361
+			}
+		}
+
+		visible = {
+			361 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+			has_completed_focus = USA_stroika10
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			361 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom6 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 362
+			}
+		}
+
+		visible = {
+			362 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+			has_completed_focus = USA_stroika10
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			362 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom7 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 363
+			}
+		}
+
+		visible = {
+			363 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+			has_completed_focus = USA_stroika10
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			363 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom8 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 364
+			}
+		}
+
+		visible = {
+			364 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			364 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom9 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 365
+			}
+		}
+
+		visible = {
+			365 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			365 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom10 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 366
+			}
+		}
+
+		visible = {
+			366 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			366 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+
+
+
+
+	USA_Acro_prom11 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 367
+			}
+		}
+
+		visible = {
+			367 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			367 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom12 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 368
+			}
+		}
+
+		visible = {
+			368 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			368 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom13 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 369
+			}
+		}
+
+		visible = {
+			369 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			369 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom14 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 816
+			}
+		}
+
+		visible = {
+			816 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			816 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom15 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 261
+			}
+		}
+
+		visible = {
+			261 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			261 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom16 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 396
+			}
+		}
+
+		visible = {
+			396 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			396 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom17 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 393
+			}
+		}
+
+		visible = {
+			393 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			393 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom18 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 394
+			}
+		}
+
+		visible = {
+			394 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			394 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom19 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 395
+			}
+		}
+
+		visible = {
+			395 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			395 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom20 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 373
+			}
+		}
+
+		visible = {
+			373 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			373 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom21 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 372
+			}
+		}
+
+		visible = {
+			372 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			372 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom22 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 370
+			}
+		}
+
+		visible = {
+			370 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			370 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom23 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 371
+			}
+		}
+
+		visible = {
+			371 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			371 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom24 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 375
+			}
+		}
+
+		visible = {
+			375 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			375 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom25 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 374
+			}
+		}
+
+		visible = {
+			374 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			374 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom26 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 383
+			}
+		}
+
+		visible = {
+			383 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			383 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom27 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 392
+			}
+		}
+
+		visible = {
+			392 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			392 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom28 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 384
+			}
+		}
+
+		visible = {
+			384 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			384 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom29 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 390
+			}
+		}
+
+		visible = {
+			390 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			390 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom30 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 389
+			}
+		}
+
+		visible = {
+			389 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			389 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom31 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 388
+			}
+		}
+
+		visible = {
+			388 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			388 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom32 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 381
+			}
+		}
+
+		visible = {
+			381 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			381 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom33 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 382
+			}
+		}
+
+		visible = {
+			382 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			382 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom34 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 376
+			}
+		}
+
+		visible = {
+			376 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			376 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom35 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 377
+			}
+		}
+
+		visible = {
+			377 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+			has_completed_focus = USA_stroika9
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			377 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom36 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 380
+			}
+		}
+
+		visible = {
+			380 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+			has_completed_focus = USA_stroika9
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			380 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom37 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 387
+			}
+		}
+
+		visible = {
+			387 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+			has_completed_focus = USA_stroika9
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			387 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom38 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 386
+			}
+		}
+
+		visible = {
+			386 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+			has_completed_focus = USA_stroika9
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			386 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom39 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 385
+			}
+		}
+
+		visible = {
+			385 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+			has_completed_focus = USA_stroika9
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			385 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom40 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 379
+			}
+		}
+
+		visible = {
+			379 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+			has_completed_focus = USA_stroika9
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			379 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom41 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 378
+			}
+		}
+
+		visible = {
+			378 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+			has_completed_focus = USA_stroika9
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			378 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+	USA_Acro_prom42 = { 
+	
+		icon = GFX_decision_generic_consumer_goods
+		highlight_states = {
+			highlight_state_targets = {
+				state = 391 
+			}
+		}
+
+		visible = {
+			391 = {
+				has_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+
+		}
+
+		available = {
+			 	
+		}
+
+		fire_only_once = yes
+
+		cost = 5 
+		 days_remove = 45
+		days = 30
+
+		remove_Effect = {
+			custom_effect_tooltip = USA_plan_civilian_dynamic_modifier_info
+			add_to_variable = { USA_stability_factor = 0.01 tooltip = USA_stability_factor_tt }
+			
+			add_to_variable = { USA_industrial_capacity_factory = 0.01 tooltip = USA_industrial_capacity_factory_tt }
+			add_to_variable = { USA_production_speed_arms_factory_factor = 0.005 tooltip = USA_production_speed_arms_factory_factor_tt }
+			add_to_variable = { USA_production_speed_dockyard_factor = 0.005 tooltip = USA_production_speed_dockyard_factor_tt }
+			391 = {
+				remove_dynamic_modifier = { modifier = USA_civilian_offensive }
+			}
+		}
+        
+	}
+
+}
+	
+

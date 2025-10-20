@@ -1,0 +1,82 @@
+has_xiroxito = {
+    tag = JAP
+}
+
+xiroxito = {
+    check_variable = {
+		var = imperial
+		value = imperial_max_mil_readiness
+		compare = greater_than_or_equals
+	}
+}
+
+has_The_Emperors_Benefit1 = {
+	is_power_balance_in_range = {
+	    id = JAP_balanc_imperial
+		range = right_side2_range
+	}	
+}
+has_The_Emperors_Benefit2 = {
+	is_power_balance_in_range = {
+		id = JAP_balanc_imperial
+		range = right_side3_range
+	}		
+}
+
+ JAPAN_basic_joint_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = JAPAN_is_joint_focus_member_TT
+		is_in_faction = yes  
+		OR = {
+			has_country_flag = NORDIC_council_leader
+			has_country_flag = NORDIC_union_leader
+			has_country_flag = NORDIC_league_leader
+			AND = {
+				has_variable = global.NORDIC_alliance_leader
+				NORDIC_is_nordic = yes
+				is_subject = no  
+				is_in_faction_with = var:global.NORDIC_alliance_leader 
+			}	
+		}
+	}
+	
+}
+
+JAPAN_basic_available_trigger = {
+	is_subject = no 
+	JAPAN_basic_joint_trigger = yes	
+	any_allied_country = {
+		JAPAN_basic_joint_trigger = yes
+	}
+}
+
+JAP_has_idea_JAP_intervene_in_china = {
+	if = {
+		limit = { has_idea = JAP_intervene_in_china_5 }
+		has_idea = JAP_intervene_in_china_5
+
+		else = {
+			if = {
+				limit = { has_idea = JAP_intervene_in_china_4 }
+				has_idea = JAP_intervene_in_china_4
+				
+				else = {
+					if = {
+						limit = { has_idea = JAP_intervene_in_china_3 }
+						has_idea = JAP_intervene_in_china_3
+					
+						else = {
+							if = {
+								limit = { has_idea = JAP_intervene_in_china_2 }
+								has_idea = JAP_intervene_in_china_2
+								else = {
+									has_idea = JAP_intervene_in_china_1
+								}	
+							}		
+						}
+					}		
+				}
+			}		
+		}
+	}
+}

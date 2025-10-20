@@ -1,0 +1,22 @@
+state={
+	id=662
+	name="STATE_662"
+	manpower = 13213
+	
+	state_category = wasteland
+	
+	
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LBA
+	}
+	
+	provinces={
+		7076 7136 8069 13073 12866 7985 10754 13392 13391 13393 13390 13389 13388 13387 13386 13384 13385 13408
+	}
+
+	local_supplies=12.0 
+}

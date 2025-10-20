@@ -1,0 +1,179 @@
+ITA_annex = { 
+
+	ITA_voina = {
+
+		icon = generic_tank		
+		
+		available = {
+			hidden_trigger = { always = no }		
+		}
+		
+		fire_only_once = yes
+		days_mission_timeout = 90
+		
+        activation = {
+			has_country_flag = ottyagivai
+		}
+		visible = {
+		}
+
+		is_good = no
+		
+		cancel_if_not_visible = yes
+	
+		timeout_effect = {
+		declare_war_on = { target = ENG    type = take_state_focus } 
+		declare_war_on = { target = FRA    type = take_state_focus }
+		declare_war_on = { target = CAN    type = take_state_focus }
+		declare_war_on = { target = AST    type = take_state_focus }
+		declare_war_on = { target = SAF    type = take_state_focus }
+		declare_war_on = { target = RAJ    type = take_state_focus }	
+		}
+	}	
+
+	ITA_annex_BUL = {
+	
+		icon = generic_army_support
+
+		available = {
+			date > 1938.2.1
+		    BUL = { is_ai = yes has_capitulated = no}
+			not= { 
+			    BUL = {
+				exists = yes
+				is_subject_of = GER
+			    }
+		    }
+			
+		}
+
+		target_trigger = {
+			FROM = {
+				OR = {
+					original_tag = BUL
+				}
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+		    BUL = {
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_french_general
+					set_nationality = ITA
+				}
+			}
+			ITA = { 
+					set_autonomy = {
+						target = BUL
+						autonomy_state = autonomy_reichskommissariat
+					}
+				}			
+		}
+	}
+
+
+    ITA_evacuation = {
+
+		icon = GFX_decision_generic_construction		
+		
+		available = {	
+			controls_state = 297
+		}
+		
+		days_mission_timeout = 10
+		
+        activation = {
+			has_completed_focus = Axi_africa_company_defens7
+			Not = {
+				has_global_flag = ITA_evacuation_industrial
+			}
+			
+		}
+		visible = {
+			OR = { 
+				controls_state = 448
+				controls_state = 661
+			}
+				
+				OR = {
+					controls_state = 449
+				    controls_state = 662
+				}
+
+				OR = {
+				    controls_state = 663
+				    controls_state = 450
+				    controls_state = 451
+				}
+				
+			
+
+
+		}
+
+		
+		cancel_if_not_visible = yes
+	
+		timeout_effect = {
+			random_state = {
+					limit { 
+                    	or { 
+							state = 661
+                        	state = 662
+                        	state = 663
+						} 
+                	}
+					add_resource = {
+					    type = oil
+					    amount = -2
+				    }
+					set_global_flag = ITA_evacuation_industrial	
+            }
+		}
+	}
+
+	ITA_evacuation2 = {
+
+		icon = GFX_decision_generic_construction		
+		
+		available = {	
+			controls_state = 297
+		}
+
+		days_mission_timeout = 10
+
+        activation = {
+			has_completed_focus = Axi_africa_company_defens7
+			has_global_flag = ITA_evacuation_industrial
+		}
+		visible = {
+			OR = {
+				controls_state = 115
+				controls_state = 114
+				controls_state = 1
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		timeout_effect = {
+			random_state = {
+				limit = { 
+					OR = {
+						state = 115
+						state = 114
+						state = 1
+					}
+				}
+				add_resource = {
+					type = oil
+					amount = 2
+				}
+				clr_global_flag = ITA_evacuation_industrial
+            }
+		}
+	}	
+
+}

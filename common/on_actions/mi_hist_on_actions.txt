@@ -1,0 +1,271 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				country_event = { id = startup.institut.1 }
+		    }
+			SOV = {
+				limit = {
+					is_ai = no
+				}
+				country_event = { id = startup.institut.2 }
+		    }
+			FRA = {
+				limit = {
+					is_ai = no
+				}
+				country_event = { id = startup.institut.3 }
+		    }
+			HOL = {
+				give_resource_rights = {
+					receiver = ENG
+					state = 309
+				}
+			}
+			BHU = {
+				give_resource_rights = {
+					receiver = ENG
+					state = 336
+				}
+				give_resource_rights = {
+					receiver = ENG
+					state = 288
+				}
+				give_resource_rights = {
+					receiver = ENG
+					state = 640
+				}
+				give_resource_rights = {
+					receiver = ENG
+					state = 375
+				}
+				give_resource_rights = {
+					receiver = ENG
+					state = 374
+				}
+	
+				give_resource_rights = {
+					receiver = ENG
+					state = 426
+				}				
+				give_resource_rights = {
+					receiver = ENG
+					state = 422
+				}	
+				give_resource_rights = {
+					receiver = ENG
+					state = 376
+				}
+				give_resource_rights = {
+					receiver = ENG
+					state = 372
+				}
+				give_resource_rights = {
+					receiver = ENG
+					state = 376
+				}
+				give_resource_rights = {
+					receiver = ENG
+					state = 373
+				}		
+				give_resource_rights = {
+					receiver = ENG
+					state = 261
+				}				
+				give_resource_rights = {
+					receiver = ENG
+					state = 360
+				}
+				give_resource_rights = {
+					receiver = FRA
+					state = 379
+				}				
+				give_resource_rights = {
+					receiver = FRA
+					state = 671
+				}	
+				give_resource_rights = {
+					receiver = FRA
+					state = 286
+				}
+				give_resource_rights = {
+					receiver = FRA
+					state = 635
+				}		
+				give_resource_rights = {
+					receiver = CAN
+					state = 358
+				}	
+				give_resource_rights = {
+					receiver = CAN
+					state = 357
+				}					
+				give_resource_rights = {
+					receiver = CAN
+					state = 377
+				}
+				give_resource_rights = {
+					receiver = CAN
+					state = 378
+				}
+				give_resource_rights = {
+					receiver = CAN
+					state = 387
+				}					
+				give_resource_rights = {
+					receiver = CAN
+					state = 380
+				}	
+				give_resource_rights = {
+					receiver = CAN
+					state = 393
+				}
+				give_resource_rights = {
+					receiver = CAN
+					state = 378
+				}	
+				give_resource_rights = {
+					receiver = CAN
+					state = 388
+				}	
+				give_resource_rights = {
+					receiver = CAN
+					state = 391
+				}
+				give_resource_rights = {
+					receiver = CAN
+					state = 394
+				}
+				give_resource_rights = {
+					receiver = CAN
+					state = 313
+				}
+				give_resource_rights = {
+					receiver = CAN
+					state = 314
+				}	
+				give_resource_rights = {
+					receiver = CAN
+					state = 312
+				}	
+				give_resource_rights = {
+					receiver = CAN
+					state = 317
+				}
+				give_resource_rights = {
+					receiver = CAN
+					state = 316
+				}				
+				give_resource_rights = {
+					receiver = SAF
+					state = 389
+				}	
+				give_resource_rights = {
+					receiver = SAF
+					state = 382
+				}				
+				give_resource_rights = {
+					receiver = SAF
+					state = 277
+				}
+				give_resource_rights = {
+					receiver = SAF
+					state = 478
+				}	
+				give_resource_rights = {
+					receiver = SAF
+					state = 485
+				}	
+				give_resource_rights = {
+					receiver = SAF
+					state = 431
+				}
+				give_resource_rights = {
+					receiver = SAF
+					state = 520
+				}
+				give_resource_rights = {
+					receiver = SAF
+					state = 521
+				}	
+				give_resource_rights = {
+					receiver = SAF
+					state = 517
+				}	
+				give_resource_rights = {
+					receiver = SAF
+					state = 423
+				}	
+				give_resource_rights = {
+					receiver = SAF
+					state = 368
+				}
+				give_resource_rights = {
+					receiver = SAF
+					state = 383
+				}	
+				give_resource_rights = {
+					receiver = FRA
+					state = 371
+				}		
+				give_resource_rights = {
+					receiver = FRA
+					state = 371
+				}	
+				give_resource_rights = {
+					receiver = FRA
+					state = 682
+				}
+				give_resource_rights = {
+					receiver = FRA
+					state = 371
+				}	
+				give_resource_rights = {
+					receiver = FRA
+					state = 479
+				}
+				give_resource_rights = {
+					receiver = FRA
+					state = 480
+				}
+				give_resource_rights = {
+					receiver = FRA
+					state = 723
+				}					
+			}
+		}
+	}
+	on_daily_SOV = {
+		effect = {
+			if = {
+				limit = {
+					SOV = {
+						OR = {
+							AND = {
+								NOT = { controls_state = 249 }
+								NOT = { controls_state = 400 }
+								NOT = { controls_state = 250 }
+								NOT = { controls_state = 219 }
+								NOT = { controls_state = 217 }
+							}
+							AND = {
+								NOT = { controls_state = 236 }
+								NOT = { controls_state = 217 }
+								NOT = { controls_state = 239 }
+								NOT = { controls_state = 250 }
+								NOT = { controls_state = 219 }
+								NOT = { controls_state = 217 }
+							} 
+						}		
+					}
+				}
+				GER = {
+					country_event = { id = capcap_ger_sov.a hours = 1 }
+				}
+			}
+		}
+	}
+}

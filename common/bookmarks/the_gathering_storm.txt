@@ -1,0 +1,268 @@
+bookmarks = {
+	bookmark = {
+		name = "Стандартная игра"
+		desc = "Игра со всеми доступными странами."
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { has_dlc = "La Resistance" } 
+			ideas = {
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+				FRA_devalue_the_franc
+				FRA_begin_rearmament
+				FRA_revive_the_national_bloc
+			}
+		}
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				home_of_the_free
+				great_depression
+				undisturbed_isolation
+			}
+			focuses = {
+				USA_the_giant_wakes
+				USA_continue_the_new_deal
+				USA_USACE_projects
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { has_dlc = "Man the Guns" }
+			ideas = {
+				stiff_upper_lip
+				ENG_the_war_to_end_all_wars
+				british_fighter_debuf
+			}
+			focuses = {
+				ENG_vickers_experimental_facility_focus
+				ENG_imperial_conference2
+				ENG_Operation_Consent
+			}
+		}
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = fascism
+			available = { has_dlc = "Waking the Tiger" }
+			ideas = {
+				sour_loser
+				general_staff
+				GER_mefo_bills_1
+			}
+			focuses = {
+				GER_develop_modern_maneuver_warfare
+				GER_fuhrerprinzip
+				GER_totaler_krieg
+			}
+		}
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
+			available = { has_dlc = "By Blood Alone" }
+			ideas = {
+				vittorio_emanuele
+				ITA_iri_fake_ns
+				ITA_re_fake_ns
+			}	
+			focuses = {
+				ITA_new_industrialization_program
+				ITA_libyan_refineries
+				ITA_towards_a_greater_italy
+			}		
+		}
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				state_shintoism
+				JAP_zaibatsus
+				JAP_militarism
+			}	
+			focuses = {
+				JAP_intervene_in_china
+				JAP_strike_on_the_southern_resource_area
+				JAP_the_Korean_project
+			}			
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			available = { has_dlc = "No Step Back" }
+			ideas = {
+				trotskyite_plot_nsb
+				SOV_second_five_year_plan_fake_1936_ns
+				SOV_politicized_military
+			}
+			focuses = {
+				SOV_soviet_atomic_bomb_project
+				SOV_the_glory_of_the_red_army
+				SOV_transformation_of_nature_alt
+			}	
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+		"CAN"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				CAN_great_depression_1
+				CAN_conscription_crisis
+			}
+			focuses = {
+				CAN_war_fueled_economy2
+				CAN_newfoundland_act
+				CAN_commit_to_the_war
+			}
+		}
+		"AST"={
+			minor = yes
+			history = "AST_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				AST_great_depression_1
+			}
+			focuses = {
+				AST_z_special_unit
+				AST_regulated_national_salaries
+				AST_rats_of_tobruk
+			}
+		}
+		"SAF"={
+			minor = yes
+			history = "SAF_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				SAF_ossewabrandwag
+				SAF_history_of_segregation
+			}
+			focuses = {
+				SAF_svoboda
+				SAF_secure_interests_in_africa
+				SAF_invite_soviet_advisers
+			}
+		}
+		"RAJ"={
+			minor = yes
+			history = "RAJ_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				RAJ_agrarian_society
+				RAJ_princely_states
+			}
+			focuses = {
+				RAJ_provincial_autonomy
+				RAJ_mahatma
+				RAJ_specialized_dietary_requirement
+			}
+		}
+
+		"HUN"={
+			minor = yes
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				HUN_treaty_of_triannon
+			}
+			focuses = {
+				wuw_HUN_strengthen_horthys_reign
+				wuw_HUN_secret_rearmament
+				wuw_HUN_budapest_university_of_technology_and_economics
+			}
+		}
+
+		"SIA"={
+			minor = yes
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+				Sia_prom10 
+				Sia_Restoration_policy
+				Sia_Military_public14
+			}
+		}
+
+		"ROM"={
+			minor = yes
+			history = "ROM_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				ROM_king_carol_ii_hedonist
+				neutrality_idea
+			}
+			focuses = {
+				ROM_demand_transnistria
+				ROM_force_abdication
+				ROM_expand_the_marine_regiment
+			}
+		}
+		
+
+		"MEX"={
+			minor = yes
+			history = "MEXICO_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				MEX_church_power_2
+				MEX_politicised_army
+				MEX_oil_concessions
+			}
+			focuses = {
+				MEX_focus_aerial_artillery
+				MEX_focus_aztec_eagles
+				MEX_focus_synarchist_youth
+			}
+		}
+		"BUL"={
+			minor = yes
+			history = "BUL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				BUL_second_national_catastrophe
+				BUL_army_restrictions
+				BUL_imro_01
+			}
+			focuses = {
+				BUL_utmost_optimization
+				BUL_restore_the_bulgarian_patriarchate
+				BUL_prussia_of_the_balkans
+			}
+		}
+		FIN={
+			minor = yes
+			history = FIN_GATHERING_STORM_DESC
+			ideology = neutrality
+			available = { has_dlc = "Arms Against Tyranny" } 
+			ideas = {
+				FIN_sisu_2
+			}
+			focuses = {
+				FIN_the_lone_wolf
+				FIN_sissi
+				FIN_power_from_the_dams
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

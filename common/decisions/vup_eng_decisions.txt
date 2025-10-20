@@ -1,0 +1,561 @@
+ENG_annex = {
+
+	napryaga = {
+
+		icon = generic_industry
+		priority = 14
+		available = {
+			date > 1937.9.1
+		}
+		activation = {
+			USA = {
+				exists = no
+			}
+		}
+		visible = {
+			always = yes
+		}
+		days_mission_timeout = 611
+		is_good = no
+
+		fire_only_once = yes
+
+		complete_effect = {
+			add_threat = 20
+		}
+	}
+
+	boost_vb = {
+
+		icon = generic_industry
+		priority = 11
+		available = {
+			date > 1936.10.1
+		}
+		activation = {
+			#USA = {
+			#	exists = no
+			#}
+		}
+		visible = {
+			always = yes
+			#USA = {
+			#	exists = no
+			#}
+		}
+		days_mission_timeout = 276
+		is_good = no
+
+		fire_only_once = yes
+
+		complete_effect = {
+			if = {
+				limit = {
+					USA = {
+			 	        exists = no
+			        }
+				}
+				add_offsite_building = { type = industrial_complex level = 19 }
+			}
+			ELSE = {
+				add_offsite_building = { type = industrial_complex level = 10 }
+			}
+		}
+
+	}
+	
+	
+
+	ENG_annex_RAJ = {
+	
+		icon = category_eng_appeal_to_imperial_loyalists
+
+		available = {
+		    date > 1938.1.1
+			RAJ = { is_ai = yes }
+			any_other_country = {
+				original_tag = RAJ
+				exists = yes
+			}
+		}
+
+		target_trigger = {
+			FROM = {
+				OR = {
+					original_tag = RAJ
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			RAJ = {
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_french_general
+					set_nationality = ENG
+				}
+			}
+            annex_country = { target = RAJ }
+			RAJ = {
+				transfer_units_fraction= {
+					target = ENG
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+				}
+			}
+			every_state = {
+				limit = {
+					is_core_of = RAJ
+					is_controlled_by = ENG
+					}
+				set_compliance = 100
+			}
+			set_technology = { 
+				interwar_antitank = 1
+				antitank1 = 1
+				interwar_artillery = 1
+				infantry_weapons2 = 1
+				improved_infantry_weapons = 1
+			}			
+		}
+	}
+	ENG_annex_CAN = {
+	
+		icon = category_eng_appeal_to_imperial_loyalists
+
+		available = {
+		    date > 1938.1.1
+			CAN = { is_ai = yes }
+			any_other_country = {
+				original_tag = CAN
+				exists = yes
+			}
+		}
+
+		target_trigger = {
+			FROM = {
+				OR = {
+					original_tag = CAN
+				}
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_technology = { 
+				mechanised_infantry = 1
+				interwar_antitank = 1
+				antitank1 = 1
+				antitank2 = 1
+				armor_tech_1 = 1
+				armor_tech_2 = 1
+				engine_tech_1 = 1
+				basic_medium_tank_chassis = 1
+				basic_heavy_tank_chassis = 1
+				tech_engineers2 = 1
+				tech_field_hospital = 1
+			}
+			army_experience = 100
+		    #add_research_slot = 1
+			CAN = {
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_french_general
+					set_nationality = ENG
+				}
+			}	
+            annex_country = { target = CAN }
+			CAN = {
+				transfer_units_fraction= {
+					target = ENG
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+				}
+			}
+			every_state = {
+				limit = {
+					is_core_of = CAN
+					is_controlled_by = ENG
+					}
+				set_compliance = 100
+			}
+			complete_special_project = sp:sp_land_flamethrower_tank
+			complete_special_project = sp:sp_land_military_engineering_vehicles		
+		}
+	}
+	ENG_annex_SAF = {
+	
+		icon = category_eng_appeal_to_imperial_loyalists
+
+		available = {
+		    date > 1938.1.1
+			SAF = { is_ai = yes }
+			any_other_country = {
+				original_tag = SAF
+				exists = yes
+			}
+		}
+
+		target_trigger = {
+			FROM = {
+				OR = {
+					original_tag = SAF
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_technology = { 
+				mechanised_infantry = 1
+				interwar_antitank = 1
+				antitank1 = 1
+				antitank2 = 1
+				armor_tech_1 = 1
+				armor_tech_2 = 1
+				engine_tech_1 = 1
+				basic_medium_tank_chassis = 1
+				basic_heavy_tank_chassis = 1
+				tech_engineers2 = 1
+				tech_field_hospital = 1
+			}
+                SAF = {
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_french_general
+					set_nationality = ENG
+				}
+			}	
+            annex_country = { target = SAF }
+			SAF = {
+				transfer_units_fraction= {
+					target = ENG
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+				}
+			}
+			every_state = {
+				limit = {
+					is_core_of = SAF
+					is_controlled_by = ENG
+					}
+				set_compliance = 100
+			}
+			complete_special_project = sp:sp_land_flamethrower_tank
+			complete_special_project = sp:sp_land_military_engineering_vehicles			
+		}
+	}
+
+	ENG_annex_AST = {
+	
+		icon = category_eng_appeal_to_imperial_loyalists
+
+		available = {
+		    date > 1938.1.1
+			AST = { is_ai = yes }
+			any_other_country = {
+				original_tag = AST
+				exists = yes
+			}
+		}
+
+		target_trigger = {
+			FROM = {
+				OR = {
+					original_tag = AST
+				}
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+		    #add_research_slot = 1
+			set_technology = { 
+				interwar_artillery = 1
+				artillery1 = 1
+				artillery2 = 1
+				marines = 1
+				marines2 = 1
+				tech_mountaineers = 1
+			}	
+
+             AST = {
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_french_general
+					set_nationality = ENG
+				}
+			 }	
+            annex_country = { target = AST }
+			AST = {
+				transfer_units_fraction= {
+					target = ENG
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+				}
+			}
+			every_state = {
+				limit = {
+					is_core_of = AST
+					is_controlled_by = ENG
+					}
+				set_compliance = 100
+			}
+			complete_special_project = sp:sp_land_flamethrower_tank
+			complete_special_project = sp:sp_land_military_engineering_vehicles				
+		}
+		
+	}
+	
+	ENG_FRA_union = {
+	
+		icon = category_eng_appeal_to_imperial_loyalists
+
+		available = {
+		    date > 1938.1.1
+			FRA = { is_ai = yes }
+			NOT = {
+				FRA = { has_government = fascism }
+			}
+			any_other_country = {
+				original_tag = FRA
+				exists = yes
+			}
+			OR = {
+				AND = {
+					NOT = {16 = { is_controlled_by = FRA }}
+					NOT = {31 = { is_controlled_by = FRA }}
+				}
+			}
+		}
+
+		target_trigger = {
+			FROM = {
+				OR = {
+					original_tag = FRA
+				}
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_global_flag = fall_of_france
+			set_global_flag = flag_franco_british_union
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = FRA
+					}
+					ENG = {
+						add_state_core = PREV
+					}
+				}
+			}
+			FRA = {
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_french_general
+					set_nationality = ENG
+				}
+			}
+			ENG = {
+				annex_country = { target = FRA transfer_troops = yes }
+			}
+			FRA = {
+				transfer_units_fraction= {
+					target = ENG
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+				}
+			}
+			custom_effect_tooltip = FRA_franco_british_cores
+			set_technology = { 
+				mechanised_infantry = 1
+				interwar_antitank = 1
+				antitank1 = 1
+				antitank2 = 1
+				armor_tech_1 = 1
+				armor_tech_2 = 1
+				engine_tech_1 = 1
+				basic_medium_tank_chassis = 1
+				basic_heavy_tank_chassis = 1
+				tech_engineers2 = 1
+				tech_field_hospital = 1
+			}
+			hidden_effect = {
+				ENG = { set_cosmetic_tag = FRA_UK }
+				GER = { 
+					country_event = { hours = 6 id = news.35 }
+				}
+			}
+			complete_special_project = sp:sp_land_flamethrower_tank
+			complete_special_project = sp:sp_land_military_engineering_vehicles				
+		}
+	}
+	ENG_annex_MAL = {
+	    cost = 100
+		icon = category_eng_appeal_to_imperial_loyalists
+
+		available = {
+		    MAL = { has_government = democratic}
+			MAL = { is_ai = yes }
+			any_other_country = {
+				original_tag = MAL
+				exists = yes
+			}
+		}
+
+		target_trigger = {
+			FROM = {
+				OR = {
+					original_tag = MAL
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			annex_country = { target = MAL }
+			every_state = {
+				limit = {
+					is_core_of = MAL
+					is_controlled_by = ENG
+					}
+				set_compliance = 100
+			}			
+		}
+	}
+	ENG_annex_IRE = {
+	    cost = 100
+		icon = generic_army_support
+
+		available = {
+		    date > 1940.1.1
+			any_other_country = {
+				original_tag = IRE
+				exists = yes
+			}
+			
+		}
+
+		target_trigger = {
+			FROM = {
+				OR = {
+					original_tag = IRE
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			annex_country = { target = IRE }
+			every_state = {
+				limit = {
+					is_core_of = IRE
+					is_controlled_by = ENG
+					}
+				set_compliance = 100
+			}			
+		}
+	}
+
+	ENG_rerol_country_USA = {
+
+	icon = generic_army_support
+	
+	original_tag = ENG
+
+	cosmetic_tag = USA
+	cosmetic_ideology = democratic
+	
+    visible = {
+	    always = yes
+		USA = {
+			exists = yes
+		}
+	}
+	available = {
+		NOT = {
+           	126 = { is_controlled_by = ENG }
+        }
+		NOT = {
+           	132 = { is_controlled_by = ENG }
+        }
+		NOT = {
+           	133 = { is_controlled_by = ENG }
+        }
+	}
+
+	fire_only_once = yes
+	days_remove = -1
+	
+	complete_effect = {
+		hidden_effect = {
+	        random_country = {
+		        limit = {
+					tag = USA
+		        }
+    			change_tag_from = USA			
+			}
+		}
+	}
+ 	}
+}
+
+ENG_translet = {
+            
+		ENG_translet_Portugal = {
+		     
+			icon = GFX_decision_hol_draw_up_staff_plans
+			 
+			 
+			cost = 50
+			fire_only_once = yes
+			
+			
+			complete_effect = {
+			
+			ENG = { 
+			 transfer_state = 698
+			 transfer_state = 697
+			}
+		}
+	}
+		
+		ENG_translet_Spr = {
+		     
+			icon = GFX_decision_hol_draw_up_staff_plans
+			 
+			 
+			cost = 50
+			fire_only_once = yes
+			
+			
+			complete_effect = {
+			
+			ENG = { 
+			 transfer_state = 178
+			 transfer_state = 702
+			}
+		}
+	}
+
+}

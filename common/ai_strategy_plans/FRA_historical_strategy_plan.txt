@@ -1,0 +1,77 @@
+FRA_historical_plan = {
+	name = "France historical plan"
+	desc = "Historical behavior for France"
+
+	allowed = {
+		original_tag = FRA
+	}
+	enable = {
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = FRA_ai_behavior
+					option = DEFAULT
+				}	
+			}
+			has_game_rule = {
+				rule = FRA_ai_behavior
+				option = DEMOCRATIC_HISTORICAL
+			}
+			has_country_flag = FRA_AI_DEMOCRATIC_HISTORICAL
+		}
+	}
+	abort = {
+		OR = {
+		}
+		has_game_rule = {
+			rule = FRA_ai_behavior
+			option = DEFAULT
+		}
+	}
+
+	ai_national_focuses = {
+		FRA_begin_rearmament
+		FRA_aggressive_focus
+		FRA_revive_the_national_bloc
+		FRA_laissez_faire
+		FRA_protect_the_rights_of_man
+		FRA_review_foreign_policy
+		FRA_buy_time
+		FRA_go_with_britain
+		FRA_strengthen_government_support
+		FRA_devalue_the_franc
+		FRA_invest_in_the_colonies
+		FRA_invest_in_syria
+		FRA_invest_in_west_africa
+		FRA_algerie_france
+		FRA_colonial_industry
+		FRA_invest_in_the_metropole
+		FRA_metropolitan_france
+		FRA_industrial_expansion
+		FRA_military_factories
+		FRA_economic_devolution
+		FRA_promote_entrepeneurship
+		FRA_stimulate_the_dynamic_market
+		FRA_the_blum_viollette_proposal
+		FRA_expand_the_citizenship
+		FRA_encourage_immigration
+	}
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

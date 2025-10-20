@@ -1,0 +1,117 @@
+SOV_annex = {
+
+	
+
+	SOV_annex_MON = {
+	
+		icon = generic_ignite_civil_war
+
+		available = {
+			hidden_trigger = { always = no }	
+		}
+
+		fire_only_once = yes
+		days_mission_timeout = 720
+		
+        activation = {
+		}
+		visible = {
+		}
+
+		is_good = yes
+		
+		cancel_if_not_visible = yes
+	
+		timeout_effect = {
+		army_experience = 300
+			annex_country = { target = MON }
+			every_state = {
+				limit = {
+					is_core_of = MON
+					is_controlled_by = SOV
+				}
+				set_compliance = 100
+			}
+		}
+	}
+	
+	SOV_FIN = {
+	
+		icon = generic_army_support
+         
+		available = {
+		    date > 1940.7.1
+		    FIN = { is_ai = no }
+			any_other_country = {
+				original_tag = FIN
+				exists = yes
+			}
+			has_completed_focus = SOV_secure_leningrad
+		}
+
+		target_trigger = {
+			FROM = {
+				OR = {
+					original_tag = FIN
+				}
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			air_experience = 100
+			army_experience = 100
+			add_offsite_building = { type = arms_factory level = 10 }
+			division_template = {
+				name = "Красногвардейцы" 	
+				division_names_group = FRA_ARM_01
+
+				regiments = {
+		        infantry = { x = 0 y = 0 }
+		        infantry = { x = 0 y = 1 }
+		        infantry = { x = 0 y = 2 }
+		        infantry = { x = 1 y = 0 }
+		        infantry = { x = 1 y = 1 }
+		        infantry = { x = 1 y = 2 }
+		        infantry = { x = 2 y = 0 }
+		        infantry = { x = 2 y = 1 }
+		        infantry = { x = 2 y = 2 }
+		        }
+				support = {
+					artillery = { x = 0 y = 1 }
+					engineer = { x = 0 y = 0 }
+					anti_tank = { x = 0 y = 2 }
+				}
+			}
+			195 = {
+				create_unit = {
+					division = "name = \"Красногвардейцы\" division_template = \"Красногвардейцы\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 0.7"
+					owner = ROOT
+					count = 8
+				}
+			}
+			216 = {
+				create_unit = {
+					division = "name = \"Красногвардейцы\" division_template = \"Красногвардейцы\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 0.7"
+					owner = ROOT
+					count = 8
+				}
+			}
+			215 = {
+				create_unit = {
+					division = "name = \"Красногвардейцы\" division_template = \"Красногвардейцы\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 0.7"
+					owner = ROOT
+					count = 14
+				}
+			}
+			213 = {
+				create_unit = {
+					division = "name = \"Красногвардейцы\" division_template = \"Красногвардейцы\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 0.7"
+					owner = ROOT
+					count = 12
+				}
+			}
+		}
+	}	
+}

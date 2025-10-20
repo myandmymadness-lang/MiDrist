@@ -1,0 +1,12 @@
+AST_annex = {
+	
+	icon = eng_appeal_to_imperial_loyalists
+
+	allowed = {
+		OR = {
+			original_tag = AST
+			original_tag = RAJ
+		}
+	}
+	priority = 100
+}

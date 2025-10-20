@@ -1,0 +1,25 @@
+state = {
+	id = 1018
+	name = "STATE_1018"
+	manpower = 25000
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = ENG
+		add_core_of = EGY
+
+		buildings = {
+			infrastructure = 2
+air_base = 10
+		}
+		
+	}
+
+	provinces = {
+	 10869 13378 13398 13399 13395 10127
+	}
+
+	local_supplies = 0.0 
+}

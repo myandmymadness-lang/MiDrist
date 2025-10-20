@@ -1,0 +1,89 @@
+
+
+add_namespace = SAPR_doka_abuz #наказание за абуз доктрин
+
+country_event = {
+	id = SAPR_doka_abuz.a
+	title = SAPR_doka_abuz.b
+	desc = SAPR_doka_abuz.c
+	picture = GFX_portrait_BEL_mcl_keyaerts
+
+	
+	trigger = {
+		and = {
+			not = {
+				has_idea = Sapr_doka_abuzer
+			}
+			OR = {
+				and = {
+					has_tech = mobile_warfare
+					has_tech = superior_firepower
+				}
+				and = {
+					has_tech = mobile_warfare
+					has_tech = trench_warfare
+				}		
+				and = {
+					has_tech = mobile_warfare
+					has_tech = mass_assault
+				}
+				and = {
+					has_tech = superior_firepower
+					has_tech = trench_warfare
+				}
+				and = {
+					has_tech = superior_firepower
+					has_tech = mass_assault
+				}	
+				and = {
+					has_tech = trench_warfare
+					has_tech = mass_assault
+				}
+				
+				
+				and = {
+					has_tech = air_superiority
+					has_tech = formation_flying
+				}				
+				and = {
+					has_tech = air_superiority
+					has_tech = force_rotation
+				}	
+				and = {
+					has_tech = formation_flying
+					has_tech = force_rotation
+				}	
+				
+				
+				and = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+				}				
+				and = {
+					has_tech = fleet_in_being
+					has_tech = base_strike
+				}	
+				and = {
+					has_tech = trade_interdiction
+					has_tech = base_strike
+				}				
+			}
+		}
+	}	
+	
+	mean_time_to_happen = { 
+        days = 10 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+	
+	option = {
+	    name = SAPR_doka_abuz.d		
+		
+		add_ideas = Sapr_doka_abuzer
+	}	
+}

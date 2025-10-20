@@ -1,0 +1,189 @@
+CAN_annex = {
+	CAN_annex_SAF = {
+	
+		icon = category_eng_appeal_to_imperial_loyalists
+
+		available = {
+		    SAF = { has_government = democratic}
+		    date > 1938.1.1
+			SAF = { is_ai = yes }
+			any_other_country = {
+				original_tag = SAF
+				exists = yes
+			}
+		}
+
+		target_trigger = {
+			FROM = {
+				OR = {
+					original_tag = SAF
+				}
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+		    add_research_slot = 1
+				
+        CAN = {
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_french_general
+					set_nationality = CAN
+				}
+			}
+        annex_country = { target = SAF }
+			every_state = {
+				limit = {
+					is_core_of = SAF
+					is_controlled_by = CAN
+					}
+				add_core_of = CAN
+			}			
+		}
+	}
+
+	CAN_annex_AST = {
+	
+		icon = category_eng_appeal_to_imperial_loyalists
+
+		available = {
+		AST = { has_government = democratic}
+		date > 1938.1.1
+		AST = { is_ai = yes }
+		any_other_country = {
+			original_tag = AST
+			exists = yes
+		}
+	  }
+
+	 target_trigger = {
+	    FROM = {
+		OR = {
+		original_tag = AST
+			}
+		}
+	 }
+
+	 fire_only_once = yes
+		
+	 complete_effect = {
+		add_research_slot = 1
+		CAN = {
+			every_unit_leader = {
+				set_unit_leader_flag = flag_former_french_general
+				set_nationality = CAN
+			}
+		}
+     annex_country = { target = AST }
+		every_state = {
+			limit = {
+				is_core_of = AST
+				is_controlled_by = CAN
+				}
+			add_core_of = CAN
+		    }			
+	    }
+    }
+
+	    CAN_rerol_country_SOV = {
+	
+		icon = generic_army_support
+		
+	    original_tag = CAN
+
+		cosmetic_tag = SOV
+		cosmetic_ideology = communism	
+		
+        visible = {
+		    always = yes
+		}
+		available = {
+			SOV = { exists = yes }
+			CAN = { is_ai = NO }
+			date > 1940.1.1
+		}
+
+		fire_only_once = yes
+		days_remove = -1
+		
+		complete_effect = {
+			hidden_effect = {
+		        random_country = {
+			        limit = {
+					tag = SOV
+			        }
+        change_tag_from = CAN			
+			}
+		}
+	}
+ }
+
+	CAN_rerol_country_ENG = {
+
+	icon = generic_army_support
+	
+	original_tag = CAN
+
+	cosmetic_tag = ENG
+	cosmetic_ideology = democratic
+	
+    visible = {
+	    always = yes
+	}
+	available = {
+		ENG = { exists = yes }
+		CAN = { is_ai = no }
+		date > 1940.1.1
+	}
+
+	fire_only_once = yes
+	days_remove = -1
+	
+	complete_effect = {
+		hidden_effect = {
+	        random_country = {
+		        limit = {
+				tag = ENG
+		        }
+    change_tag_from = CAN			
+			}
+		}
+	}
+ }
+
+	CAN_rerol_country_USA = {
+
+	icon = generic_army_support
+	
+	original_tag = CAN
+
+	cosmetic_tag = USA
+	cosmetic_ideology = democratic
+	
+    visible = {
+	    always = yes
+	}
+	available = {
+		USA = { exists = yes }
+		CAN = { is_ai = no }
+		date > 1940.1.1
+	}
+
+	fire_only_once = yes
+	days_remove = -1
+	
+	complete_effect = {
+		hidden_effect = {
+	        random_country = {
+		        limit = {
+				tag = USA
+		        }
+    change_tag_from = CAN			
+			}
+		}
+	}
+ }
+}
+
+	

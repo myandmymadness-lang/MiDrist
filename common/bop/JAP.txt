@@ -1,0 +1,142 @@
+JAP_balanc_imperial = {  
+	initial_value = 0.70
+	left_side = default_left_side
+	right_side = default_right_side
+	decision_category = JAP_balanc_power
+
+    range = { #Balanced Range, neither Councils nor Cantons
+		id = Imperial_neither
+		min = -0.10
+		max = 0.10
+	} 
+
+
+
+	side = {
+		id = default_left_side
+		icon = GFX_goal_JAP_supremacy_of_will
+		range = {
+			id = left_side_range
+			min = -0.25
+			max = -0.10
+			modifier = {
+				production_speed_industrial_complex_factor = -0.02
+				production_speed_arms_factory_factor = 0.02
+				stability_factor = 0.01
+				war_support_factor = 0.01
+
+			}
+		}
+
+		range = {
+			id = left_side1_range 
+			min = -0.50
+			max = -0.25
+			modifier = {
+				production_speed_industrial_complex_factor = -0.05
+				production_speed_arms_factory_factor = 0.05
+				stability_factor = -0.05
+				war_support_factor = 0.03
+				consumer_goods_factor = 0.05
+		        army_attack_factor = 0.03
+				surrender_limit = -0.04
+			}
+		}
+
+		range = {
+			id = left_side2_range
+			min = -0.75
+			max = -0.50
+			modifier = {
+				production_speed_industrial_complex_factor = -0.07
+				production_speed_arms_factory_factor = 0.07
+				stability_factor = -0.05
+				war_support_factor = 0.08
+				consumer_goods_factor = 0.08
+		        army_attack_factor = 0.06
+				surrender_limit = -0.07
+			}
+	    }
+
+		range = {
+			id = left_side3_range
+			min = -1
+			max = -0.75
+			modifier = {
+				production_speed_industrial_complex_factor = -0.15
+				production_speed_arms_factory_factor = 0.15
+				stability_factor = -0.05
+				war_support_factor = 0.1
+				consumer_goods_factor = 0.15
+		        army_attack_factor = 0.1
+				surrender_limit = -0.1
+				#industrial_capacity_dockyard = 0.1
+				#production_factory_efficiency_gain_factor = 0.05
+				#production_oil_factor = 0.05
+				#production_factory_max_efficiency_factor = 0.05
+
+			}
+		}
+	}
+	side = {
+		id = default_right_side
+		icon = GFX_goal_JAP_purge_the_kodoha_faction
+		range = {
+			id = right_side_range
+			min = 0.10
+			max = 0.25
+			modifier = {
+				production_speed_industrial_complex_factor = 0.02
+				production_speed_arms_factory_factor = -0.02
+				stability_factor = -0.01
+				war_support_factor = -0.01
+			}
+		}
+
+		range = {
+			id = right_side1_range
+			min = 0.25
+			max = 0.50
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = -0.05
+				stability_factor = 0.05
+				war_support_factor = -0.03
+				consumer_goods_factor = -0.05
+		        army_core_defence_factor = 0.03
+				surrender_limit = 0.04
+			}
+		}
+
+		range = {
+			id = right_side2_range
+			min = 0.50
+			max = 0.75
+			modifier = {
+				production_speed_industrial_complex_factor = 0.07
+				production_speed_arms_factory_factor = -0.07
+				stability_factor = 0.08
+				war_support_factor = -0.08
+				consumer_goods_factor = -0.15
+		        army_core_defence_factor = 0.06
+				surrender_limit = 0.07
+			}
+		}
+
+		range = {
+			id = right_side3_range
+			min = 0.75
+			max = 1
+			modifier = {
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = -0.15
+				stability_factor = 0.15
+				war_support_factor = -0.1
+				consumer_goods_factor = -0.25
+		        army_core_defence_factor = 0.1
+				surrender_limit = 0.1
+			}
+		}
+	}
+
+}

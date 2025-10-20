@@ -1,0 +1,32 @@
+guiTypes = {
+   containerWindowType = { # Основной контейнер
+       name = "imperial_container" # У всех основных контейнеров должно быть своё уникальное название
+       position = { x = 1325 y = 4 } # Его позиция в координатах (1 = 1 пиксель)
+
+       buttonType ={
+			name ="imperial_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=0 y=0 }
+		}
+ 
+       iconType = { # Иконка (картинка)
+           name = "imperial_icon"
+           spriteType = "GFX_imperial"
+           position = { x= 7 y = 6 }
+       }
+ 
+       instantTextBoxType = { # Текст
+           name ="imperial_text"
+           position = { x= 15 y = 4 }
+           font = "hoi_18mbs" # Шрифт текста
+           text = "[?imperial]" # Сам текст, а если точнее, то ключ локализации
+           format = center # Формат расположения текста
+           maxWidth = 46 # Максимальная длина текста
+           maxHeight = 24 # Максимальная высота текста
+           fixedsize = yes 
+    
+           pdx_tooltip = "imperial_TOOLTIP" # Текст подсказки (окошко с текстом, появляющееся при наведении на текст)
+
+       }
+   }
+}

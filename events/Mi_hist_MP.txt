@@ -1,0 +1,3910 @@
+﻿
+add_namespace = Africa_Event_company_GER
+country_event = { 
+    id = Africa_Event_company_GER.1 
+    desc = Africa_Event_company_GER.1.t
+    title = Africa_Event_company_GER.1.d
+    
+    
+    trigger = { 
+	    tag = GER
+		date > 1941.1.1
+		
+    }
+	
+	
+    mean_time_to_happen = { 
+        days = 1 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+		name = Africa_Event_company_GER.a	
+
+
+	GER = {
+			461 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+
+		462 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+
+		513 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		459 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		460 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		458 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		665 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		448 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		661 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		662 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		449 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		663 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		450 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		451 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		452 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		1017 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		907 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		447 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		446 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		457 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		456 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+	}
+	ITA = {
+			461 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+
+		462 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+
+		513 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		459 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		460 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		458 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		665 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		448 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		661 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		662 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		449 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		663 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		450 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		451 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		452 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		1017 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		907 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		447 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		446 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		457 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		456 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+	}
+	ROM = {
+			461 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+
+		462 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+
+		513 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		459 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		460 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		458 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		665 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		448 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		661 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		662 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		449 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		663 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		450 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		451 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		452 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		1017 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		907 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		447 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		446 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		457 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		456 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+	}
+	BUL = {
+			461 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+
+		462 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+
+		513 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		459 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		460 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		458 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		665 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		448 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		661 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		662 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		449 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		663 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		450 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		451 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		452 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		1017 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		907 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		447 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		446 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		457 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		456 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+	}
+	HUN = {
+			461 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+
+		462 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+
+		513 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		459 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		460 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		458 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		665 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		448 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		661 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		662 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		449 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		663 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		450 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		451 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		452 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		1017 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		907 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		447 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		446 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		457 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+		456 = {
+			remove_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+
+			}
+		}
+	}
+
+		
+	}
+}
+
+add_namespace = Africa_Event_company_JAP
+country_event = { 
+    id = Africa_Event_company_JAP.1 
+    desc = Africa_Event_company_JAP.1.t
+    title = Africa_Event_company_JAP.1.d
+    
+    
+    trigger = { 
+	    tag = ITA
+		JAP = {has_war_with = ENG}
+		JAP = {has_war_with = USA}
+		
+    }
+	
+	
+    mean_time_to_happen = { 
+        days = 1 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+		name = Africa_Event_company_JAP.a
+
+		461 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+
+		462 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+
+		513 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		459 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		460 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		458 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		665 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		448 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		661 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		662 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		449 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		663 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		450 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		451 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		452 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		1017 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		907 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		447 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		446 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		457 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}
+		456 = {
+			remove_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+
+			}
+		}	
+
+		
+	}
+}
+
+add_namespace = Africa_Event_company_zamen
+country_event = { 
+    id = Africa_Event_company_zamen.1 
+    desc = Africa_Event_company_zamen.1.t
+    title = Africa_Event_company_zamen.1.d
+    
+    
+    trigger = { 
+	    tag = ITA
+		GER = {has_war_with = SOV}
+		
+    }
+	
+	
+    mean_time_to_happen = { 
+        days = 1 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+		name = Africa_Event_company_zamen.a
+
+		458 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		665 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		448 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		661 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = GER
+
+			}
+		}
+		662 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		449 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		663 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = GER
+
+			}
+		}
+		450 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		451 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		458 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		665 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		448 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		661 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = ITA
+
+			}
+		}
+		662 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		449 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		663 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = ITA
+
+			}
+		}
+		450 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		451 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+
+		458 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		665 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		448 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		661 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = ROM
+
+			}
+		}
+		662 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		449 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		663 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = ROM
+
+			}
+		}
+		450 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		451 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+
+		458 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		665 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		448 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		661 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = BUL
+
+			}
+		}
+		662 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		449 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		663 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = BUL
+
+			}
+		}
+		450 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		451 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		458 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		665 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		448 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		661 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = HUN
+
+			}
+		}
+		662 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		449 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		663 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = HUN
+
+			}
+		}
+		450 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		451 = {
+			remove_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+
+		Axi_africa_zamen_company_defens_bolt = yes	
+
+		
+	}
+}
+
+add_namespace = Africa_evacuation_industrial
+country_event = { 
+    id = Africa_evacuation_industrial.1 
+    desc = Africa_evacuation_industrial.1.t
+    title = Africa_evacuation_industrial.1.d
+    
+    
+    trigger = { 
+	    tag = ITA
+		
+    }
+	
+	
+    mean_time_to_happen = { 
+        days = 1 
+    }
+	
+	
+    is_triggered_only = yes
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+		name = Africa_evacuation_industrial.a
+
+		random_state = {
+                limit = { 
+                    OR = {
+                        state = 115
+                        state = 114
+                        state = 1
+                    }
+					controls_state = 115
+					controls_state = 114
+					controls_state = 1
+                }
+				add_resource = {
+					type = oil
+					amount = 3
+				}
+
+            }
+	}
+}
+
+add_namespace = Rommel 
+
+country_event = { 
+    id = Rommel.1 
+    desc = Rommel.1.t
+    title = Rommel.1.d
+    
+    
+    trigger = { 
+	    tag = GER
+		or = {
+			if = {
+            448 = { is_controlled_by = ENG }
+			}
+			if = {
+            450 = { is_controlled_by = ENG }
+			663 = { is_controlled_by = ENG }
+			}			
+		}
+    }
+	
+	
+    mean_time_to_happen = { 
+        days = 10 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+		name = Rommel.a
+	    GER_erwin_rommel = {
+		   add_skill_level = 1
+		}
+		    458 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = GER
+				}
+			}
+			665 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = GER
+				}
+			}
+			448 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = GER
+				}
+			}
+			661 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = GER
+				}
+			}
+			662 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = GER
+				}
+			}
+			449 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = GER
+				}
+			}
+			450 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = GER
+				}
+			}
+			663 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = GER
+				}
+			}
+			451 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = GER
+				}
+			}
+			452 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = GER
+				}
+			}
+			452 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = ITA
+				}
+			}
+			663 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = ITA
+				}
+			}
+			451 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = ITA
+				}
+			}
+			450 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = ITA
+				}
+			}
+			449 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = ITA
+				}
+			}
+			661 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = ITA
+				}
+			}
+			662 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = ITA
+				}
+			}
+			448 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = ITA
+				}
+			}
+			665 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = ITA
+				}
+			}
+			458 = {
+				add_dynamic_modifier = {
+					modifier = GER_Egypt_offensive
+					days = 120
+					scope = ITA
+				}
+			}
+	}
+}
+
+add_namespace = pojar_plaki_plaki
+
+country_event = { 
+    id = pojar_plaki_plaki.a 
+    desc = pojar_plaki_plaki.t
+    title = pojar_plaki_plaki.d
+    
+    picture = GFX_report_event_FIN_continuation_war
+    trigger = { 
+	    tag = SOV 
+		date > 1936.5.25
+    }
+	
+	
+    mean_time_to_happen = { 
+        days = 1 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+	   name = pojar_plaki_plaki.1.a
+	     add_timed_idea = {
+				idea = pojar_1936
+				days = 65
+			}
+    }
+    option = {
+	   name = pojar_plaki_plaki.1.b
+	   add_political_power = -100
+	   add_stability = -0.15
+    }
+}
+
+add_namespace = vb_cap_cap
+
+country_event = { 
+    id = vb_cap_cap.a 
+    desc = vb_cap_cap.d
+    title = vb_cap_cap.t
+    
+    picture = GFX_report_event_SWE_defense_act
+    trigger = { 
+	    tag = USA 
+		NOT = {
+           	126 = { is_controlled_by = ENG }
+        }
+		NOT = {
+           	132 = { is_controlled_by = ENG }
+        }
+		NOT = {
+           	133 = { is_controlled_by = ENG }
+        }
+    }
+	
+	
+    mean_time_to_happen = { 
+        days = 20
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+	   name = vb_cap_cap.1.a
+	   add_ideas = eng_delat_cap_cap
+	   set_technology = {
+				improved_small_airframe = 1
+				heavy_bombs = 1
+				improved_medium_airframe = 1
+				survivability_studies = 1
+				aa_hmg = 1
+				aa_cannon_1 = 1
+				air_torpedoe_2 = 1
+				range_improvements = 1
+				engines_3 = 1
+				experimental_rockets = 1
+		}
+		add_offsite_building = {
+			type = arms_factory
+			level = 100
+		}
+		USA = {
+			give_resource_rights = {
+				receiver = ENG
+				state = 371
+			}
+		}
+    }
+}
+
+add_namespace = faterland
+
+country_event = { 
+    id = faterland.a 
+    desc = faterland.t
+    title = faterland.d
+    
+    
+    trigger = { 
+	    tag = GER 
+		
+		GER = {
+		  surrender_progress > 0.1
+		}
+        
+    }
+	
+	
+    mean_time_to_happen = { 
+        days = 10 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+		name = faterland.b
+	   add_ideas = GER_za_faterland
+   }
+}
+
+add_namespace = Alaise
+
+country_event = { 
+    id = Alaise.a
+    desc = Alaise.t
+    title = Alaise.d
+
+
+    trigger = { 
+        tag = ENG
+        NOT = {
+            447 = { is_controlled_by = ENG }
+        }
+    }
+
+
+    mean_time_to_happen = { 
+        days = 10 
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+        name = Alaise.1.a
+
+		ENG = {
+		 add_ideas = Alais_defence
+		}
+		FRA = {
+		 add_ideas = Alais_defence
+		}
+		RAJ = {
+		 add_ideas = Alais_defence
+		}
+		SAF = {
+		 add_ideas = Alais_defence
+		}
+		CAN = {
+		 add_ideas = Alais_defence
+		}
+		AST = {
+		 add_ideas = Alais_defence
+		}
+		USA = {
+		 add_ideas = Alais_defence
+		}
+
+       
+   }
+}
+add_namespace = No_Alaise
+
+country_event = { 
+    id = No_Alaise.a
+    desc = No_Alaise.t
+    title = No_Alaise.d
+
+
+    trigger = { 
+        tag = ENG
+		has_idea = Alais_defence
+        447 = { is_controlled_by = ENG }
+
+    }
+
+
+    mean_time_to_happen = { 
+        days = 10 
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+        name = No_Alaise.1.a
+
+		ENG = {
+		 remove_ideas = Alais_defence
+		}
+		FRA = {
+		 remove_ideas = Alais_defence
+		}
+		RAJ = {
+		 remove_ideas = Alais_defence
+		}
+		SAF = {
+		 remove_ideas = Alais_defence
+		}
+		CAN = {
+		 remove_ideas = Alais_defence
+		}
+		AST = {
+		 remove_ideas = Alais_defence
+		}
+		USA = {
+		 remove_ideas = Alais_defence
+		}
+
+       
+   }
+}
+
+
+add_namespace = Alais_ita
+
+country_event = { 
+    id = Alais_ita.a
+    desc = Alais_ita.t
+    title = Alais_ita.d
+
+
+    trigger = { 
+        tag = ITA 
+		FRA = {
+			has_capitulated = yes
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1 
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 20 
+    hidden = no 
+
+    option = {
+        name = Alais_ita.1.a
+		declare_war_on = { target = ENG    type = take_state_focus } 
+		declare_war_on = { target = FRA    type = take_state_focus }
+		declare_war_on = { target = CAN    type = take_state_focus }
+		declare_war_on = { target = AST    type = take_state_focus }
+		declare_war_on = { target = SAF    type = take_state_focus }
+		declare_war_on = { target = RAJ    type = take_state_focus }	
+    }
+	option = {
+        name = Alais_ita.1.b
+		set_Country_flag = ottyagivai
+		play_song = "Вступление Италии в войну"
+    }
+}
+add_namespace = Vichi
+
+country_event = { 
+    id = Vichi.a
+    desc = Vichi.t
+    title = Vichi.d
+
+
+    trigger = { 
+        tag = D05 
+		NOT = {
+            448 = { is_controlled_by = ITA }
+			450 = { is_controlled_by = ITA }
+			451 = { is_controlled_by = ITA }
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 5 
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+        name = Vichi.1.a
+		GER = { add_to_faction = D05 }
+        declare_war_on = { target = ENG    type = take_state_focus } 
+		declare_war_on = { target = FRA    type = take_state_focus }
+		declare_war_on = { target = CAN    type = take_state_focus }
+		declare_war_on = { target = AST    type = take_state_focus }
+		declare_war_on = { target = SAF    type = take_state_focus }
+		declare_war_on = { target = RAJ    type = take_state_focus }
+
+   }
+}
+add_namespace = Vichi23
+
+country_event = { 
+    id = Vichi23.a
+    desc = Vichi23.t
+    title = Vichi23.d
+
+
+    trigger = { 
+        tag = D04 
+        NOT = {
+            448 = { is_controlled_by = ITA }
+			450 = { is_controlled_by = ITA }
+			451 = { is_controlled_by = ITA }
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 5 
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+        name = Vichi23.1.a
+		GER = { add_to_faction = D04 }
+        declare_war_on = { target = ENG    type = take_state_focus } 
+		declare_war_on = { target = FRA    type = take_state_focus }
+		declare_war_on = { target = CAN    type = take_state_focus }
+		declare_war_on = { target = AST    type = take_state_focus }
+		declare_war_on = { target = SAF    type = take_state_focus }
+		declare_war_on = { target = RAJ    type = take_state_focus }
+
+   }
+}
+
+add_namespace = barba
+
+country_event = { 
+    id = barba.a
+    desc = barba.t
+    title = barba.d
+
+	picture = GFX_report_event_hungarian_soldiers
+
+
+    trigger = { 
+        tag = HUN
+		GER = { has_war_with = SOV }
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 10 
+    hidden = no 
+
+    option = {
+	 name = barba.1.a
+       add_timed_idea = {
+				idea = GER_barbarossa
+				days = 210
+			}
+   }
+}
+
+add_namespace = barba1
+
+country_event = { 
+    id = barba1.a
+    desc = barba1.t
+    title = barba1.d
+	picture = GFX_report_event_hungarian_soldiers
+
+    trigger = { 
+        tag = ROM
+		GER = { has_war_with = SOV }
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 10 
+    hidden = no 
+
+    option = {
+	 name = barba1.1.a
+       add_timed_idea = {
+				idea = GER_barbarossa
+				days = 210
+			}
+   }
+}
+
+add_namespace = barba2
+
+country_event = { 
+    id = barba2.a
+    desc = barba2.t
+    title = barba2.d
+	picture = GFX_report_event_hungarian_soldiers
+
+
+    trigger = { 
+        tag = BUL
+		GER = { has_war_with = SOV }
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 10 
+    hidden = no 
+
+    option = {
+	 name = barba2.1.a
+       add_timed_idea = {
+				idea = GER_barbarossa
+				days = 210
+			}
+   }
+}
+
+add_namespace = barba3
+
+country_event = { 
+    id = barba3.a
+    desc = barba3.t
+    title = barba3.d
+	picture = GFX_report_event_hungarian_soldiers
+
+
+    trigger = { 
+        tag = ITA
+		GER = { has_war_with = SOV }
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 10 
+    hidden = no 
+
+    option = {
+	 name = barba3.1.a
+       add_timed_idea = {
+				idea = GER_barbarossa
+				days = 210
+			}
+   }
+}
+add_namespace = cumbek
+
+country_event = { 
+    id = cumbek.a
+    desc = cumbek.t
+    title = cumbek.d
+
+
+    trigger = { 
+        tag = SOV
+		OR = {
+			GER = { controls_state = 208 }
+			any_other_country = {
+				is_in_faction_with = GER
+				controls_state = 208
+			}
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+	name = cumbek.1.a
+	add_war_support = 0.05
+	division_template = {
+		name = "Красногвардейцы" 	
+		division_names_group = FRA_ARM_01
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 2 y = 1 }
+			infantry = { x = 2 y = 2 }
+			anti_air_brigade = { x = 3 y = 0 }
+			anti_tank_brigade = { x = 3 y = 1 }
+		}
+		support = {
+			artillery = { x = 0 y = 1 }
+			engineer = { x = 0 y = 0 }
+			anti_tank = { x = 0 y = 2 }
+			anti_air = { x = 0 y = 3 }
+		}
+	}
+	264 = {
+		create_unit = {
+			division = "name = \"Красногвардейцы\" division_template = \"Красногвардейцы\" start_experience_factor = 0.55 start_equipment_factor = 1 start_manpower_factor = 1"
+				owner = ROOT
+				count = 48
+		}
+	}
+   }
+}
+add_namespace = cumbek2
+
+country_event = { 
+    id = cumbek2.a
+    desc = cumbek2.t
+    title = cumbek2.d
+
+
+    trigger = { 
+        tag = SOV
+		OR = {
+			GER = { controls_state = 242 }
+			any_other_country = {
+				is_in_faction_with = GER
+				controls_state = 242
+			}
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+	name = cumbek2.1.a
+	add_war_support = 0.05
+	division_template = {
+		name = "Красногвардейцы" 	
+		division_names_group = FRA_ARM_01
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 2 y = 1 }
+			infantry = { x = 2 y = 2 }
+			anti_air_brigade = { x = 3 y = 0 }
+			anti_tank_brigade = { x = 3 y = 1 }
+		}
+		support = {
+			artillery = { x = 0 y = 1 }
+			engineer = { x = 0 y = 0 }
+			anti_tank = { x = 0 y = 2 }
+			anti_air = { x = 0 y = 3 }
+		}
+	}
+	219 = {
+		create_unit = {
+			division = "name = \"Красногвардейцы\" division_template = \"Красногвардейцы\" start_experience_factor = 0.55 start_equipment_factor = 1 start_manpower_factor = 1"
+				owner = ROOT
+				count = 48
+		}
+	}
+    }
+}
+add_namespace = cumbek3
+
+country_event = { 
+    id = cumbek3.a
+    desc = cumbek3.t
+    title = cumbek3.d
+
+
+    trigger = { 
+        tag = SOV
+		OR = {
+			GER = { controls_state = 220 }
+			any_other_country = {
+				is_in_faction_with = GER
+				controls_state = 220
+			}
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+	name = cumbek3.1.a
+	add_war_support = 0.05
+	division_template = {
+		name = "Красногвардейцы" 	
+		division_names_group = FRA_ARM_01
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 2 y = 1 }
+			infantry = { x = 2 y = 2 }
+			anti_air_brigade = { x = 3 y = 0 }
+			anti_tank_brigade = { x = 3 y = 1 }
+		}
+		support = {
+			artillery = { x = 0 y = 1 }
+			engineer = { x = 0 y = 0 }
+			anti_tank = { x = 0 y = 2 }
+			anti_air = { x = 0 y = 3 }
+		}
+	}
+	257 = {
+		create_unit = {
+			division = "name = \"Красногвардейцы\" division_template = \"Красногвардейцы\" start_experience_factor = 0.55 start_equipment_factor = 1 start_manpower_factor = 1"
+				owner = ROOT
+				count = 48
+		}
+	}
+   }
+}
+add_namespace = cumbek4
+
+country_event = { 
+    id = cumbek4.a
+    desc = cumbek4.t
+    title = cumbek4.d
+
+
+    trigger = { 
+        tag = SOV
+		OR = {
+			GER = { controls_state = 227 }
+			any_other_country = {
+				is_in_faction_with = GER
+				controls_state = 227
+			}
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+	name = cumbek4.1.a
+	add_war_support = 0.05
+	division_template = {
+		name = "Красногвардейцы" 	
+		division_names_group = FRA_ARM_01
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 2 y = 1 }
+			infantry = { x = 2 y = 2 }
+			anti_air_brigade = { x = 3 y = 0 }
+			anti_tank_brigade = { x = 3 y = 1 }
+		}
+		support = {
+			artillery = { x = 0 y = 1 }
+			engineer = { x = 0 y = 0 }
+			anti_tank = { x = 0 y = 2 }
+			anti_air = { x = 0 y = 3 }
+		}
+	}
+	217 = {
+		create_unit = {
+			division = "name = \"Красногвардейцы\" division_template = \"Красногвардейцы\" start_experience_factor = 0.55 start_equipment_factor = 1 start_manpower_factor = 1"
+				owner = ROOT
+				count = 48
+		}
+	}
+   }
+}
+add_namespace = cumbek5
+
+country_event = { 
+    id = cumbek5.a
+    desc = cumbek5.t
+    title = cumbek5.d
+
+
+    trigger = { 
+        tag = SOV
+		OR = {
+			GER = { controls_state = 200 }
+			any_other_country = {
+				is_in_faction_with = GER
+				controls_state = 200
+			}
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+	name = cumbek5.1.a
+	add_war_support = 0.05
+	division_template = {
+		name = "Красногвардейцы" 	
+		division_names_group = FRA_ARM_01
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 2 y = 1 }
+			infantry = { x = 2 y = 2 }
+			anti_air_brigade = { x = 3 y = 0 }
+			anti_tank_brigade = { x = 3 y = 1 }
+		}
+		support = {
+			artillery = { x = 0 y = 1 }
+			engineer = { x = 0 y = 0 }
+			anti_tank = { x = 0 y = 2 }
+			anti_air = { x = 0 y = 3 }
+		}
+	}
+	218 = {
+		create_unit = {
+			division = "name = \"Красногвардейцы\" division_template = \"Красногвардейцы\" start_experience_factor = 0.55 start_equipment_factor = 1 start_manpower_factor = 1"
+				owner = ROOT
+				count = 12
+		}
+	}
+   }
+}
+
+add_namespace = cumbek6
+
+country_event = { 
+    id = cumbek6.a
+    desc = cumbek6.t
+    title = cumbek6.d
+
+
+    trigger = { 
+        tag = SOV
+		OR = {
+			GER = { controls_state = 225 }
+			any_other_country = {
+				is_in_faction_with = GER
+				controls_state = 225
+			}
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+	name = cumbek6.1.a
+	add_war_support = 0.05
+	division_template = {
+		name = "Красногвардейцы" 	
+		division_names_group = FRA_ARM_01
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 2 y = 1 }
+			infantry = { x = 2 y = 2 }
+			anti_air_brigade = { x = 3 y = 0 }
+			anti_tank_brigade = { x = 3 y = 1 }
+		}
+		support = {
+			artillery = { x = 0 y = 1 }
+			engineer = { x = 0 y = 0 }
+			anti_tank = { x = 0 y = 2 }
+			anti_air = { x = 0 y = 3 }
+		}
+	}
+	260 = {
+		create_unit = {
+			division = "name = \"Красногвардейцы\" division_template = \"Красногвардейцы\" start_experience_factor = 0.55 start_equipment_factor = 1 start_manpower_factor = 1"
+				owner = ROOT
+				count = 12
+		}
+	}
+   }
+}
+
+add_namespace = cumbek7
+
+country_event = { 
+    id = cumbek7.a
+    desc = cumbek7.t
+    title = cumbek7.d
+
+
+    trigger = { 
+        tag = SOV
+		OR = {
+		OR = {
+			GER = { controls_state = 224 }
+			any_other_country = {
+				is_in_faction_with = GER
+				controls_state = 224
+			}
+		}
+		OR = {
+			GER = { controls_state = 243 }
+			any_other_country = {
+				is_in_faction_with = GER
+				controls_state = 243
+			}
+		}
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+	name = cumbek7.1.a
+	add_war_support = 0.05
+	division_template = {
+		name = "Красногвардейцы" 	
+		division_names_group = FRA_ARM_01
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 2 y = 1 }
+			infantry = { x = 2 y = 2 }
+			anti_air_brigade = { x = 3 y = 0 }
+			anti_tank_brigade = { x = 3 y = 1 }
+		}
+		support = {
+			artillery = { x = 0 y = 1 }
+			engineer = { x = 0 y = 0 }
+			anti_tank = { x = 0 y = 2 }
+			anti_air = { x = 0 y = 3 }
+		}
+	}
+	205 = {
+		create_unit = {
+			division = "name = \"Красногвардейцы\" division_template = \"Красногвардейцы\" start_experience_factor = 0.55 start_equipment_factor = 1 start_manpower_factor = 1"
+				owner = ROOT
+				count = 12
+		}
+	}
+   }
+}
+
+add_namespace = cumbek8
+
+country_event = { 
+    id = cumbek8.a
+    desc = cumbek8.t
+    title = cumbek8.d
+
+
+    trigger = { 
+        tag = SOV
+		OR = {
+			GER = { controls_state = 810 }
+			any_other_country = {
+				is_in_faction_with = GER
+				controls_state = 810
+			}
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+	name = cumbek8.1.a
+	add_war_support = 0.05
+	division_template = {
+		name = "Красногвардейцы" 	
+		division_names_group = FRA_ARM_01
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 2 y = 1 }
+			infantry = { x = 2 y = 2 }
+			anti_air_brigade = { x = 3 y = 0 }
+			anti_tank_brigade = { x = 3 y = 1 }
+		}
+		support = {
+			artillery = { x = 0 y = 1 }
+			engineer = { x = 0 y = 0 }
+			anti_tank = { x = 0 y = 2 }
+			anti_air = { x = 0 y = 3 }
+		}
+	}
+	208 = {
+		create_unit = {
+			division = "name = \"Красногвардейцы\" division_template = \"Красногвардейцы\" start_experience_factor = 0.55 start_equipment_factor = 1 start_manpower_factor = 1"
+				owner = ROOT
+				count = 12
+		}
+	}
+   }
+}
+
+add_namespace = ger_cumbek
+
+country_event = { 
+    id = ger_cumbek.a
+    desc = ger_cumbek.t
+    title = ger_cumbek.d
+
+
+    trigger = { 
+        tag = GER
+		NOT = { has_idea = GER_barbarossa }
+		has_war_with = SOV
+		OR = {
+		5 = { is_controlled_by = SOV }
+		92 = { is_controlled_by = SOV }
+		85 = { is_controlled_by = SOV }
+		98 = { is_controlled_by = SOV }
+		10 = { is_controlled_by = SOV }
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+	name = ger_cumbek.1.a
+	
+			division_template = {
+				name = "Фольксштурм" 	
+				division_names_group = FRA_ARM_01
+
+				regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		}
+				support = {
+					artillery = { x = 0 y = 1 }
+					engineer = { x = 0 y = 0 }
+					anti_tank = { x = 0 y = 2 }
+				}
+			}
+			87 = {
+				create_unit = {
+					division = "name = \"Фольксштурм\" division_template = \"Фольксштурм\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 12
+				}
+			}
+			86 = {
+				create_unit = {
+					division = "name = \"Фольксштурм\" division_template = \"Фольксштурм\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 12
+				}
+			}
+			63 = {
+				create_unit = {
+					division = "name = \"Фольксштурм\" division_template = \"Фольксштурм\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 12
+				}
+			}
+			762 = {
+				create_unit = {
+					division = "name = \"Фольксштурм\" division_template = \"Фольксштурм\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 8
+				}
+			}
+   }
+}
+
+add_namespace = ger_cumbek1
+
+country_event = { 
+    id = ger_cumbek1.a
+    desc = ger_cumbek1.t
+    title = ger_cumbek1.d
+
+
+    trigger = { 
+        tag = GER
+		NOT = { has_idea = GER_barbarossa }
+		has_war_with = SOV
+		91 = { is_controlled_by = SOV }
+		89 = { is_controlled_by = SOV }
+		90 = { is_controlled_by = SOV }
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+	name = ger_cumbek1.1.a
+	
+			division_template = {
+				name = "Фольксштурм" 	
+				division_names_group = FRA_ARM_01
+
+				regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		}
+				support = {
+					artillery = { x = 0 y = 1 }
+					engineer = { x = 0 y = 0 }
+					anti_tank = { x = 0 y = 2 }
+				}
+			}
+			71 = {
+				create_unit = {
+					division = "name = \"Фольксштурм\" division_template = \"Фольксштурм\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 12
+				}
+			}
+			72 = {
+				create_unit = {
+					division = "name = \"Фольксштурм\" division_template = \"Фольксштурм\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 8
+				}
+			}
+			73 = {
+				create_unit = {
+					division = "name = \"Фольксштурм\" division_template = \"Фольксштурм\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 12
+				}
+			}
+   }
+}
+
+add_namespace = ger_cumbek2
+
+country_event = { 
+    id = ger_cumbek2.a
+    desc = ger_cumbek2.t
+    title = ger_cumbek2.d
+
+
+    trigger = { 
+        tag = GER
+		NOT = { has_idea = GER_barbarossa }
+		has_war_with = SOV
+		OR = {
+		78 = { is_controlled_by = SOV }
+		766 = { is_controlled_by = SOV }
+		80 = { is_controlled_by = SOV }
+		89 = { is_controlled_by = SOV }
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 20
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+	name = ger_cumbek2.1.a
+	
+			division_template = {
+				name = "Фольксштурм" 	
+				division_names_group = FRA_ARM_01
+
+				regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		}
+				support = {
+					artillery = { x = 0 y = 1 }
+					engineer = { x = 0 y = 0 }
+					anti_tank = { x = 0 y = 2 }
+				}
+			}
+			46 = {
+				create_unit = {
+					division = "name = \"Фольксштурм\" division_template = \"Фольксштурм\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 24
+				}
+			}
+			76 = {
+				create_unit = {
+					division = "name = \"Фольксштурм\" division_template = \"Фольксштурм\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 12
+				}
+			}
+   }
+}
+
+add_namespace = ger_cumbek3
+
+country_event = { 
+    id = ger_cumbek3.a
+    desc = ger_cumbek3.t
+    title = ger_cumbek3.d
+
+
+    trigger = { 
+        tag = GER
+		NOT = { has_idea = GER_barbarossa }
+		has_war_with = SOV
+		OR = {
+			NOT = {
+				15 = { is_controlled_by = GER }
+		        16 = { is_controlled_by = GER }
+		        27 = { is_controlled_by = GER }
+			}
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+	name = ger_cumbek3.1.a
+	
+			division_template = {
+				name = "Фольксштурм" 	
+				division_names_group = FRA_ARM_01
+
+				regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		}
+				support = {
+					artillery = { x = 0 y = 1 }
+					engineer = { x = 0 y = 0 }
+					anti_tank = { x = 0 y = 2 }
+				}
+			}
+			28 = {
+				create_unit = {
+					division = "name = \"Фольксштурм\" division_template = \"Фольксштурм\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 24
+				}
+			}
+			8 = {
+				create_unit = {
+					division = "name = \"Фольксштурм\" division_template = \"Фольксштурм\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 6
+				}
+			}
+			51 = {
+				create_unit = {
+					division = "name = \"Фольксштурм\" division_template = \"Фольксштурм\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 24
+				}
+			}
+			36 = {
+				create_unit = {
+					division = "name = \"Фольксштурм\" division_template = \"Фольксштурм\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 8
+				}
+			}
+			7 = {
+				create_unit = {
+					division = "name = \"Фольксштурм\" division_template = \"Фольксштурм\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 12
+				}
+			}
+   }
+}
+
+add_namespace = lesson
+
+country_event = { 
+    id = lesson.1 
+    desc = lesson.1.t
+    title = lesson.1.d
+    
+    
+    trigger = { 
+	    tag = SOV	
+		GER = {
+			has_completed_focus = GER_danzig_or_war
+			}
+    }
+	
+	
+    mean_time_to_happen = { 
+        days = 10 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+        name = lesson.1.a
+
+		 add_political_power = -200
+		 army_experience = 100
+       		annex_country = { target = EST transfer_troops = yes }
+		    annex_country = { target = LAT transfer_troops = yes }
+		    annex_country = { target = LIT transfer_troops = yes }
+		    every_state = {
+				limit = { is_core_of = EST }
+				add_core_of = ROOT
+			}		
+		    every_state = {
+				limit = { is_core_of = LAT }
+				add_core_of = ROOT
+			}	
+		    every_state = {
+				limit = { is_core_of = LIT }
+				add_core_of = ROOT
+			}
+            SOV = { 
+			 transfer_state = 766
+			 transfer_state = 78
+			 transfer_state = 80
+			 
+			}			
+	
+		
+			
+    }
+ }
+
+ add_namespace = le_defens
+
+country_event = { 
+    id = le_defens.a 
+    desc = le_defens.t
+    title = le_defens.d
+    
+    
+    trigger = { 
+	    tag = SOV	
+		GER = { has_war_with = SOV }
+    }
+	
+	
+    mean_time_to_happen = { 
+        days = 10 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+        name = le_defens.a
+          add_dynamic_modifier = { modifier = SOV_le_defens }  
+    }
+ }
+  add_namespace = le_defensa
+
+country_event = { 
+    id = le_defensa.a 
+    desc = le_defensa.t
+    title = le_defensa.d
+    
+    
+    trigger = { 
+	    tag = SOV	
+		NOT = {
+            202 = { is_controlled_by = SOV }
+        }  
+    }
+	
+	
+    mean_time_to_happen = { 
+        days = 10 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+        name = le_defensa.a
+
+
+         add_to_variable = { SOV_le_defens_army_defence_factor = 0.01 tooltip = SOV_le_defens_carmy_defence_factor_tt }
+    }
+ }
+
+add_namespace = le_defen
+
+country_event = { 
+    id = le_defen.a 
+    desc = le_defen.t
+    title = le_defen.d
+    
+    
+    trigger = { 
+	    tag = SOV
+     OR = {
+		NOT = {
+            808 = { is_controlled_by = SOV }
+            808 = { is_controlled_by = LAT }
+        }  
+      }
+    }
+	
+    mean_time_to_happen = { 
+        days = 10 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+        name = le_defen.a
+
+
+        add_to_variable = { SOV_le_defens_army_defence_factor = 0.01 tooltip = SOV_le_defens_carmy_defence_factor_tt }
+    }
+ }
+
+ add_namespace = le_defe
+
+country_event = { 
+    id = le_defe.a 
+    desc = le_defe.t
+    title = le_defe.d
+    
+    
+    trigger = { 
+	    tag = SOV
+		NOT = {
+            217 = { is_controlled_by = SOV }
+        }  
+      }
+    
+	
+    mean_time_to_happen = { 
+        days = 10 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+        name = le_defe.a
+
+
+        add_to_variable = { SOV_le_defens_army_defence_factor = 0.01 tooltip = SOV_le_defens_carmy_defence_factor_tt }
+    }
+ }
+  add_namespace = le_def
+
+country_event = { 
+    id = le_def.a 
+    desc = le_def.t
+    title = le_def.d
+    
+    
+    trigger = { 
+	    tag = SOV
+		NOT = {
+            219 = { is_controlled_by = SOV }
+        }  
+      }
+    
+	
+    mean_time_to_happen = { 
+        days = 10 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+        name = le_def.a
+
+
+        add_to_variable = { SOV_le_defens_army_defence_factor = 0.01 tooltip = SOV_le_defens_carmy_defence_factor_tt }
+    }
+ }
+   add_namespace = le_defa
+
+country_event = { 
+    id = le_defa.a 
+    desc = le_defa.t
+    title = le_defa.d
+    
+    
+    trigger = { 
+	    tag = SOV
+		NOT = {
+            195 = { is_controlled_by = SOV }
+        }  
+      }
+    
+	
+    mean_time_to_happen = { 
+        days = 10 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+        name = le_defa.a
+
+        add_to_variable = { SOV_le_defens_surrender_limit = 0.05 tooltip = SOV_le_defens_surrender_limit_tt }
+
+        add_to_variable = { SOV_le_defens_army_defence_factor = 0.01 tooltip = SOV_le_defens_carmy_defence_factor_tt }
+    }
+ } 
+  add_namespace = le_defr
+
+country_event = { 
+    id = le_defr.a 
+    desc = le_defr.t
+    title = le_defr.d
+    
+    
+    trigger = { 
+	    tag = SOV
+		NOT = {
+            206 = { is_controlled_by = SOV }
+        }  
+      }
+    
+	
+    mean_time_to_happen = { 
+        days = 10 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+        name = le_defr.a
+
+        add_to_variable = { SOV_le_defens_surrender_limit = 0.05 tooltip = SOV_le_defens_surrender_limit_tt }
+        add_to_variable = { SOV_le_defens_army_defence_factor = 0.01 tooltip = SOV_le_defens_carmy_defence_factor_tt }
+    }
+ }
+
+add_namespace = startup.institut
+
+country_event = {
+	
+	id = startup.institut.1
+	title = startup.institut.1.title
+	desc = startup.institut.1.description
+	picture = GFX_report_event_tur_opposition_party
+	
+	is_triggered_only = yes
+
+	option = {
+		name = startup.institut.1.a
+		IF = {
+			random_owned_controlled_state = {
+						limit = {
+							can_construct_building = air_facility
+							#is_capital = yes
+							is_core_of = ROOT
+						}
+						prioritize = { 276 360 277 295 539 275 2 6 55 7 4 43 46 48 219 111 439 289 285 282 126 }
+						construct_building_in_random_province = {
+							air_facility = 1
+						}
+			}	
+		}
+	}
+	option = {
+		name = startup.institut.1.b
+		IF = {
+			random_owned_controlled_state = {
+						limit = {
+							can_construct_building = land_facility
+							#is_capital = yes
+							is_core_of = ROOT
+						}
+						prioritize = { 276 360 277 295 539 275 2 55 6 7 4 43 46 48 219 111 439 289 285 282 126 }
+						construct_building_in_random_province = {
+							land_facility = 1
+						}
+			}	
+		}
+	}
+	option = {
+		name = startup.institut.1.c
+		IF = {
+			random_owned_controlled_state = {
+						limit = {
+							can_construct_building = naval_facility
+							#is_capital = yes
+							is_core_of = ROOT
+						}
+						prioritize = { 468 378 477 295 539 681 59 2 6 7 4 43 971 48 195 111 429 289 285 282 126 }
+						construct_building_in_random_province = {
+							naval_facility = 1
+						}
+			}	
+		}
+	}
+	option = {
+		name = startup.institut.1.d
+		IF = {
+			random_owned_controlled_state = {
+						limit = {
+							can_construct_building = nuclear_facility
+							#is_capital = yes
+							is_core_of = ROOT
+						}
+						prioritize = { 276 360 277 295 539 275 2 6 55 7 4 43 46 48 219 111 439 289 285 282 126 }
+						construct_building_in_random_province = {
+							nuclear_facility = 1
+						}
+			}	
+		}
+	}
+}
+
+country_event = {
+	
+	id = startup.institut.2
+	title = startup.institut.2.title
+	desc = startup.institut.2.description
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+
+	trigger = {
+	    tag = SOV
+    }
+
+	option = {
+		name = startup.institut.2.a
+		add_stability = 0.01
+	}
+	option = {
+		name = startup.institut.2.b
+		add_political_power = 5
+	}
+	option = {
+		name = startup.institut.2.c
+		add_war_support = 0.02
+	}
+	option = {
+		name = startup.institut.2.d
+	}
+}
+
+country_event = {
+	
+	id = startup.institut.3
+	title = startup.institut.3.title
+	desc = startup.institut.3.description
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+
+	trigger = {
+	    tag = FRA
+    }
+
+	option = {
+		name = startup.institut.3.a
+	}
+}
+
+add_namespace = tora
+
+country_event = { 
+    id = tora.a 
+    desc = tora.t
+    title = tora.d
+    picture = GFX_report_event_german_advisors_remain
+    
+    trigger = { 
+	  JAP = {
+		has_completed_focus = JAP_non_aggression_pact_with_the_soviet_union
+	  }  
+	  tag = ENG
+    }
+	
+    mean_time_to_happen = { 
+        days = 20 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+        name = tora.a
+    }
+}
+
+add_namespace = tora1
+
+country_event = { 
+    id = tora1.a 
+    desc = tora1.t
+    title = tora1.d
+    picture = GFX_report_event_german_advisors_remain
+    
+    trigger = { 
+	  JAP = {
+		has_completed_focus = JAP_non_aggression_pact_with_the_soviet_union
+	  }  
+	  tag = USA
+    }
+	
+    mean_time_to_happen = { 
+        days = 20 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+        name = tora1.a
+    }
+}
+
+add_namespace = news_ost_west
+
+news_event = {
+	id = news_ost_west.1
+	title = news_ost_west.1.t
+	desc = news_ost_west.1.desc
+	picture = GFX_news_event_047
+	
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news_ost_west.1.a
+	}
+	option = {
+		name = news_ost_west.1.b
+	}
+}
+
+news_event = {
+	id = news_ost_west.2
+	title = news_ost_west.2.t
+	desc = news_ost_west.2.desc
+	picture = GFX_news_event_008
+	
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news_ost_west.2.a
+	}
+}
+
+news_event = {
+	id = news_ost_west.3
+	title = news_ost_west.3.t
+	desc = news_ost_west.3.desc
+	picture = GFX_news_event_generic_panzer_attack
+	
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news_ost_west.3.a
+	}
+}
+
+news_event = {
+	id = news_ost_west.4
+	title = news_ost_west.4.t
+	desc = news_ost_west.4.desc
+	picture = GFX_news_event_GER_bombers
+	
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news_ost_west.4.a
+	}
+}
+
+news_event = {
+	id = news_ost_west.5
+	title = news_ost_west.5.t
+	desc = news_ost_west.5.desc
+	picture = GFX_news_event_hungarian_soldiers
+	
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news_ost_west.5.a
+	}
+}
+news_event = {
+	id = news_ost_west.6
+	title = news_ost_west.6.t
+	desc = news_ost_west.6.desc
+	picture = GFX_news_event_FIN_continuation_war_murmansk
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news_ost_west.6.a
+	}
+}
+
+news_event = {
+	id = news_ost_west.7
+	title = news_ost_west.7.t
+	desc = news_ost_west.7.desc
+	picture = GFX_news_event_SOV_invasion_iran
+	
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news_ost_west.7.a
+	}
+}
+
+news_event = {
+	id = news_ost_west.8
+	title = news_ost_west.8.t
+	desc = news_ost_west.8.desc
+	picture = GFX_news_event_generic_fall_of_budapest
+	
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news_ost_west.8.a
+	}
+}
+
+news_event = {
+	id = news_ost_west.9
+	title = news_ost_west.9.t
+	desc = news_ost_west.9.desc
+	picture = GFX_news_event_004
+	
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news_ost_west.9.a
+	}
+}
+
+news_event = {
+	id = news_ost_west.10
+	title = news_ost_west.10.t
+	desc = news_ost_west.10.desc
+	picture = GFX_ukroxa_gg
+	
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news_ost_west.10.a
+	}
+}
+
+news_event = {
+	id = news_ost_west.11
+	title = news_ost_west.11.t
+	desc = news_ost_west.11.desc
+	picture = GFX_news_event_german_officers
+	
+    major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news_ost_west.11.a
+	}
+}
+
+add_namespace = debaf_pexa
+
+news_event = {
+	id = debaf_pexa.1
+	title = debaf_pexa.1.t
+	desc = debaf_pexa.1.desc
+	picture = GFX_news_event_soviet_soldiers_ruins
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	
+
+	option = {
+		name = debaf_pexa.1.a
+		trigger = {
+		date > 1936.9.9
+	     }
+        add_ideas = debaf_pexa_ideas
+	}
+}
+
+add_namespace = madagascar
+
+country_event = { 
+    id = madagascar.1
+    desc = madagascar.1.d
+    title = madagascar.1.t
+	picture = GFX_report_event_finnish_letter
+
+
+    is_triggered_only = yes
+
+    option = {
+		name = madagascar.1.a
+		add_political_power = 200
+		SAF = {
+			country_event = {
+				id = madagascar.2
+				days = 1
+			}
+		}
+    }
+	option = {
+		name = madagascar.1.b
+
+		SAF = {
+			country_event = {
+				id = madagascar.3
+				days = 1
+			}
+		}
+    }
+}
+
+country_event = { 
+    id = madagascar.2
+    desc = madagascar.2.d
+    title = madagascar.2.t
+	picture = GFX_report_event_finnish_letter
+
+
+    is_triggered_only = yes
+
+    option = {
+		name = madagascar.2.a
+		SAF = { 
+			add_political_power = -75
+			transfer_state = 543
+			add_timed_idea = {
+				idea = zakup_madagascara
+				days = 365
+			}
+		}
+		hidden_effect = {
+			543 = { set_compliance = 100 }
+		}
+    }
+}
+
+country_event = { 
+    id = madagascar.3
+    desc = madagascar.3.d
+    title = madagascar.3.t
+	picture = GFX_report_event_finnish_letter
+
+
+    is_triggered_only = yes
+
+    option = {
+		name = madagascar.3.a
+		SAF = {
+			add_political_power = -25
+		}
+    }
+}
+
+add_namespace = capcap_ger_sov
+
+country_event = { 
+    id = capcap_ger_sov.a
+    desc = capcap_ger_sov.d
+    title = capcap_ger_sov.t
+	picture = GFX_report_event_SWE_defense_act
+
+
+    mean_time_to_happen = { 
+        days = 10 
+    }
+
+
+    is_triggered_only = yes
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no  
+
+    option = {
+        name = capcap_ger_sov.1.a
+		ROM = {
+			transfer_state = 192
+			transfer_state = 834
+			transfer_state = 198
+			transfer_state = 80
+			transfer_state = 78
+			transfer_state = 766
+		} 
+		FIN = {
+			transfer_state = 146
+			transfer_state = 216
+			transfer_state = 215
+			transfer_state = 213
+			transfer_state = 147
+		}
+		transfer_state = 199
+		transfer_state = 201
+		transfer_state = 202
+		transfer_state = 203
+		transfer_state = 197
+		transfer_state = 196
+		transfer_state = 137
+		transfer_state = 200
+		transfer_state = 226
+		transfer_state = 259
+		transfer_state = 193
+		transfer_state = 194
+		transfer_state = 227
+		transfer_state = 218
+		transfer_state = 228
+		transfer_state = 221
+		transfer_state = 225
+		transfer_state = 220
+		transfer_state = 240
+		transfer_state = 260
+		transfer_state = 265
+		transfer_state = 245
+		transfer_state = 217
+		transfer_state = 236
+		transfer_state = 237
+		transfer_state = 238
+		transfer_state = 829
+		transfer_state = 880
+		transfer_state = 214
+		transfer_state = 243
+		transfer_state = 246
+		transfer_state = 879
+		transfer_state = 351
+		transfer_state = 264
+		transfer_state = 195
+		transfer_state = 244
+		transfer_state = 208
+		transfer_state = 209
+		transfer_state = 263
+		transfer_state = 247
+		transfer_state = 248
+		transfer_state = 253
+		transfer_state = 252
+		transfer_state = 256
+		transfer_state = 833
+		transfer_state = 250
+		transfer_state = 255
+		transfer_state = 239
+		transfer_state = 257
+		transfer_state = 254
+		transfer_state = 219
+		transfer_state = 242
+		transfer_state = 223
+		transfer_state = 205
+		transfer_state = 258
+		transfer_state = 222
+		transfer_state = 224
+		transfer_state = 241
+		transfer_state = 204
+		transfer_state = 206
+		transfer_state = 207
+		transfer_state = 210
+		transfer_state = 234
+		transfer_state = 235
+		transfer_state = 232
+		transfer_state = 821
+		transfer_state = 828
+		transfer_state = 827
+		transfer_state = 233
+		transfer_state = 826
+		transfer_state = 231
+		transfer_state = 230
+		transfer_state = 229
+		
+		transfer_state = 813
+		transfer_state = 812
+		transfer_state = 811
+		transfer_state = 13
+		transfer_state = 191
+		transfer_state = 810
+		transfer_state = 12
+		transfer_state = 808
+		transfer_state = 809
+		transfer_state = 190
+
+		transfer_state = 189
+		transfer_state = 815
+		transfer_state = 11
+		transfer_state = 814
+		transfer_state = 784
+		transfer_state = 96
+
+		transfer_state = 95
+		transfer_state = 97
+		transfer_state = 94
+		transfer_state = 93
+		transfer_state = 91
+		transfer_state = 89
+
+		if = {
+			limit = {
+				SOV = {
+					has_war_with = JAP
+				}
+			}
+			JAP = {
+				transfer_state = 409
+				transfer_state = 408
+				transfer_state = 655
+				transfer_state = 657
+				transfer_state = 560
+				transfer_state = 562
+				transfer_state = 874
+				transfer_state = 822
+				transfer_state = 875
+				transfer_state = 637
+				transfer_state = 561
+			}
+		}
+		every_country = {
+			limit = {
+				has_war_with = SOV
+			}
+			white_peace = SOV
+		}
+   }
+}
+
+add_namespace = AST_ENG
+
+country_event = { 
+    id = AST_ENG.1
+    desc = AST_ENG.d
+    title = AST_ENG.t
+	picture = GFX_report_event_gre_allied_diplomacy
+
+
+    is_triggered_only = yes
+	 fire_only_once = yes
+
+    option = {
+		name = AST_ENG.a
+		add_timed_idea = {
+			idea = AST_trade_no_with_ENG
+			days = 365
+		}
+		AST = {
+			country_event = {
+				id = AST_ENG.2
+				days = 10
+			}
+		}
+		effect_tooltip = {
+						custom_effect_tooltip = AST_they_accept_tt 
+							add_timed_idea = {
+							idea = AST_trade_yes_with_ENG
+							days = 365
+						    }	
+		}
+    }
+	option = {
+		name = AST_ENG.b
+
+		AST = {
+			country_event = {
+				id = AST_ENG.3
+				days = 10
+			}
+		}
+    }
+}
+
+country_event = { 
+    id = AST_ENG.2
+    desc = AST_ENG.1.d
+    title = AST_ENG.1.t
+	picture = GFX_report_event_tur_ataturk_writing_desk
+
+
+    is_triggered_only = yes 
+	 fire_only_once = yes
+
+    option = {
+		name = AST_ENG.1.a
+
+		add_timed_idea = {
+			idea = AST_trade_yes_with_ENG
+			days = 365
+		}
+
+    }
+}
+
+country_event = { 
+    id = AST_ENG.3
+    desc = AST_ENG.2.d
+    title = AST_ENG.2.t
+	picture = GFX_report_event_sanation_revolt
+
+
+    is_triggered_only = yes
+	 fire_only_once = yes
+
+    option = {
+		name = AST_ENG.2.a
+    }
+}
+
+add_namespace = AST_ENG_region
+
+country_event = { 
+    id = AST_ENG_region.1
+    desc = AST_ENG_region.d
+    title = AST_ENG_region.t
+	picture = GFX_report_event_SOV_negotiations_japan_bukharin
+
+
+    is_triggered_only = yes
+	 fire_only_once = yes
+
+    option = {
+		name = AST_ENG_region.a
+
+		AST = {
+			transfer_state = 669
+			transfer_state = 738
+			transfer_state = 636
+
+		}
+		
+    }
+	option = {
+		name = AST_ENG_region.b
+
+    }
+}
+
+add_namespace = kalisi_cumbek
+
+country_event = { 
+    id = kalisi_cumbek.a
+    desc = kalisi_cumbek.d
+    title = kalisi_cumbek.t
+
+
+    trigger = { 
+        tag = ENG
+		OR = {
+		OR = {
+			GER = { controls_state = 551 }
+			any_other_country = {
+				is_in_faction_with = GER
+				controls_state = 551
+			}
+		}
+		OR = {
+			GER = { controls_state = 886 }
+			any_other_country = {
+				is_in_faction_with = GER
+				controls_state = 886
+			}
+		}
+		OR = {
+			GER = { controls_state = 884 }
+			any_other_country = {
+				is_in_faction_with = GER
+				controls_state = 884
+			}
+		}
+		OR = {
+			GER = { controls_state = 547 }
+			any_other_country = {
+				is_in_faction_with = GER
+				controls_state = 547
+			}
+		}
+		OR = {
+			GER = { controls_state = 903 }
+			any_other_country = {
+				is_in_faction_with = GER
+				controls_state = 903
+			}
+		}
+		}
+    }
+
+
+    mean_time_to_happen = { 
+        days = 1
+    }
+
+
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 5 
+    hidden = no 
+
+    option = {
+	name = kalisi_cumbek.1.a
+	
+			division_template = {
+				name = "Колониальные легионы" 	
+				division_names_group = FRA_ARM_01
+
+				regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		}
+				support = {
+					artillery = { x = 0 y = 1 }
+					engineer = { x = 0 y = 0 }
+					anti_tank = { x = 0 y = 2 }
+				}
+			}
+			887 = {
+				create_unit = {
+					division = "name = \"Колониальные легионы\" division_template = \"Колониальные легионы\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 10
+				}
+			}
+			885 = {
+				create_unit = {
+					division = "name = \"Колониальные легионы\" division_template = \"Колониальные легионы\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 8
+				}
+			}
+			548 = {
+				create_unit = {
+					division = "name = \"Колониальные легионы\" division_template = \"Колониальные легионы\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 10
+				}
+			}
+			905 = {
+				create_unit = {
+					division = "name = \"Колониальные легионы\" division_template = \"Колониальные легионы\" start_experience_factor = 0.35 start_equipment_factor = 1 start_manpower_factor = 1"
+					owner = ROOT
+					count = 10
+				}
+			}
+   }
+}

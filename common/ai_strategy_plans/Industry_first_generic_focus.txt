@@ -1,0 +1,130 @@
+Industrial_generic = {
+	name = "Industry first"
+	desc = ""
+
+	enable = {
+		has_focus_tree = generic_focus
+	}
+	ai_national_focuses = {
+		naval_effort		
+		industrial_effort
+		production_effort
+		production_effort_2
+		production_effort_3
+		construction_effort
+		construction_effort_2
+		infrastructure_effort
+		construction_effort_3
+		infrastructure_effort_2
+		extra_tech_slot
+		extra_tech_slot_2
+		aviation_effort
+		fighter_focus
+		aviation_effort_2
+		army_effort
+		doctrine_effort
+		doctrine_effort_2
+	}
+}
+
+Industrial_generic_right = {
+	name = "Right side after industry"
+	desc = ""
+
+	enable = {
+		is_historical_focus_on = yes
+		has_focus_tree = generic_focus
+		has_completed_focus = doctrine_effort_2
+		OR = {
+			has_government = democratic
+			has_government = neutrality
+		}
+	}
+
+	ai_national_focuses = {
+		naval_effort		
+		industrial_effort
+		production_effort
+		production_effort_2
+		production_effort_3
+		construction_effort
+		construction_effort_2
+		infrastructure_effort
+		construction_effort_3
+		infrastructure_effort_2
+		extra_tech_slot
+		extra_tech_slot_2
+		aviation_effort
+		fighter_focus
+		aviation_effort_2
+		army_effort
+		doctrine_effort
+		doctrine_effort_2
+	}
+}
+
+Industrial_generic_commie = {
+	name = "Communism after industry"
+	desc = ""
+
+	enable = {
+		is_historical_focus_on = yes
+		has_focus_tree = generic_focus
+		has_completed_focus = doctrine_effort_2
+		has_government = communism
+	}
+
+	ai_national_focuses = {
+		naval_effort		
+		industrial_effort
+		production_effort
+		production_effort_2
+		production_effort_3
+		construction_effort
+		construction_effort_2
+		infrastructure_effort
+		construction_effort_3
+		infrastructure_effort_2
+		extra_tech_slot
+		extra_tech_slot_2
+		aviation_effort
+		fighter_focus
+		aviation_effort_2
+		army_effort
+		doctrine_effort
+		doctrine_effort_2
+	}
+}
+
+Industrial_generic_fascist = {
+	name = "Fascism after industry"
+	desc = ""
+
+	enable = {
+		is_historical_focus_on = yes
+		has_focus_tree = generic_focus
+		has_completed_focus = doctrine_effort_2
+		has_government = fascism
+	}
+
+	ai_national_focuses = {
+		naval_effort		
+		industrial_effort
+		production_effort
+		production_effort_2
+		production_effort_3
+		construction_effort
+		construction_effort_2
+		infrastructure_effort
+		construction_effort_3
+		infrastructure_effort_2
+		extra_tech_slot
+		extra_tech_slot_2
+		aviation_effort
+		fighter_focus
+		aviation_effort_2
+		army_effort
+		doctrine_effort
+		doctrine_effort_2
+	}
+}

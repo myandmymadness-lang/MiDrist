@@ -1,0 +1,22 @@
+SIA_Bangkok_Dock_Company = {
+	include = generic_raider_ship_organization
+	icon = GFX_idea_bangkok
+	allowed = {	 
+		tag = SIA
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+
+SIA_mitsubishi_organization = {
+	include = generic_high_agility_fighter_aircraft_organization
+	icon = GFX_idea_mitsubishi
+	
+	allowed = {	 
+		tag = SIA
+		has_dlc = "Arms Against Tyranny"
+	}
+	
+	available = {
+		owner = { has_completed_focus = Sia_japan3 }
+	}
+}

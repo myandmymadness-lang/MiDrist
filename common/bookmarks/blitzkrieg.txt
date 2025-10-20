@@ -1,0 +1,196 @@
+bookmarks = {
+	bookmark = {
+		name = "Без азии"
+		desc = "Режим игры, если нет Японии и США."
+		date = 1936.1.1.13
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+		
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { has_dlc = "La Resistance" } 
+			ideas = {
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+				FRA_devalue_the_franc
+				FRA_begin_rearmament
+				FRA_revive_the_national_bloc
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { has_dlc = "Man the Guns" }
+			ideas = {
+				stiff_upper_lip
+				ENG_the_war_to_end_all_wars
+				british_fighter_debuf
+			}
+			focuses = {
+				ENG_vickers_experimental_facility_focus
+				ENG_imperial_conference2
+				ENG_Operation_Consent
+			}
+		}
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = fascism
+			available = { has_dlc = "Waking the Tiger" }
+			ideas = {
+				sour_loser
+				general_staff
+				GER_mefo_bills_1
+			}
+			focuses = {
+				GER_develop_modern_maneuver_warfare
+				GER_fuhrerprinzip
+				GER_totaler_krieg
+			}
+		}
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
+			available = { has_dlc = "By Blood Alone" }
+			ideas = {
+				vittorio_emanuele
+				ITA_iri_fake_ns
+				ITA_re_fake_ns
+			}	
+			focuses = {
+				ITA_new_industrialization_program
+				ITA_libyan_refineries
+				ITA_towards_a_greater_italy
+			}		
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			available = { has_dlc = "No Step Back" }
+			ideas = {
+				trotskyite_plot_nsb
+				SOV_second_five_year_plan_fake_1936_ns
+				SOV_politicized_military
+			}
+			focuses = {
+				SOV_soviet_atomic_bomb_project
+				SOV_the_glory_of_the_red_army
+				SOV_transformation_of_nature_alt
+			}	
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+		"CAN"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				CAN_great_depression_1
+				CAN_conscription_crisis
+			}
+			focuses = {
+				CAN_war_fueled_economy2
+				CAN_newfoundland_act
+				CAN_commit_to_the_war
+			}
+		}
+		"SAF"={
+			minor = yes
+			history = "SAF_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				SAF_ossewabrandwag
+				SAF_history_of_segregation
+			}
+			focuses = {
+				SAF_svoboda
+				SAF_secure_interests_in_africa
+				SAF_invite_soviet_advisers
+			}
+		}
+		"RAJ"={
+			minor = yes
+			history = "RAJ_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				RAJ_agrarian_society
+				RAJ_princely_states
+			}
+			focuses = {
+				RAJ_provincial_autonomy
+				RAJ_mahatma
+				RAJ_specialized_dietary_requirement
+			}
+		}
+
+		"HUN"={
+			minor = yes
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				HUN_treaty_of_triannon
+			}
+			focuses = {
+				wuw_HUN_strengthen_horthys_reign
+				wuw_HUN_secret_rearmament
+				wuw_HUN_budapest_university_of_technology_and_economics
+			}
+		}
+
+		"ROM"={
+			minor = yes
+			history = "ROM_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				ROM_king_carol_ii_hedonist
+				neutrality_idea
+			}
+			focuses = {
+				ROM_demand_transnistria
+				ROM_force_abdication
+				ROM_expand_the_marine_regiment
+			}
+		}
+		"BUL"={
+			minor = yes
+			history = "BUL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				BUL_second_national_catastrophe
+				BUL_army_restrictions
+				BUL_imro_01
+			}
+			focuses = {
+				BUL_utmost_optimization
+				BUL_restore_the_bulgarian_patriarchate
+				BUL_prussia_of_the_balkans
+			}
+		}
+		FIN={
+			minor = yes
+			history = FIN_GATHERING_STORM_DESC
+			ideology = neutrality
+			available = { has_dlc = "Arms Against Tyranny" } 
+			ideas = {
+				FIN_sisu_2
+			}
+			focuses = {
+				FIN_the_lone_wolf
+				FIN_sissi
+				FIN_power_from_the_dams
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

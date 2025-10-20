@@ -1,0 +1,1626 @@
+Axi_africa_company_attak = {
+    hidden_effect = {
+
+  
+	    461 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 			scope = GER
+
+			}
+		}
+
+		462 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 				 scope = GER
+
+			}
+		}
+
+		513 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		459 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		460 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = GER
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = GER
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		452 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = GER
+
+			}
+		}
+		1017 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		907 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		447 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		446 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		457 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = GER
+
+			}
+		}
+		456 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			scope = GER
+
+			}
+		}
+
+		461 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 			scope = ITA
+
+			}
+		}
+
+		462 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 				 scope = ITA
+
+			}
+		}
+
+		513 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		459 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		460 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = ITA
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = ITA
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		452 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = ITA
+
+			}
+		}
+		1017 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		907 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		447 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		446 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		457 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ITA
+
+			}
+		}
+		456 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		461 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 			scope = ROM
+
+			}
+		}
+
+		462 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 				 scope = ROM
+
+			}
+		}
+
+		513 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		459 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		460 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = ROM
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = ROM
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		452 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = ROM
+
+			}
+		}
+		1017 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		907 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		447 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		446 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		457 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = ROM
+
+			}
+		}
+		456 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			scope = ROM
+
+			}
+		}
+		461 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 			scope = BUL
+
+			}
+		}
+
+		462 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 				 scope = BUL
+
+			}
+		}
+
+		513 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		459 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		460 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = BUL
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = BUL
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		452 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = BUL
+
+			}
+		}
+		1017 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		907 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		447 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		446 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		457 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = BUL
+
+			}
+		}
+		456 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			scope = BUL
+
+			}
+		}
+		461 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 			scope = HUN
+
+			}
+		}
+
+		462 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 				 scope = HUN
+
+			}
+		}
+
+		513 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		459 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		460 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = HUN
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = HUN
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		452 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+	 	 			scope = HUN
+
+			}
+		}
+		1017 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		907 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		447 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		446 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		457 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			 scope = HUN
+
+			}
+		}
+		456 = {
+			add_dynamic_modifier = { 
+				modifier = GER_Africa_offensive
+		 			scope = HUN
+
+			}
+		}
+    }
+}
+
+Axi_ITA_africa_company_defens = {
+    hidden_effect = {
+		461 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+	 			scope = ITA
+
+			}
+		}
+
+		462 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+	 				 scope = ITA
+
+			}
+		}
+
+		513 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		459 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		460 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+	 	 			scope = ITA
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+	 	 			scope = ITA
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		452 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+	 	 			scope = ITA
+
+			}
+		}
+		1017 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		907 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		447 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		446 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		457 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+		456 = {
+			add_dynamic_modifier = { 
+				modifier = ITA_Africa_offensive
+		 			scope = ITA
+
+			}
+		}
+
+	}
+}
+
+Axi_africa_company_defens_bolt = {
+    hidden_effect = {
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = GER
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = GER
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = ITA
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = ITA
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = ROM
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = ROM
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = BUL
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = BUL
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = HUN
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+	 	 			scope = HUN
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+
+	}
+}
+
+Axi_africa_zamen_company_defens_bolt = {
+    hidden_effect = {
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+	 	 			scope = GER
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+	 	 			scope = GER
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = GER
+
+			}
+		}
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+	 	 			scope = ITA
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+	 	 			scope = ITA
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = ITA
+
+			}
+		}
+
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+	 	 			scope = ROM
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+	 	 			scope = ROM
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = ROM
+
+			}
+		}
+
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+	 	 			scope = BUL
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+	 	 			scope = BUL
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = BUL
+
+			}
+		}
+		458 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		665 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		448 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		661 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+	 	 			scope = HUN
+
+			}
+		}
+		662 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		449 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		663 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+	 	 			scope = HUN
+
+			}
+		}
+		450 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+		451 = {
+			add_dynamic_modifier = { 
+				modifier = Africa_axi_zamen_defens_offensive
+		 			 scope = HUN
+
+			}
+		}
+
+	}
+}
+
+
+AXI_africa_iashot_company_focus = {
+	if = {
+		if = {
+			limit = {
+
+				ITA = {
+					controls_state = 452
+					controls_state = 1017
+					controls_state = 447
+					controls_state = 907
+				}
+			}
+			custom_effect_tooltip =Africa_company_industry_dynamic_modifier_info
+			add_to_variable = { Africa_INDUSTRIAL_CAPACITY_FACTOR = 0.02 tooltip = Africa_INDUSTRIAL_CAPACITY_FACTOR_tt }
+		}
+		if = {
+			limit = {
+				ITA = {
+					controls_state = 291
+					controls_state = 1011
+					controls_state = 675
+				}
+			}	
+			add_to_variable = { Africa_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR = 0.05 tooltip = Africa_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR_tt }
+		}
+		if = {
+			limit = {
+				ITA = {
+					controls_state = 456
+					controls_state = 457
+				}
+			}	
+			add_to_variable = { Africa_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR = 0.02 tooltip = Africa_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR_tt }
+		}
+	}
+		
+}
+
+AXI_africa_iashot_company_focus2 = {
+	if = {
+		if = {
+			limit = {
+				has_completed_focus = Axi_africa_company_defens
+				ITA = {
+					controls_state = 663
+					controls_state = 451
+					controls_state = 450
+					controls_state = 662
+					controls_state = 449
+				}
+			}
+			custom_effect_tooltip =Africa_company_industry_dynamic_modifier_info
+			add_to_variable = { Africa_INDUSTRIAL_CAPACITY_FACTOR = 0.05 tooltip = Africa_INDUSTRIAL_CAPACITY_FACTOR_tt }
+
+		}
+		if = {
+			limit = {
+				has_completed_focus = Axi_africa_company_defens
+				ITA = {
+					controls_state = 448
+					controls_state = 661
+					controls_state = 665
+					controls_state = 458
+				}
+			}	
+			add_to_variable = { Africa_LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR = 0.05 tooltip = Africa_LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR_tt }
+			add_to_variable = { Africa_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR = 0.05 tooltip = Africa_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR_tt }
+		}
+    }
+}
+

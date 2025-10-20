@@ -1,0 +1,223 @@
+FRA_annex = {
+	
+	FRA_evakuation = {
+		icon = generic_army_support
+		available = {
+		    has_capitulated = yes
+		}
+		fire_only_once = yes
+		cost = 100
+		
+		complete_effect = {
+		add_equipment_to_stockpile = {
+				type = convoy
+				amount = 200
+		}
+		every_state = {
+			limit = {
+				is_on_continent = africa
+				is_controlled_by = ROOT
+			}
+			add_core_of = ROOT
+		}
+		}
+	}
+	
+	
+
+	FRA_annex_Africa = {
+	
+		icon = generic_army_support
+
+		available = {
+			has_capitulated = yes
+		    COG = { is_ai = yes }
+		}
+
+		cost = 50
+		fire_only_once = yes
+		
+		complete_effect = {
+			annex_country = { target = COG }
+			every_state = {
+				limit = {
+					is_core_of = COG
+				}
+				add_core_of = ROOT
+			} 
+			hidden_effect = {
+				768 = { add_core_of = ROOT }
+				769 = { add_core_of = ROOT }
+			}
+		}
+	}
+	
+	
+	FRA_Revolt = {
+	
+		icon = generic_army_support
+
+		available = {
+			has_capitulated = yes
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+		    add_offsite_building = { type = industrial_complex level = 15 }
+			add_offsite_building = { type = arms_factory level = 10 }
+		    add_stability = 0.1
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+		}
+	}
+	
+	FRA_steel = {
+	    cost = 25
+        icon = steel
+		available = {
+		    has_capitulated = yes
+            has_tech = excavation2
+		}
+
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+		660 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}
+				add_resource = {
+					type = tungsten
+					amount = 15
+				}
+				add_resource = {
+					type = chromium
+					amount = 15
+				}
+				add_resource = {
+					type = oil
+					amount = 15
+				}
+			}
+		}
+	}
+	
+	FRA_ECO = {
+	
+		icon = icon = decision_gre_paying_ifc_debt
+
+		available = {
+			has_capitulated = yes
+		}
+
+	    cost = 150
+
+		fire_only_once = yes
+		
+		complete_effect = {
+		FRA = {
+		  add_ideas = FRA_closed_eco
+              }
+		}
+	}
+
+	FRA_rerol_country_SOV = {
+	
+		icon = generic_army_support
+		
+	    original_tag = FRA
+
+		cosmetic_tag = SOV
+		cosmetic_ideology = communism	
+		
+        visible = {
+		    always = yes
+		}
+		available = {
+			FRA = { is_ai = NO }
+			has_capitulated = yes
+		}
+
+		fire_only_once = yes
+		days_remove = -1
+		
+		complete_effect = {
+			hidden_effect = {
+		        random_country = {
+			        limit = {
+					tag = SOV
+			        }
+        change_tag_from = FRA
+			}
+		    }
+	    }
+    }
+
+	FRA_rerol_country_ENG = {
+	
+		icon = generic_army_support
+		
+	    original_tag = FRA
+
+		cosmetic_tag = ENG
+		cosmetic_ideology = democratic	
+		
+        visible = {
+		    always = yes
+		}
+		available = {
+			FRA = { is_ai = NO }
+			has_capitulated = yes
+		}
+
+		fire_only_once = yes
+		days_remove = -1
+		
+		complete_effect = {
+			hidden_effect = {
+		        random_country = {
+			        limit = {
+					tag = ENG
+			        }
+        change_tag_from = FRA
+				}
+			}
+		}
+	}
+
+	FRA_rerol_country_USA = {
+	
+		icon = generic_army_support
+		
+	    original_tag = FRA
+
+		cosmetic_tag = USA
+		cosmetic_ideology = democratic	
+		
+        visible = {
+		    always = yes
+		}
+		available = {
+			FRA = { is_ai = NO }
+			has_capitulated = yes
+		}
+
+		fire_only_once = yes
+		days_remove = -1
+		
+		complete_effect = {
+			hidden_effect = {
+		        random_country = {
+			        limit = {
+					tag = USA
+			        }
+        change_tag_from = FRA
+				}
+			}
+		}
+	}
+}

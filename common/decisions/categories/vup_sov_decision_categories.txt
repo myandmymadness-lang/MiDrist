@@ -1,0 +1,12 @@
+SOV_annex = {
+	
+	icon = military_operation
+	
+	picture = generic_army_support
+	
+	allowed = {
+		original_tag = SOV
+	}
+	priority = 100
+}
+

@@ -1,0 +1,82 @@
+
+add_namespace = jap_imperial_undustrial
+
+country_event = { 
+    id = jap_imperial_undustrial.1  
+    desc = jap_imperial_undustrial.1.t
+    title = jap_imperial_undustrial.1.d
+    
+     
+    trigger = { 
+        tag = JAP 
+        has_completed_focus =  JAP_the_proma_project
+        
+
+
+    }
+	
+	
+    mean_time_to_happen = { 
+        days = 1 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+		name = jap_imperial_undustrial.a
+
+        complete_national_focus = JAP_the_manchurian_project1
+        set_global_flag = JAP_special_china_war
+
+	}
+    option = {
+		name = jap_imperial_undustrial.b
+		complete_national_focus = JAP_the_Korean_project
+	}
+}
+
+add_namespace = jap_imperial_undustrial_debaf
+
+country_event = { 
+    id = jap_imperial_undustrial_debaf.1  
+    desc = jap_imperial_undustrial_debaf.1.t
+    title = jap_imperial_undustrial_debaf.1.d
+    
+     
+    trigger = { 
+        tag = JAP 
+        CHI = {
+			exists = no
+		}
+
+        custom_trigger_tooltip = {
+					has_global_flag = JAP_special_china_war
+				}
+			
+				has_global_flag = JAP_special_china_war
+
+
+    }
+	
+	
+    mean_time_to_happen = { 
+        days = 1 
+    }
+	
+	
+    is_triggered_only = no
+    fire_only_once = yes
+    timeout_days = 30 
+    hidden = no 
+
+    option = {
+		name = jap_imperial_undustrial_debaf.a
+        add_ideas = {
+            JAP_debaf_undustrial_china1
+        }
+	}
+}

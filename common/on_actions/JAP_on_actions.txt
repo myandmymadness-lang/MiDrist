@@ -1,0 +1,52 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = { 
+                    has_xiroxito = yes
+                }
+                set_variable = { imperial = 10 }
+                set_variable = { imperial_rate = 0 }
+                set_variable = { imperial_max = 250 }
+            }
+		}
+	}
+
+    on_weekly = {
+		effect = {
+            if = {
+				limit = { 
+                    has_xiroxito = yes
+                }
+
+                
+
+
+                
+                
+                add_to_variable = { imperial = imperial_rate }
+				
+                clamp_variable = { var = imperial min = 0 max = imperial_max }
+			}
+
+
+            if = { 
+                limit = {
+                    has_The_Emperors_Benefit1 = yes
+                }
+                set_variable = { imperial_rate = 2.50 }
+            }
+
+             if = { 
+                limit = {
+                    has_The_Emperors_Benefit2 = yes
+                }
+                set_variable = { imperial_rate = 5 }
+            }
+        }
+    }
+
+
+}
+

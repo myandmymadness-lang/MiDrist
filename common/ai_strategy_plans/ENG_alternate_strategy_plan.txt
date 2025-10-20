@@ -1,0 +1,404 @@
+ENG_alternate_democratic_plan = {
+	name = "United Kingdom Anti-German Interventionist Democratic plan"
+	desc = "UK comes after the continental warmongerers. No more appeasement!"
+
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		OR = {
+			AND = {
+				has_completed_focus = ENG_steady_as_she_goes
+				NOT = { has_completed_focus = ENG_home_defence }
+				GER = { has_war = yes }
+				GER = { has_government = fascism }
+			}
+			OR = {
+				has_country_flag = ENG_AI_RANDOM_DEMOCRATIC_ALTERNATE
+				has_game_rule = {
+					rule = ENG_ai_behavior 
+					option = DEMOCRATIC_ALTERNATE
+				}
+			}
+		}
+	}
+	abort = {
+
+	}
+
+	ai_national_focuses = {
+		limited_rearmament_focus
+		shadow_scheme_focus
+		air_defense_focus
+		radar_focus
+		uk_industrial_focus
+		ENG_steady_as_she_goes
+		general_rearmament_focus
+		royal_ordinance_focus
+		uk_small_arms_focus
+		uk_extra_tech_slot
+		uk_empire_focus
+		#March 10 1936	
+		#May 20 1936	
+		#July 30 1936	
+		#October 10 1936
+		#October 10 1936	
+		#December 20 1936	
+		#February 30 1937	
+		#May 10 1937	
+		#July 20 1937	
+		#September 30 1937	
+		#December 10 1937
+		#February 20 1938	
+		#April 30 1938	
+		#July 10 1938	
+		#September 20 1938
+		#November 30 1938
+		#February 10 1939	
+		#April 20 1939	
+		#June 30 1939
+		#September 10 1939	
+		#November 20 1939	
+		#January 30 1940
+		#April 10 1940
+		#June 20 1940	
+		#August 30 1940
+		#November 10 1940
+		#January 20 1941	
+		#March 30 1941	
+		#June 10 1941
+		#August 20 1941
+		#October 30 1941	
+		#January 10
+		#March 20 1942
+		#May 30 1942	
+		#August 10 1942
+		#October 20 1942	
+		#December 30 1942	
+		#March 10 1943
+		#May 20 1943	
+		#July 30 1943	
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+
+ENG_alternate_communist_plan = {
+	name = "United Kingdom Communist plan"
+	desc = "UK becomes communist and will spread the Revolution!"
+
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		OR = {
+			has_country_flag = ENG_AI_RANDOM_COMMUNIST
+			has_game_rule = {
+				rule = ENG_ai_behavior 
+				option = COMMUNIST
+			}
+		}
+	}
+	abort = {
+
+	}
+
+	ai_national_focuses = {
+		limited_rearmament_focus
+		shadow_scheme_focus
+		air_defense_focus
+		radar_focus
+		uk_industrial_focus
+		general_rearmament_focus
+		royal_ordinance_focus
+		uk_small_arms_focus
+		uk_extra_tech_slot
+		air_rearmament_focus
+		fighter_command_focus
+		aircraft_production_focus
+		#March 10 1936	
+		#May 20 1936	
+		#July 30 1936	
+		#October 10 1936
+		#October 10 1936	
+		#December 20 1936	
+		#February 30 1937	
+		#May 10 1937	
+		#July 20 1937	
+		#September 30 1937	
+		#December 10 1937
+		#February 20 1938	
+		#April 30 1938	
+		#July 10 1938	
+		#September 20 1938
+		#November 30 1938
+		#February 10 1939	
+		#April 20 1939	
+		#June 30 1939
+		#September 10 1939	
+		#November 20 1939	
+		#January 30 1940
+		#April 10 1940
+		#June 20 1940	
+		#August 30 1940
+		#November 10 1940
+		#January 20 1941	
+		#March 30 1941	
+		#June 10 1941
+		#August 20 1941
+		#October 30 1941	
+		#January 10
+		#March 20 1942
+		#May 30 1942	
+		#August 10 1942
+		#October 20 1942	
+		#December 30 1942	
+		#March 10 1943
+		#May 20 1943	
+		#July 30 1943	
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+
+ENG_alternate_unaligned_plan = {
+	name = "United Kingdom Monarchist plan"
+	desc = "UK becomes an authoritarian monarchy and will reconquer the Empire!"
+
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		OR = {
+			has_country_flag = ENG_abdication_crisis_morganatic_marriage
+			has_country_flag = ENG_abdication_crisis_normal_marriage
+			has_country_flag = ENG_AI_RANDOM_NEUTRALITY
+			has_game_rule = {
+				rule = ENG_ai_behavior
+				option = NEUTRALITY
+			}
+		}
+	}
+	abort = {
+
+	}
+
+	ai_national_focuses = {
+		limited_rearmament_focus
+		shadow_scheme_focus
+		air_defense_focus
+		radar_focus
+		uk_industrial_focus
+		general_rearmament_focus
+		royal_ordinance_focus
+		uk_small_arms_focus
+		uk_extra_tech_slot
+		uk_empire_focus
+		uk_service_focus
+		uk_colonial_focus
+		uk_asia_focus
+		uk_mediterranean_focus
+		ENG_motorized_focus
+		ENG_tank_focus
+		ENG_special_air_service
+		naval_rearmament_focus
+		ENG_chiefs_of_staff_committee
+		air_rearmament_focus
+		fighter_command_focus
+		aircraft_production_focus
+		#March 10 1936	
+		#May 20 1936	
+		#July 30 1936	
+		#October 10 1936
+		#October 10 1936	
+		#December 20 1936	
+		#February 30 1937	
+		#May 10 1937	
+		#July 20 1937	
+		#September 30 1937	
+		#December 10 1937
+		#February 20 1938	
+		#April 30 1938	
+		#July 10 1938	
+		#September 20 1938
+		#November 30 1938
+		#February 10 1939	
+		#April 20 1939	
+		#June 30 1939
+		#September 10 1939	
+		#November 20 1939	
+		#January 30 1940
+		#April 10 1940
+		#June 20 1940	
+		#August 30 1940
+		#November 10 1940
+		#January 20 1941	
+		#March 30 1941	
+		#June 10 1941
+		#August 20 1941
+		#October 30 1941	
+		#January 10
+		#March 20 1942
+		#May 30 1942	
+		#August 10 1942
+		#October 20 1942	
+		#December 30 1942	
+		#March 10 1943
+		#May 20 1943	
+		#July 30 1943	
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+
+ENG_alternate_fascist_plan = {
+	name = "United Kingdom Fascist plan"
+	desc = "UK becomes fascist and will reconquer the Empire!"
+
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		OR = {
+			has_country_flag = ENG_AI_RANDOM_FASCIST
+			has_game_rule = {
+				rule = ENG_ai_behavior 
+				option = FASCIST
+			}
+		}
+	}
+	abort = {
+
+	}
+
+	ai_national_focuses = {
+		limited_rearmament_focus
+		shadow_scheme_focus
+		air_defense_focus
+		radar_focus
+		uk_industrial_focus
+		general_rearmament_focus
+		royal_ordinance_focus
+		uk_small_arms_focus
+		uk_extra_tech_slot
+		uk_empire_focus
+		uk_service_focus
+		uk_colonial_focus
+		uk_asia_focus
+		uk_mediterranean_focus
+		ENG_motorized_focus
+		ENG_tank_focus
+		ENG_special_air_service
+		naval_rearmament_focus
+		ENG_chiefs_of_staff_committee
+		air_rearmament_focus
+		fighter_command_focus
+		aircraft_production_focus
+		#March 10 1936	
+		#May 20 1936	
+		#July 30 1936	
+		#October 10 1936
+		#October 10 1936	
+		#December 20 1936	
+		#February 30 1937	
+		#May 10 1937	
+		#July 20 1937	
+		#September 30 1937	
+		#December 10 1937
+		#February 20 1938	
+		#April 30 1938	
+		#July 10 1938	
+		#September 20 1938
+		#November 30 1938
+		#February 10 1939	
+		#April 20 1939	
+		#June 30 1939
+		#September 10 1939	
+		#November 20 1939	
+		#January 30 1940
+		#April 10 1940
+		#June 20 1940	
+		#August 30 1940
+		#November 10 1940
+		#January 20 1941	
+		#March 30 1941	
+		#June 10 1941
+		#August 20 1941
+		#October 30 1941	
+		#January 10
+		#March 20 1942
+		#May 30 1942	
+		#August 10 1942
+		#October 20 1942	
+		#December 30 1942	
+		#March 10 1943
+		#May 20 1943	
+		#July 30 1943	
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
