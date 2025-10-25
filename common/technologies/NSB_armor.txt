@@ -41,7 +41,6 @@ technologies = {
 			tank_gasoline_engine
 			tank_diesel_engine
 			tank_petrol_electric_engine
-			tank_cast_armor
 			tank_christie_suspension
 			tank_bogie_suspension
 			tank_interleaved_suspension
@@ -734,7 +733,7 @@ technologies = {
 						main_armament_slot = tank_medium_cannon_2
 						turret_type_slot = tank_medium_two_man_tank_turret
 						suspension_type_slot = tank_bogie_suspension
-						armor_type_slot = tank_welded_armor
+						armor_type_slot = tank_riveted_armor
 						engine_type_slot = tank_gasoline_engine
 						special_type_slot_1 = additional_machine_guns
 						special_type_slot_2 = additional_machine_guns
@@ -886,7 +885,7 @@ technologies = {
 						main_armament_slot = tank_medium_cannon_2
 						turret_type_slot = tank_medium_three_man_tank_turret
 						suspension_type_slot = tank_bogie_suspension
-						armor_type_slot = tank_welded_armor
+						armor_type_slot = tank_riveted_armor
 						engine_type_slot = tank_gasoline_engine
 						special_type_slot_1 = secondary_turret_hmg
 						special_type_slot_2 = additional_machine_guns
@@ -1386,9 +1385,7 @@ technologies = {
 	}
 
 	armor_tech_1 = {
-		enable_equipment_modules = {
-			tank_welded_armor
-		}
+	
 
 		path = {
 			leads_to_tech = armor_tech_2

@@ -568,7 +568,7 @@ focus_tree = {
                         engine_type_slot=tank_gasoline_engine
                         turret_type_slot=tank_light_two_man_tank_turret
                         suspension_type_slot=tank_christie_suspension
-                        armor_type_slot=tank_welded_armor
+                        armor_type_slot=tank_riveted_armor
                     }
                     
                     model = "SOV_light_armor_entity"

@@ -9,10 +9,17 @@ technologies = {
 		mountaineers_special_forces_contribution_factor = -0.25
 		category_mountaineers = {
 			supply_consumption = -0.02
+			
+			#####
+			
+			max_organisation = 2
+			soft_attack = 0.02
 		}
-		category_special_forces = {
-			soft_attack = 0.05
-		}
+		#category_special_forces = {
+			#max_organisation = 5
+			#soft_attack = 0.05
+		#}
+		
 		enable_subunits = {
 			rangers_support
 		}		
@@ -51,7 +58,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#mountaineers_tech
+			mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -89,11 +96,11 @@ technologies = {
 		xor = { rangers }
 		
 		rangers_support = {
-			acclimatization_cold_climate_gain_factor = 0.25
+			acclimatization_cold_climate_gain_factor = 0.5
 			snow = {
-				attack = 0.15
-				defence = 0.20
-				movement = 0.15
+				attack = 0.1
+				defence = 0.1
+				movement = 0.1
 			}
 		}
 		
@@ -102,7 +109,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			#mountaineers_tech
+			mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -147,7 +154,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			#mountaineers_tech
+			mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -172,7 +179,15 @@ technologies = {
 		
 		category_mountaineers = {
 			initiative = 0.01
+			
+			#####
+			
+			experience_loss_factor = -0.03
+			
+			#####
 		}
+		#unit_mountaineers_design_cost_factor = -0.50
+		#unit_rangers_support_design_cost_factor = -0.50
 		
 		force_use_small_tech_layout = yes
 		
@@ -191,7 +206,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			#mountaineers_tech
+			mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -216,12 +231,24 @@ technologies = {
 		
 		force_use_small_tech_layout = yes
 		
-		category_mountaineers = {
-			defense = 0.05
+		#category_mountaineers = {
+			#defense = 0.10
+		#}
+		#mountaineers = {
+			#combat_width = -0.2
+		#}
+		
+		#####
+		
+		rangers_support = {
+
+			battalion_mult = {
+				category = category_mountaineers
+				breakthrough = 0.15
+			}
 		}
-		mountaineers = {
-			combat_width = -0.2
-		}
+		
+		#####
 		
 		path = {
 			leads_to_tech = mountaineers_combat_3
@@ -235,7 +262,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			#mountaineers_tech
+			mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -265,18 +292,34 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		artillery = {
-			battalion_mult = {
-				category = category_mountaineers
-				breakthrough = 0.15
-			}
-		}
+		#artillery = {
+			#battalion_mult = {
+				#category = category_mountaineers
+				#breakthrough = 0.15
+			#}
+		#}
 		
 		rangers_support = {
 			battalion_mult = {
 				category = category_line_artillery
-				soft_attack = 0.20
+				soft_attack = 0.15
+				
+				#####
+				
+				hard_attack = 0.1
+				default_morale = 0.1
+				
+				#####
 			}
+			
+			#####
+			
+			battalion_mult = {
+				category = category_mountaineers
+				default_morale = 0.15
+			}
+			
+			#####
 		}
 		
 		xor = { mountaineers_combat_1 }
@@ -286,7 +329,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			#mountaineers_tech
+			mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -310,8 +353,7 @@ technologies = {
 		xp_unlock_cost = 60
 		
 		category_mountaineers = {
-			supply_consumption = -0.02
-			defense = 0.05
+			max_organisation = 10
 		}
 		
 		force_use_small_tech_layout = yes
@@ -331,7 +373,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			#mountaineers_tech
+			mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -357,10 +399,22 @@ technologies = {
 		force_use_small_tech_layout = yes
 		
 		category_mountaineers = {
-			soft_attack = 0.10
+			#soft_attack = 0.10
+			
+			#####
+			
+			max_strength = 0.5
+			
+			#####
 		}
 		
-		mountaineers_special_forces_contribution_factor = -0.25
+		#####
+		
+		special_forces_cap = 0.02
+		
+		#####
+		
+		mountaineers_special_forces_contribution_factor = -0.1
 		special_forces_training_time_factor = -0.20
 		
 		xor = { mountaineers_keystone_2 }
@@ -370,7 +424,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			#mountaineers_tech
+			mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -393,11 +447,44 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 60
 		
-		special_forces_cap = 0.06
-		special_forces_out_of_supply_factor = -0.1
-		special_forces_attack_factor = 0.05
+		#special_forces_cap = 0.06
+		#special_forces_out_of_supply_factor = -0.1
+		#special_forces_attack_factor = 0.10
 		acclimatization_hot_climate_gain_factor = 0.10
 		acclimatization_cold_climate_gain_factor = 0.10
+		
+		
+		#####
+		
+		mountaineers = {
+			combat_width = -0.1
+			experience_loss_factor = -0.03
+			max_strength = -0.5
+		}
+		
+		rangers_support = {
+			battalion_mult = {
+				category = category_mountaineers
+				breakthrough = 0.15
+			}
+		}
+		
+		field_hospital = {
+			battalion_mult = {
+				category = category_mountaineers
+				default_morale = 0.1
+				max_organisation = 0.05
+			}
+		}
+		
+		signal_company = {
+			battalion_mult = {
+				category = category_mountaineers
+				default_morale = 0.15
+			}
+		}
+		
+		#####
 		
 		force_use_small_tech_layout = yes
 
@@ -408,7 +495,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			#mountaineers_tech
+			mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -459,12 +546,21 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		marines_special_forces_contribution_factor = -0.25
+		#marines_special_forces_contribution_factor = -0.25
 		naval_invasion_capacity = 5
-		category_special_forces = {
-			max_organisation = 5
+		#category_special_forces = {
+			#max_organisation = 5
+			#soft_attack = 0.05
+		#}
+		
+		#####
+		
+		marine = {
 			soft_attack = 0.05
+			max_organisation = 5
 		}
+		
+		#####
 		
 		enable_subunits = {
 			pioneer_support
@@ -475,7 +571,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#marine_tech
+			marine_tech
 			cat_marines_doctrine
 		}
 
@@ -515,8 +611,8 @@ technologies = {
 		pioneer_support = {
 			jungle = {
 				attack = 0.15
-				defence = 0.10
-				movement = 0.10
+				defence = 0.05
+				movement = 0.05
 			}
 		}
 		
@@ -530,7 +626,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#marine_tech
+			marine_tech
 			cat_marines_doctrine
 		}
 
@@ -565,9 +661,9 @@ technologies = {
 		
 		pioneer_support = {
 			amphibious = {
-				attack = 0.25
-				defence = 0.15
-				movement = 0.20
+				attack = 0.20
+				defence = 0.1
+				movement = 0.05
 			}
 		}
 		
@@ -576,7 +672,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#marine_tech
+			marine_tech
 			cat_marines_doctrine
 		}
 
@@ -611,6 +707,8 @@ technologies = {
 			leads_to_tech = marines_expeditionary 
 			research_cost_coeff = 1
 		}
+		
+		unit_marine_design_cost_factor = -0.50
 
 		marine = {
 			max_organisation = 5
@@ -621,7 +719,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#marine_tech
+			marine_tech
 			cat_marines_doctrine
 		}
 
@@ -652,6 +750,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		xor = { marines_expeditionary }
+		
 		enable_subunits = {
 			marine_commando
 		}
@@ -668,7 +768,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#marine_tech
+			marine_tech
 			cat_marines_doctrine
 		}
 
@@ -698,18 +798,27 @@ technologies = {
 			leads_to_tech = marines_expeditionary_blowtorch 
 			research_cost_coeff = 1
 		}
-
-		special_forces_cap = 0.06
-		naval_invasion_planning_bonus_speed = 0.2
 		
-		army_bonus_air_superiority_factor = 0.10
+		xor = { marines_commandoes }
+
+		special_forces_cap = 0.02
+		#naval_invasion_planning_bonus_speed = 0.2
+		
+		#army_bonus_air_superiority_factor = 0.10
+		
+		#####
+		
+		shore_bombardment_bonus = 0.1
+		marines_special_forces_contribution_factor = -0.15
+		
+		#####
 		
 		doctrine = yes	
 		research_cost = 2.25
 		
 		categories = {
 			special_forces_doctrine
-			#marine_tech
+			marine_tech
 			cat_marines_doctrine
 		}
 
@@ -746,7 +855,15 @@ technologies = {
 		}
 		
 		marine_commando = {
-			breakthrough = 0.15
+			breakthrough = 0.25
+			
+			#####
+			
+			experience_loss_factor = -0.1
+			soft_attack = 0.25
+			
+			#####
+			
 		}
 		
 		doctrine = yes	
@@ -754,7 +871,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#marine_tech
+			marine_tech
 			cat_marines_doctrine
 		}
 		
@@ -793,20 +910,29 @@ technologies = {
 		pioneer_support = {
 			battalion_mult = {
 				category = category_line_artillery
-				max_organisation = 2
+				max_organisation = 5
 				add = yes
 			}
 		}
 		
 		shore_bombardment_bonus = 0.15
-		special_forces_attack_factor = 0.05
-			
+		#special_forces_attack_factor = 0.10
+		
+		#####
+		
+		marine = {
+			max_organisation = 5
+			soft_attack = 0.02
+		}
+		
+		#####
+		
 		doctrine = yes	
 		research_cost = 2.25
 		
 		categories = {
 			special_forces_doctrine
-			#marine_tech
+			marine_tech
 			cat_marines_doctrine
 		}
 
@@ -834,16 +960,55 @@ technologies = {
 		allow_branch = { has_dlc = "Man the Guns" }
 		
 		amphibious_mechanized = {
-			 breakthrough = 0.1
+			#soft_attack = 0.1
+			breakthrough = 0.1
+			max_organisation = 5
 		}
 		
 		pioneer_support = {
 			battalion_mult = {
 				category = category_amphibious_tanks
-				armor = 0.15
-				breakthrough = 0.15
+				#armor = 0.15
+				breakthrough = 0.1
+			}
+			
+			#####
+			
+			battalion_mult = {
+				category = category_marines
+				breakthrough = 0.1
+			}
+			
+			#####
+		}
+		
+		#####
+		
+		field_hospital = {
+		    battalion_mult = {
+				category = category_amphibious_tanks
+				max_organisation = 0.1
+			}
+			battalion_mult = {
+				category = category_marines
+				max_organisation = 0.25
 			}
 		}
+		
+		signal_company = {
+			battalion_mult = {
+				category = category_amphibious_tanks
+				max_organisation = 0.2
+			}
+			battalion_mult = {
+				category = category_marines
+				hard_attack = 0.5
+				max_organisation = 0.1
+				supply_consumption = -0.1
+			}
+		}
+		
+		#####
 		
 		
 		on_research_complete = {
@@ -855,7 +1020,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#marine_tech
+			marine_tech
 			cat_marines_doctrine
 		}
 
@@ -882,14 +1047,14 @@ technologies = {
 		force_use_small_tech_layout = yes
 		allow_branch = { not = { has_dlc = "Man the Guns" } }
 		
-		special_forces_attack_factor = 0.15
+		special_forces_attack_factor = 0.05
 		
 		doctrine = yes	
 		research_cost = 2.25
 		
 		categories = {
 			special_forces_doctrine
-			#marine_tech
+			marine_tech
 			cat_marines_doctrine
 		}
 
@@ -918,21 +1083,21 @@ technologies = {
 		artillery = {
 			 battalion_mult = {
 				category = category_marines
-				defense = 0.05
+				defense = 0.02
 			}
 		}
 		
 		anti_air = {
 			 battalion_mult = {
 				category = category_marines
-				defense = 0.05
+				defense = 0.02
 			}
 		}
 		
 		anti_tank = {
 			 battalion_mult = {
 				category = category_marines
-				defense = 0.05
+				defense = 0.02
 			}
 		}
 
@@ -944,7 +1109,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#marine_tech
+			marine_tech
 			cat_marines_doctrine
 		}
 
@@ -975,14 +1140,22 @@ technologies = {
 		
 		#xor = { special_forces_mountaineers special_forces_marines } 
 	
-		paratroopers_special_forces_contribution_factor = -0.10
+		#paratroopers_special_forces_contribution_factor = -0.10
 		transport_plane = {
 			air_defence = 0.20
 		}
-		category_special_forces = {
+		#category_special_forces = {
+			#max_organisation = 5
+			#soft_attack = 0.05
+		#}
+		
+		#####
+		
+		category_paratroopers = {
 			max_organisation = 5
-			soft_attack = 0.05
 		}
+		
+		#####
 		
 		allow = { 
 			AND = {
@@ -1010,7 +1183,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#para_tech
+			para_tech
 			cat_paratroopers_doctrine
 		}
 
@@ -1059,7 +1232,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#para_tech
+			para_tech
 			cat_paratroopers_doctrine
 		}
 		
@@ -1084,7 +1257,7 @@ technologies = {
 		
 		force_use_small_tech_layout = yes
 		
-		xor = { paras_dispersed_drop }
+		#xor = { paras_dispersed_drop }
 		
 		path = {
 			leads_to_tech = paras_airborne_light_armor
@@ -1102,7 +1275,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#para_tech
+			para_tech
 			cat_paratroopers_doctrine
 		}
 		
@@ -1150,7 +1323,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#para_tech
+			para_tech
 			cat_paratroopers_doctrine
 		}
 		
@@ -1180,19 +1353,53 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		xor = { paras_combat_2 }
+		
+		#####
+		
+		category_paratroopers = {
+			supply_consumption = 0.02
+			max_strength = -1
+		}
+		
+		#####
+		
 		signal_company = {
 			battalion_mult = {
 				category = category_paratroopers
 				defense = 0.15
+				
+				#####
+				
+				breakthrough = 0.15
+				
+				#####
 			}
 		}
-			
+		
+		#####
+		
+		field_hospital = {
+			battalion_mult = {
+				category = category_paratroopers
+				default_morale = 0.2
+			}
+		}
+		pioneer_support = {
+			battalion_mult = {
+				category = category_paratroopers
+				breakthrough = 0.15
+			}
+		}
+		
+		#####
+		
 		doctrine = yes	
 		research_cost = 2.25
 		
 		categories = {
 			special_forces_doctrine
-			#para_tech
+			para_tech
 			cat_paratroopers_doctrine
 		}
 
@@ -1223,19 +1430,31 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		field_hospital = {
-			battalion_mult = {
-				category = category_paratroopers
-				default_morale = 0.15
-			}
+		#field_hospital = {
+			#battalion_mult = {
+				#category = category_paratroopers
+				#default_morale = 0.15
+			#}
+		#}
+		
+		#####
+		
+		category_paratroopers = {
+			experience_loss_factor = -0.03
 		}
+		
+		special_forces_no_supply_grace = 24
+		
+		#####
+		
+		xor = { paras_combat_1 }
 		
 		doctrine = yes	
 		research_cost = 2.25
 		
 		categories = {
 			special_forces_doctrine
-			#para_tech
+			para_tech
 			cat_paratroopers_doctrine
 		}
 
@@ -1279,7 +1498,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#para_tech
+			para_tech
 			cat_paratroopers_doctrine
 		}
 
@@ -1318,7 +1537,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#para_tech
+			para_tech
 			cat_paratroopers_doctrine
 		}
 
@@ -1345,8 +1564,14 @@ technologies = {
 		force_use_small_tech_layout = yes
 		
 		category_paratroopers = {
-			soft_attack = 0.15
+			soft_attack = 0.1
 			breakthrough = 0.15
+			
+			#####
+			
+			max_strength = -1
+			
+			#####
 		}
 		
 		special_forces_training_time_factor = 0.20
@@ -1356,7 +1581,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#para_tech
+			para_tech
 			cat_paratroopers_doctrine
 		}
 
@@ -1382,16 +1607,24 @@ technologies = {
 		
 		force_use_small_tech_layout = yes
 		
-		paratroopers_special_forces_contribution_factor = -0.20
-		special_forces_training_time_factor = -0.10
-		special_forces_attack_factor = 0.05
-			
+		#paratroopers_special_forces_contribution_factor = -0.20
+		special_forces_training_time_factor = -0.20
+		special_forces_attack_factor = 0.02
+		
+		#####
+		
+		category_paratroopers = {
+			max_strength = 1
+		}
+		
+		#####
+		
 		doctrine = yes	
 		research_cost = 2.25
 		
 		categories = {
 			special_forces_doctrine
-			#para_tech
+			para_tech
 			cat_paratroopers_doctrine
 		}
 
@@ -1409,5 +1642,4 @@ technologies = {
 			#artillery = 4.0
 		}
 	}
-	
 }

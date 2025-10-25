@@ -85,46 +85,11 @@ equipment_modules = {
 		xp_cost = 0
 		multiply_stats = {
 			build_cost_ic = 0
-
+	armor_value = 0.4
 		}
 	}
 
-	tank_cast_armor = {
-		abbreviation = "cas"
-		category = tank_armor_type
-		sfx = sfx_ui_sd_module_sonar
 
-		add_stats = {
-			defense = 6
-			breakthrough = 8
-		}
-		dismantle_cost_ic = 1
-		xp_cost = 0
-		multiply_stats = {
-				build_cost_ic = 0.1
-			armor_value = 0.50
-		}
-	}
-
-	tank_welded_armor = {
-		abbreviation = "wel"
-		category = tank_armor_type
-		sfx = sfx_ui_sd_module_sonar
-		xp_cost = 0
-
-		add_stats = {
-			defense = 4
-			breakthrough = 5
-		}
-		dismantle_cost_ic = 1
-		xp_cost = 0
-		multiply_stats = {
-			build_cost_ic = 0.05
-			armor_value = 0.3
-		}
-
-		
-	}
 
 	NOR_tank_rikstanken_armor = { # Rikstanken Armor
 		abbreviation = "msa"
@@ -302,41 +267,6 @@ equipment_modules = {
 
 	}
 
-	tank_light_fixed_superstructure_turret = {
-		abbreviation = "lfs"
-		category = tank_light_turret_type
-		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = { anti_air amphibious   }
-
-		allowed_module_categories = {
-			main_armament_slot = {
-				tank_medium_main_armament
-			}
-		}
-		forbid_equipment_type_exact_match_for_category = {
-			tank_medium_main_armament = armor
-			tank_heavy_main_armament = armor
-			tank_super_heavy_main_armament = armor
-		}
-
-		xp_cost = 0
-		dismantle_cost_ic = 0.5
-		add_stats = {
-			build_cost_ic = 0.75
-			reliability = 0.2
-			defense = 3
-			
-		}
-
-		multiply_stats = {
-			breakthrough = -0.25
-		}
-
-		can_convert_from = {
-			module_category = tank_light_turret_type
-			convert_cost_ic = 0.75
-		}
-	}
 
 	tank_medium_one_man_tank_turret = {
 		abbreviation = "m1m"
@@ -875,7 +805,8 @@ equipment_modules = {
 
 		add_stats = {
 			soft_attack = 25
-			hard_attack = 11
+			hard_attack = 9
+			defense = 10
 			ap_attack = 60
 			build_cost_ic = 3
 			maximum_speed = -0.2
@@ -903,8 +834,9 @@ equipment_modules = {
 		parent = tank_medium_cannon
 		dismantle_cost_ic = 1
 		add_stats = {
-			soft_attack = 37
-			hard_attack = 16
+			soft_attack = 35
+			hard_attack = 12
+			defense = 15
 			ap_attack = 90
 			build_cost_ic = 4
 			maximum_speed = -0.3
@@ -1044,7 +976,8 @@ equipment_modules = {
 
 		add_stats = {
 			soft_attack = 15
-			hard_attack = 22
+			hard_attack = 6
+			defense = 5
 			ap_attack = 68
 			build_cost_ic = 3
 			maximum_speed = -0.1
@@ -1069,8 +1002,9 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 25
-			hard_attack = 31
+			soft_attack = 41
+			hard_attack = 15
+			defense = 20
 			ap_attack = 125
 			build_cost_ic = 5
 			maximum_speed = -0.3
@@ -1122,8 +1056,9 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 25
-			hard_attack = 16
+			soft_attack = 20
+			hard_attack = 10
+			defense = 10
 			ap_attack = 90
 			build_cost_ic = 6
 			maximum_speed = -0.3
@@ -1149,8 +1084,9 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 		parent = tank_heavy_cannon
 		add_stats = {
-			soft_attack = 30
-			hard_attack = 31
+			soft_attack = 35
+			hard_attack = 15
+			defense = 17
 			ap_attack = 125
 			build_cost_ic = 7
 			maximum_speed = -0.4
@@ -1176,8 +1112,9 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 		parent = tank_heavy_cannon_2
 		add_stats = {
-			soft_attack = 35
-			hard_attack = 36
+			soft_attack = 45
+			hard_attack = 20
+			defense = 25
 			ap_attack = 170
 			build_cost_ic = 8
 			maximum_speed = -0.5
@@ -1361,7 +1298,7 @@ equipment_modules = {
 		add_stats = {
 			reliability = -0.1
 			soft_attack = 5
-			hard_attack = 3
+			hard_attack = 2
 			build_cost_ic = 4
 		}
 		xp_cost = 0

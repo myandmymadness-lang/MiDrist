@@ -3363,67 +3363,6 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = GER_salvage_captured_equipment
-		icon = GFX_focus_generic_tank_assembly
-		prerequisite = { focus = GER_the_prussian_legacy focus = GER_adopt_new_panzer_doctrine }
-
-		x = 3
-		y = 1
-		relative_position_id = GER_the_prussian_legacy
-		cost = 5
-		available = {
-			has_war_with_major = yes
-		}
-		continue_if_invalid = yes
-
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_MILITARY_CHARACTER FOCUS_FILTER_HISTORICAL }
-
-		completion_reward = {
-			random_owned_state = {
-				limit = {
-					is_controlled_by = ROOT
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			custom_effect_tooltip = available_military_high_command
-			show_ideas_tooltip = GER_alfred_becker
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			GER_modify_army_modifier = yes
-			add_to_variable = { 
-				GER_military_equipment_capture = 0.05
-				tooltip = equipment_capture_tt
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			GER_modify_industrial_modifier = yes
-			add_to_variable = { 
-				GER_industrial_equipment_conversion_speed = 0.1
-				tooltip = equipment_conversion_speed_tt
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			every_army_leader = {
-				limit = {
-					NOT = { has_trait = scavenger }
-				}
-				random_select_amount = 2
-				add_trait = { trait = scavenger }
-			}
-		}
-	}
 	
 	focus = {
 		id = GER_instill_auftragstaktik

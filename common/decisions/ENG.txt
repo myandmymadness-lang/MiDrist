@@ -381,73 +381,7 @@ ENG_triumph_in_Africa = {
 		}
 	}
 
-ENG_triumph_in_Africa_2 = {
 
-		icon = generic_air
-
-		available = {
-			OR = {
-			GER = { controls_state = 554 }
-			ROM = { controls_state = 554 }
-			ITA = { controls_state = 554 }
-			HUN = { controls_state = 554 }
-			}
-		}
-
-		visible = {
-			tag = ENG
-		}
-
-		days_mission_timeout = 1900
-		is_good = yes
-		fire_only_once = yes
-		activation = {
-			tag = ENG
-		}
-
-		complete_effect = {
-
-			
-		}
-
-		timeout_effect = {
-	ENG = {
-	set_country_flag = afrika_2_won
-			add_political_power = 150
-				add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
-			}
-			army_experience = 50
-			add_war_support = 0.05 }
-			CAN = {
-			army_experience = 50
-			add_war_support = 0.05
-			}
-			SAF = {
-			army_experience = 50
-			add_war_support = 0.05
-			}
-			RAJ = {
-			army_experience = 50
-			add_war_support = 0.05
-			}
-			AST = {
-			army_experience = 50
-			add_war_support = 0.05
-			}
-			
-		
-			#add_political_power = -10
-			
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 #ENG_host_CZE_exile_government = {
 	#

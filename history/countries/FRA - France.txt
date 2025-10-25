@@ -830,7 +830,7 @@ if = {
 			main_armament_slot = tank_small_cannon
 			turret_type_slot = tank_light_one_man_tank_turret
 			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_cast_armor
+			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
 		upgrades = {
@@ -868,7 +868,7 @@ if = {
 			main_armament_slot = tank_small_cannon_2
 			turret_type_slot = tank_medium_one_man_tank_turret
 			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_welded_armor
+			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			special_type_slot_1 = tank_radio_1
 		}
@@ -1392,7 +1392,7 @@ if = {
 				main_armament_slot = tank_small_cannon
 				turret_type_slot = tank_light_one_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
-				armor_type_slot = tank_welded_armor
+				armor_type_slot = tank_riveted_armor
 				engine_type_slot = tank_diesel_engine
 				special_type_slot_1 = sloped_armor
 
@@ -1412,7 +1412,7 @@ if = {
 				main_armament_slot = tank_small_cannon_2
 				turret_type_slot = tank_medium_two_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
-				armor_type_slot = tank_welded_armor
+				armor_type_slot = tank_riveted_armor
 				engine_type_slot = tank_gasoline_engine
 
 			}

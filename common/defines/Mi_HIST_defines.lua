@@ -1,5 +1,8 @@
-
-
+NDefines.NAir.DISRUPTION_FACTOR = 4 --4vanil
+NDefines.NAir.ESCORT_FACTOR = 5 -- VANILLA 2.0
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.015
+NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0
+NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.40
 NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.02
 --- Подлодочные дефайны спасибо сисилкалу
 
@@ -7,7 +10,7 @@ NDefines.NNavy.SUB_DETECTION_CHANCE_BASE = 8 -- (ванила 6)
 NDefines.NNavy.ESCAPE_SPEED_SUB_BASE = 0.04 -- Скорость отступления подлодок (0.08 - ванила)
 NDefines.NNavy.ESCAPE_SPEED_HIDDEN_SUB = 0.09 -- Скорость отступления невидимых подлодок (0.18 - ванила)
 NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.045	-- шанс на обнаружение при выпуске торпеды (единица это 100%)
-
+NDefines.NMilitary.PIERCING_THRESHOLD_DAMAGE_VALUES = { 1.00, 0.25, 0.25, 0.25 }
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.00125 --0.005 ---пво нерв 
 ---Макс цивок на 1 линию стройки
 NDefines.NProduction.MAX_CIV_FACTORIES_PER_LINE = 15
@@ -107,14 +110,19 @@ NDefines.NOperatives.AGENCY_CREATION_FACTORIES = 0					-- Number of factories us
 
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_NO_TRUCK_DISRUPTION_FACTOR = 0.1  --урон по грузовикам (ванила 0,2)
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_DAMAGE_FACTOR = 0.2 -- урон по грузовикам (ванила 0,5)
+NDefines.NMilitary.BASE_CHANCE_TO_AVOID_HIT = 95;               --  Шанс на промох 1 единицы атаки о защиту
+NDefines.NMilitary.CHANCE_TO_AVOID_HIT_AT_NO_DEF = 50;           --  Шанс на промох 1 единицы атаки если нет защиты
 
+NDefines.NMilitary.INITIATIVE_PICK_COUNTER_ADVANTAGE_FACTOR = 1;   -- было --  бонус % к шансу прока контр тактики за 1 единицу разведки 
 ---Аир
 NDefines.NAir.AIR_WING_MAX_STATS_ATTACK = 10000
 NDefines.NAir.AIR_WING_MAX_STATS_DEFENCE = 10000
 NDefines.NAir.AIR_WING_MAX_STATS_AGILITY = 10000
 NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 80000
-NDefines.NMilitary.AIR_SUPPORT_BASE = 0.45
+NDefines.NMilitary.AIR_SUPPORT_BASE = 0.5
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.0
+NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.0
 NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.4 ---размены в воздухе(ванила-1.0)
-
+NDefines.NAir.CAS_NIGHT_ATTACK_FACTOR = 0.5   
 
     NDefines.NProject.RECRUIT_SCIENTIST_COST = {0,0,0,0} ---ученые кост

@@ -2671,7 +2671,7 @@ focus_tree = {
 							main_armament_slot = tank_high_velocity_cannon_3
 							turret_type_slot = tank_medium_fixed_superstructure_turret
 							suspension_type_slot = tank_christie_suspension
-							armor_type_slot = tank_welded_armor
+							armor_type_slot = tank_riveted_armor
 							engine_type_slot = tank_diesel_engine
 							special_type_slot_1 = sloped_armor
 						}
@@ -2694,7 +2694,7 @@ focus_tree = {
 							main_armament_slot = tank_high_velocity_cannon_2
 							turret_type_slot = tank_medium_fixed_superstructure_turret
 							suspension_type_slot = tank_christie_suspension
-							armor_type_slot = tank_welded_armor
+							armor_type_slot = tank_riveted_armor
 							engine_type_slot = tank_diesel_engine
 							special_type_slot_1 = sloped_armor
 						}
@@ -2717,7 +2717,7 @@ focus_tree = {
 							main_armament_slot = tank_high_velocity_cannon
 							turret_type_slot = tank_medium_fixed_superstructure_turret
 							suspension_type_slot = tank_christie_suspension
-							armor_type_slot = tank_welded_armor
+							armor_type_slot = tank_riveted_armor
 							engine_type_slot = tank_diesel_engine
 							special_type_slot_1 = sloped_armor
 						}
@@ -2737,7 +2737,7 @@ focus_tree = {
 							main_armament_slot = tank_heavy_cannon
 							turret_type_slot = tank_medium_fixed_superstructure_turret
 							suspension_type_slot = tank_christie_suspension
-							armor_type_slot = tank_welded_armor
+							armor_type_slot = tank_riveted_armor
 							engine_type_slot = tank_diesel_engine
 							special_type_slot_1 = sloped_armor
 						}
