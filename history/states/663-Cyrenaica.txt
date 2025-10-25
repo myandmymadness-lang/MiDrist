@@ -9,9 +9,8 @@ state={
 		owner = ITA
 		buildings = {
 			infrastructure = 1
-air_base = 10
+		air_base = 10
 		}
-		add_core_of = LBA
 	}
 
 	provinces={

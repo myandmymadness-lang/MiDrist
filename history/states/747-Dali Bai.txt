@@ -13,9 +13,7 @@ state={
 			owner = BHU
 			add_core_of = BHU
 		}
-		add_core_of = YUN
 		add_core_of = CHI
-		add_core_of = PRC
 		victory_points = {
 			7965 3 
 		}

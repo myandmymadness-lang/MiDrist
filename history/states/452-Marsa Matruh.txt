@@ -9,9 +9,9 @@ state={
 	history={
 		owner = ENG
 		buildings = {
-air_base = 10
+			air_base = 10
 			infrastructure = 2
-10061 = {
+			10061 = {
 				naval_base = 5
 			}
 		}
@@ -23,8 +23,6 @@ air_base = 10
 		victory_points = {
 			9989 1 #Sidi Barrani
 		}
-
-		add_core_of = EGY
 	}
 
 	provinces={
