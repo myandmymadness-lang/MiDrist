@@ -43,44 +43,7 @@ sabotaged_resources = {
 	temporary_state_resource_chromium = sabotaged_chromium
 }
 
-autonomous_state = {
-	enable = { always = yes }
 
-	icon = GFX_modifiers_sabotaged_resource
-	
-	recruitable_population_factor = -0.5
-	local_building_slots_factor = -0.25
-	state_resources_factor = -0.25
-	state_production_speed_buildings_factor = -0.25
-	remove_trigger = {
-		OWNER = { 
-			OR = {
-				original_tag = CAT 
-				original_tag = GLC 
-				original_tag = BAS 
-			}
-		}
-	}
-}
-
-semi_autonomous_state = {
-	enable = { always = yes }
-
-	icon = GFX_modifiers_sabotaged_resource
-	
-	local_building_slots_factor = -0.25
-	state_resources_factor = -0.25
-	state_production_speed_buildings_factor = -0.25
-	remove_trigger = {
-		OWNER = { 
-			OR = {
-				original_tag = CAT 
-				original_tag = GLC 
-				original_tag = BAS 
-			}
-		}
-	}
-}
 
 kurdish_agitation = {
 	enable = { always = yes }
