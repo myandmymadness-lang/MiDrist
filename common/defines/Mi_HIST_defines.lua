@@ -137,6 +137,9 @@ NDefines.NAir.ESCORT_FACTOR = 5 -- VANILLA 2.0 ---касы влетают под
 NDefines.NAir.CAS_NIGHT_ATTACK_FACTOR = 0.5  
 NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_ACCIDENT_FACTOR = 0.00 ---самолетики не могут получить ранение на тренировке 
 
+---жд
+NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN = 3
+
 ---Общий левел обученности аира
 NDefines.NAir.AIR_WING_XP_TRAINING_MAX = 2.0
 NDefines.NAir.AIR_WING_XP_MAX = 0

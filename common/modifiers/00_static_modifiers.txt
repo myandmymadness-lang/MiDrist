@@ -39,22 +39,7 @@ weather_snow = { # on Region
 	
 }
 weather_blizzard = { # on Region
-	air_accidents = 0.3
-	air_bombing_targetting = -0.7
-	air_detection = -0.3
-	air_mission_efficiency = -0.3
-	carrier_traffic = -1.0
-	local_org_regain = -0.1
-	naval_detection = -0.3
-	naval_hit_chance = -0.1
-	naval_retreat_speed = 0.15
-	naval_speed_factor = -0.1
-	naval_strike = -0.4
-	org_loss_when_moving = 0.25
-	positioning = -0.2
-	supply_consumption_factor = 0.15
-	supply_factor = -0.25
-	truck_attrition_factor = 1.0
+	
 }
 weather_sandstorm = { # on Region
 	air_accidents = 0.6
@@ -76,12 +61,7 @@ weather_arctic_water = { # on Region
 }
 
 weather_mud = { # on Province
-	army_attack_factor = -0.5
-	army_speed_factor = -0.5
-	attrition = 0.7
-	org_loss_when_moving = 0.25
-	supply_factor = -0.15
-	truck_attrition_factor = 5.0
+	
 }
 weather_extreme_cold = { # on Province
 	army_attack_factor = -0.7
@@ -93,8 +73,8 @@ weather_extreme_cold = { # on Province
 	winter_attrition = 0.25
 }
 weather_very_cold = { # on Province
-	army_attack_factor = -0.5
-	breakthrough_factor = -0.5
+	army_attack_factor = -0.4
+	breakthrough_factor = -0.4
 	dig_in_speed_factor = -0.3
 	winter_attrition = 0.25
 	local_org_regain = -0.05

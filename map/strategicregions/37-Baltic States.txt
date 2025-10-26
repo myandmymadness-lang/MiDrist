@@ -7,8 +7,8 @@ strategic_region={
 	}
 	weather={
 		period={
-			between={ 0.0 30.0 }
-			temperature={ -21.0 4.0 }
+			between={ 0.0 30.0 } #Январь жеская зима
+			temperature={ -35.0 -20.0 }
 			no_phenomenon=0.400
 			rain_light=0.100
 			rain_heavy=0.020
@@ -20,8 +20,8 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			between={ 0.1 27.1 }
-			temperature={ -20.0 5.0 }
+			between={ 0.1 27.1 }  #Февраль мягкая зима
+			temperature={ -12.0 -4.0 }
 			no_phenomenon=0.350
 			rain_light=0.100
 			rain_heavy=0.020
@@ -33,8 +33,8 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			between={ 0.2 30.2 }
-			temperature={ -14.0 8.0 }
+			between={ 0.2 15.2 } #Пол марта мягкая зима
+			temperature={ -12.0 -4.0 }
 			no_phenomenon=0.350
 			rain_light=0.200
 			rain_heavy=0.050
@@ -46,8 +46,21 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			between={ 0.3 29.3 }
-			temperature={ -4.0 14.0 }
+			between={ 16.2 30.2 } #Пол марта зима слетает
+			temperature={ -12.0 -4.0 }
+			no_phenomenon=0.350
+			rain_light=0.200
+			rain_heavy=0.050
+			snow=0.200
+			blizzard=0.000
+			arctic_water=0.000
+			mud=1.000
+			sandstorm=0.000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.3 29.3 } #Нет зима 
+			temperature={ 0.0 14.0 }
 			no_phenomenon=0.520
 			rain_light=0.300
 			rain_heavy=0.100
@@ -59,7 +72,7 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			between={ 0.4 30.4 }
+			between={ 0.4 30.4 } #Нет зима
 			temperature={ 3.0 20.0 }
 			no_phenomenon=0.500
 			rain_light=0.300
@@ -72,7 +85,7 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			between={ 0.5 29.5 }
+			between={ 0.5 29.5 } #Нет зима
 			temperature={ 7.0 23.0 }
 			no_phenomenon=0.480
 			rain_light=0.300
@@ -85,7 +98,7 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			between={ 0.6 30.6 }
+			between={ 0.6 30.6 } #Нет зима
 			temperature={ 10.0 25.0 }
 			no_phenomenon=0.480
 			rain_light=0.300
@@ -98,7 +111,7 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			between={ 0.7 30.7 }
+			between={ 0.7 30.7 } #Нет зима
 			temperature={ 8.0 25.0 }
 			no_phenomenon=0.470
 			rain_light=0.300
@@ -111,7 +124,7 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			between={ 0.8 29.8 }
+			between={ 0.8 29.8 } #Нет зима
 			temperature={ 4.0 20.0 }
 			no_phenomenon=0.470
 			rain_light=0.350
@@ -124,8 +137,8 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			between={ 0.9 30.9 }
-			temperature={ -3.0 14.0 }
+			between={ 0.9 30.9 } #Октябрь мягкая зима
+			temperature={ -12.0 -4.0 }
 			no_phenomenon=0.400
 			rain_light=0.250
 			rain_heavy=0.150
@@ -137,8 +150,8 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			between={ 0.10 29.10 }
-			temperature={ -9.0 10.0 }
+			between={ 0.10 10.10 } #Пол ноября мягкая зима
+			temperature={ -12.0 -4.0 }
 			no_phenomenon=0.350
 			rain_light=0.200
 			rain_heavy=0.050
@@ -150,8 +163,21 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			between={ 0.11 30.11 }
-			temperature={ -13.0 6.0 }
+			between={ 11.10 29.10 } #Пол ноября жеская зима
+			temperature={ -35.0 -20.0 }
+			no_phenomenon=0.350
+			rain_light=0.200
+			rain_heavy=0.050
+			snow=0.300
+			blizzard=0.000
+			arctic_water=0.000
+			mud=1.000
+			sandstorm=0.000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.11 30.11 } #Декабрь жеская зима
+			temperature={ -35.0 -20.0 }
 			no_phenomenon=0.280
 			rain_light=0.150
 			rain_heavy=0.040
