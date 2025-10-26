@@ -61,7 +61,10 @@ weather_arctic_water = { # on Region
 }
 
 weather_mud = { # on Province
-	
+	army_attack_factor = -0.1
+	breakthrough_factor = -0.1
+	supply_factor = -0.15
+	truck_attrition_factor = 1.0
 }
 weather_extreme_cold = { # on Province
 	army_attack_factor = -0.7
@@ -73,9 +76,10 @@ weather_extreme_cold = { # on Province
 	winter_attrition = 0.25
 }
 weather_very_cold = { # on Province
-	army_attack_factor = -0.4
-	breakthrough_factor = -0.4
+	army_attack_factor = -0.45
+	breakthrough_factor = -0.45
 	dig_in_speed_factor = -0.3
+	truck_attrition_factor = 0.5
 	winter_attrition = 0.25
 	local_org_regain = -0.05
 }

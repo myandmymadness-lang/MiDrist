@@ -1,4 +1,3 @@
-
 --- Подлодочные дефайны спасибо сисилкалу
 NDefines.NNavy.SUB_DETECTION_CHANCE_BASE = 8 -- (ванила 6)
 NDefines.NNavy.ESCAPE_SPEED_SUB_BASE = 0.04 -- Скорость отступления подлодок (0.08 - ванила)
@@ -17,6 +16,7 @@ NDefines.NGame.GAME_SPEED_SECONDS = { 1000.0, 0.25, 0.1, 0.04, 0.0 } --{2.0, 0.5
 ---Нерф ваниль черепков
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1
 
+---Общее военное
 NDefines.NMilitary.UNIT_LEADER_MODIFIER_COOLDOWN_ON_GROUP_CHANGE = 0 -- Скорость перевода генерала в другую армию
 NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0 -- Cтоимость трейтов генералов
 NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.02 ---планирование
@@ -36,6 +36,8 @@ NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0
 NDefines.NMilitary.DEPLOY_TRAINING_MAX_LEVEL = 2
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.15
 NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.05;
+Defines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP = 0.0;   -- Удобные конверты
+
 NDefines.NAir.MISSION_COMMAND_POWER_COSTS = {  -- command power cost per plane to create a mission
         0.0, -- AIR_SUPERIORITY
         0.0, -- CAS
@@ -122,6 +124,7 @@ NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.02
 
 ---Аир
 NDefines.NAir.AIR_DEPLOYMENT_DAYS = 0 ---моментальная развертка
+NDefines.NAir.AIR_WING_FLIGHT_SPEED_MULT = 5.0 -- Скорость перелета авиакрыльев между филдами-ванила:0.02
 NDefines.NAir.AIR_WING_MAX_STATS_ATTACK = 10000
 NDefines.NAir.AIR_WING_MAX_STATS_DEFENCE = 10000
 NDefines.NAir.AIR_WING_MAX_STATS_AGILITY = 10000
