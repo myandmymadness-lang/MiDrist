@@ -36,7 +36,8 @@ NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0
 NDefines.NMilitary.DEPLOY_TRAINING_MAX_LEVEL = 2
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.15
 NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.05;
-Defines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP = 0.0;   -- Удобные конверты
+NDefines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP = 0.0;   -- Удобные конверты
+
 
 NDefines.NAir.MISSION_COMMAND_POWER_COSTS = {  -- command power cost per plane to create a mission
         0.0, -- AIR_SUPERIORITY
@@ -132,7 +133,7 @@ NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 80000
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.0
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.0
 NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.4 ---размены в воздухе(ванила-1.0)
-Defines.NMilitary.AIR_SUPPORT_BASE = 0.5 ---Касы влетают на фикс бафф к атаке
+NDefines.NMilitary.AIR_SUPPORT_BASE = 0.5 ---Касы влетают на фикс бафф к атаке
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_NO_TRUCK_DISRUPTION_FACTOR = 0.1  --урон по грузовикам (ванила 0,2)
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_DAMAGE_FACTOR = 0.2 -- урон по грузовикам (ванила 0,5)
 NDefines.NAir.DISRUPTION_FACTOR = 4 --4vanil
