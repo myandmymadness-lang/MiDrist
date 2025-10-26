@@ -1,7 +1,34 @@
 ﻿capital = 64 # Berlin/Brandeburg
-army_experience = 10
-navy_experience = 10
-air_experience = 10
+
+
+28 = {
+	add_dynamic_modifier = {
+		modifier = Kefir_delat_plaki_plaki
+		days = 1500
+	}
+}
+
+42 = {
+	add_dynamic_modifier = {
+		modifier = Kefir_delat_plaki_plaki
+		days = 1500
+	}
+}
+
+978 = {
+	add_dynamic_modifier = {
+		modifier = Kefir_delat_plaki_plaki
+		days = 1500
+	}
+}
+
+51 = {
+	add_dynamic_modifier = {
+		modifier = Kefir_delat_plaki_plaki
+		days = 1500
+	}
+}
+
 if = {
 	limit = {
 		NOT = {
@@ -31,6 +58,11 @@ add_breakthrough_progress = {
 	specialization = specialization_air
 	value = 0.3
 }
+
+
+
+#Totalen Krieg
+add_to_variable = {GER_industrial_capacity_factory_total = 0.05}
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -171,30 +203,7 @@ if = {
 		armored_car1 = 1
 	}
 }
-add_collaboration = {
-	target = FRA
-	value = 1
-}
-add_collaboration = {
-	target = POL
-	value = 1
-}
-add_collaboration = {
-	target = NOR
-	value = 1
-}
-add_collaboration = {
-	target = LUX
-	value = 1
-}
-add_collaboration = {
-	target = HOL
-	value = 1
-}
-add_collaboration = {
-	target = BEL
-	value = 1
-}
+
 #CONSUMER GOODS INCREASE AND PENALTIES VARIABLES
 set_variable = { GER_monthly_consumer_goods_start = 0.03 } #Starting amount of monthly increasing CG for MEFO Bills 
 set_variable = { GER_change_monthly_CG_vichy_france = 0.005 } #Changing monthly CG when capitulating FRance
@@ -208,7 +217,7 @@ set_variable = { GER_reduce_russian_CG_bonus = 0 } #Used to reduce Soviet Gold R
 #INDUSTRAY: MEFO Bills/Economy of Conquest/Recovering Economy/Wirtschaftswunder
 #REMINDER to always update the fake NS if these numbers are altered!
 set_variable = { GER_monthly_consumer_goods_increase = GER_monthly_consumer_goods_start } #Amount of increasing CG each month
-set_variable = { GER_industrial_consumer_goods_factor = 0.1 } #Used for MEFO Bills, Economy of Conquest and Recovering Economy and Wirtschaftswunder - must correspond with the Fake MEFO Bills NS for the 1936 Bookmark
+set_variable = { GER_industrial_consumer_goods_factor = 0.3 } #Used for MEFO Bills, Economy of Conquest and Recovering Economy and Wirtschaftswunder - must correspond with the Fake MEFO Bills NS for the 1936 Bookmark
 set_variable = { GER_industrial_civilian_intel_to_others = -25 }
 set_variable = { GER_industrial_army_intel_to_others = -25 }
 set_variable = { GER_industrial_navy_intel_to_others = -25 }
@@ -233,7 +242,7 @@ set_variable = { GER_industrial_line_change_production_efficiency_factor = 0 }
 set_variable = { GER_industrial_equipment_conversion_speed = 0 }
 set_variable = { GER_industrial_consumer_goods_expected_value = 0 }
 set_variable = { GER_economic_crash_consumer_goods = 0.75 } #Amount of CGFF if the MEFO Bills gets canceled one way or another
-add_dynamic_modifier = { modifier = GER_mefo_bills_modifier }
+add_dynamic_modifier = { modifier = GER_recovering_economy_modifier }
 
 #WUNDERWAFFEN
 set_variable = { GER_wunderwaffen_special_project_speed_factor = 0 }
@@ -441,12 +450,41 @@ IF = {
 	limit = {
 		has_dlc = "Gotterdammerung"
 	}
-	set_stability = 0.7 # Was 0.75, but get 5% from the Reichstag
+	set_stability = 0.79 # Was 0.75, but get 5% from the Reichstag
 	ELSE = {
-		set_stability = 0.75
+		set_stability = 0.79
 	}
 }
 set_war_support = 0.3
+add_equipment_to_stockpile = {
+	type = train_equipment_1
+	amount = 113
+}
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 35000
+}
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 1500
+}
+add_equipment_to_stockpile = {
+	type = anti_air_equipment_1
+	amount = 1000
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment_1
+	amount = 1000
+}
+add_equipment_to_stockpile = {
+	type = light_tank_chassis_1
+	amount = 300
+	variant_name = "Panzer I Ausf. A"	
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 500
+}
 
 
 # SETUP THE 1939 SCENARIO
@@ -845,13 +883,13 @@ add_ideas = {
 activate_mission = GER_mefo_bills_mission
 
 # Character Recruitment
-recruit_character = GER_wilhelm_pieck
-recruit_character = GER_konrad_adenauer
+
+
 recruit_character = GER_adolf_hitler
 recruit_character = GER_albert_kesselring
 recruit_character = GER_alfred_jodl
-recruit_character = GER_alfred_saalwachter
-recruit_character = GER_erhard_milch
+
+
 recruit_character = GER_erich_bey
 recruit_character = GER_erich_raeder
 recruit_character = GER_erich_von_manstein
@@ -878,13 +916,13 @@ recruit_character = GER_heinz_guderian
 recruit_character = GER_heisenberg
 recruit_character = GER_hermann_boehm
 recruit_character = GER_hermann_hoth
-recruit_character = GER_hugo_sperrle
+
 recruit_character = GER_johannes_blaskowitz
 recruit_character = GER_karl_donitz
-recruit_character = GER_kurt_student
+
 recruit_character = GER_ludwig_beck
 recruit_character = GER_maximilian_von_weichs
-recruit_character = GER_otto_ciliax
+
 recruit_character = GER_paul_hausser
 recruit_character = GER_ritter_von_greim
 recruit_character = GER_sepp_dietrich
@@ -893,53 +931,53 @@ recruit_character = GER_von_braun
 recruit_character = GER_walter_kruger
 recruit_character = GER_walter_model
 recruit_character = GER_walther_von_brauchitsch
-recruit_character = GER_walther_wever
-recruit_character = GER_werner_von_fritsch
+
+
 recruit_character = GER_wilhelm_keitel
 recruit_character = GER_wilhelm_list
 recruit_character = GER_wilhelm_marschall
 
 recruit_character = GER_wilhelm_ritter_von_leeb
-recruit_character = GER_wolfram_von_richthofen
+
 
 recruit_character = GER_heinrich_himmler
 recruit_character = GER_walther_funk
 recruit_character = GER_hjalmar_schacht
 recruit_character = GER_albert_speer
 recruit_character = GER_fritz_todt
-recruit_character = GER_joachim_von_ribbentrop
-recruit_character = GER_ernst_thalmann
+
+
 recruit_character = GER_rudolf_hess
 recruit_character = GER_martin_bormann
-recruit_character = GER_wilhelm_canaris
+
 recruit_character = GER_joseph_goebbels
 recruit_character = GER_wilhelm_ii
 recruit_character = GER_wilhelm_iii
 recruit_character = GER_victoria
-recruit_character = GER_august_von_mackensen
+
 
 recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled from China
 
 #NEW PEOPLE WW
-recruit_character = GER_werner_von_blomberg
+
 recruit_character = GER_oswald_lutz
 recruit_character = GER_walther_nehring
 recruit_character = GER_hans_krebs
 recruit_character = GER_rolf_carls
-recruit_character = GER_helmuth_wilberg
-recruit_character = GER_josef_kammhuber
-recruit_character = GER_robert_knauss
-recruit_character = GER_alfred_becker
-recruit_character = GER_walter_dornberger
+
+
+
+
+
 recruit_character = GER_alfred_rosenberg
-recruit_character = GER_reinhard_heydrich
-recruit_character = GER_leni_riefenstahl
+
+
 recruit_character = GER_franz_seldte
-recruit_character = GER_hanns_kerrl
-recruit_character = GER_ludwig_erhard
+
+
 recruit_character = GER_paul_von_lettow_vorbeck # He is "new"
 recruit_character = GER_wilhelm_iv
-recruit_character = GER_eva_braun
+
 
 #SCIENTISTS
 recruit_character = GER_peter_adolf_thiessen
@@ -961,16 +999,15 @@ if = {
 		has_dlc = "Gotterdammerung"
 	}
 	recruit_character = GER_jurgen_von_blumenthal
-	recruit_character = GER_hans_vogel
+	
 	recruit_character = GER_oberste_heeresleitung_character
 	recruit_character = GER_franz_ritter_von_epp
-	recruit_character = GER_heinrich_brandler
-	recruit_character = GER_vincenz_muller
-	recruit_character = GER_hans_kahle
-	recruit_character = GER_hans_marchwitza
-	recruit_character = GER_arno_von_lenski
-	recruit_character = GER_otto_strasser
-	recruit_character = GER_otto_grotewohl
+
+	
+	
+
+	
+	
 
 	recruit_character = GER_henrich_focke #Heli Scientist
 }
@@ -1600,7 +1637,7 @@ if = {
 				main_armament_slot = tank_small_cannon_2
 				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_torsion_bar_suspension
-				armor_type_slot = tank_riveted_armor
+				armor_type_slot = tank_welded_armor
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = tank_radio_1
 				special_type_slot_2 = smoke_launchers
@@ -1621,7 +1658,7 @@ if = {
 				main_armament_slot = tank_close_support_gun
 				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_bogie_suspension
-				armor_type_slot = tank_riveted_armor
+				armor_type_slot = tank_welded_armor
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = tank_radio_1
 				special_type_slot_2 = smoke_launchers
