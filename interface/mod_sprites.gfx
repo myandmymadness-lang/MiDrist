@@ -19,5 +19,9 @@ spriteTypes = {
 		name = "GFX_rocket_rails_medium"
 		texturefile = "gfx/interface/technologies/rocket_rails.dds"
 	}
+	SpriteType = {
+		name = "GFX_ost_cold_news"
+		texturefile = "gfx\event_pictures/ost_cold_news.dds"
+	}
 
 }
