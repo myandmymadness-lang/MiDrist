@@ -69,6 +69,30 @@ ideas = {
 				defense_bonus_against = -0.2
 			}
 		}
+		
+		GER_bul_help = {
+			allowed = {
+				always = no
+			}
+			picture = generic_economic_increase
+			removal_cost = -1
+			modifier = {
+                production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		GER_minors_totalen_krieg = {
+			allowed = {
+				always = no
+			}
+			picture = generic_economic_increase
+			removal_cost = -1
+			modifier = {
+                industrial_capacity_factory = 0.07
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
 	    
 ##################################################
 ####################Africa########################

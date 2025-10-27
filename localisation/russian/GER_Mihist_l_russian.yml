@@ -101,9 +101,9 @@
   GER_balt_tt:0 "Начнётся наступление в Прибалтике. Наша цель взять узловой город "Рига" и нанести сокрушительный удар в сторону Эстонской столицы."
 
   GER_annex:0 "Решения для ликвидации сувернитета"
- GER_annex_HUN:0 "Рейхскоммисараит Венгрия"
- GER_annex_ROM:0 "Рейхскоммисараит Румыния"
- GER_annex_BUL:0 "Рейхскоммисариат Болгария"
+ GER_annex_HUN:0 "§YUnternehmen Margarethe§!"
+ GER_annex_ROM:0 "§YUnternehmen Bestrafung§!"
+ GER_annex_BUL:0 "§YUnternehmen Strafgericht§!"
  GER_HUN_SLO:0 "Передать Словакию Венгрии"
  GER_VICHY:0 "Использовать вишисткую ресурсную базу"
  GER_ITA:0 "Ввести войска в Италию"

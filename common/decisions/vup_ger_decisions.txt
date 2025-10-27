@@ -25,19 +25,12 @@ GER_annex = {
 		fire_only_once = yes
 		
 		complete_effect = {
-		    HUN = {
-				every_unit_leader = {
-					set_unit_leader_flag = flag_former_french_general
-					set_nationality = GER
-				}
-			}
+		    
 			GER = { 
-					set_autonomy = {
-						target = HUN
-						autonomy_state = autonomy_reichskommissariat
-					}
-					set_technology = { mechanised_infantry = 1 }
-					army_experience = 100
+				annex_country = {
+					target = HUN
+					transfer_troops = no
+				}
 			}
 		}
 	}
@@ -66,22 +59,11 @@ GER_annex = {
 		fire_only_once = yes
 		
 		complete_effect = {
-			ROM = {
-				set_technology = { excavation1 = 1 }
-				set_technology = { excavation2 = 1 }
-				set_technology = { excavation3 = 1 }
-				set_technology = { excavation4 = 1 }
-				every_unit_leader = {
-					set_unit_leader_flag = flag_former_french_general
-					set_nationality = GER
-				}
-			}
 			GER = { 
-					set_autonomy = {
-						target = ROM
-						autonomy_state = autonomy_reichskommissariat
-					}
-					set_technology = { modern_oil_processing = 1 }
+				annex_country = {
+					target = ROM
+					transfer_troops = no
+				}
 			}			
 		}
 	}
@@ -110,20 +92,12 @@ GER_annex = {
 		fire_only_once = yes
 		
 		complete_effect = {
-		    BUL = {
-				every_unit_leader = {
-					set_unit_leader_flag = flag_former_french_general
-					set_nationality = GER
-				}
-			}
 			GER = { 
-					set_autonomy = {
-						target = BUL
-						autonomy_state = autonomy_reichskommissariat
-					}
-					set_technology = { support_weapons = 1 }
-					set_technology = { support_weapons2 = 1 }
-				}			
+				annex_country = {
+					target = BUL
+					transfer_troops = no
+				}	
+			}			
 		}
 	}
 	
@@ -171,306 +145,5 @@ GER_annex = {
 			}	
 			}			
 		}
-	}
-	
-	
-	GER_ITA = {
-	
-		icon = generic_army_support
-         
-		available = {
-			or = {
-			NOT = {117 = { is_controlled_by = ITA }}
-			or = {
-			NOT = {162 = { is_controlled_by = ITA }}
-			NOT = {2 = { is_controlled_by = ITA }}
-			}
-			}
-			date > 1941.1.1 
-		}
-
-		target_trigger = {
-			FROM = {
-				OR = {
-					original_tag = ITA
-				}
-			}
-		}
-
-		fire_only_once = yes
-		
-		complete_effect = {
-		    ITA = { add_ideas = german_occupation}
-				
-            GER = { 
-			 transfer_state = 39
-			 transfer_state = 850
-			}	
-			39 = {set_compliance = 100}
-			850 = { set_compliance = 100} 
-			hidden_effect = {
-				news_event = { id = news_ost_west.2 }
-			}
-		}
-	}
-	GER_the_sanayiciler = {
-	
-		GER_financing_private_enterprise = generic_factory
-
-		allowed = { 
-			original_tag = GER
-		}
-		
-		icon = GFX_decision_gre_paying_ifc_debt
-		
-		fire_only_once = yes
-		
-		visible = {
-			has_completed_focus = GER_the_sanayiciler
-		}
-		days_remove = 40
-
-		cost = GER_the_sanayiciler?75
-		
-		complete_effect = {
-			add_ideas = GER_investing_in_podsos
-		}
-		remove_effect = { 154 = {		
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-		remove_effect = { 155 = {		
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			remove_ideas = GER_investing_in_podsos
-		}
-	}
-    GER_financing_private_enterprise1 = {
-	
-		GER_financing_private_enterprise1 = generic_factory
-
-		allowed = { 
-			original_tag = GER
-		}
-		icon = GFX_decision_gre_paying_ifc_debt
-		
-		fire_only_once = yes
-		
-		visible = {
-			has_completed_focus = GER_the_sanayiciler
-		}
-		days_remove = 45
-
-		cost = GER_the_sanayiciler?75
-		
-		complete_effect = {
-			add_ideas = GER_investing_in_podsos2
-		}
-		remove_effect = { 81 = {		
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-		remove_effect = { 79 = {		
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				
-			}
-			remove_ideas = GER_investing_in_podsos2
-		}
-		
-	}
-	GER_financing_private_enterprise2 = {
-	
-		GER_financing_private_enterprise2 = generic_factory
-
-		allowed = { 
-			original_tag = GER
-		}
-		icon = GFX_decision_gre_paying_ifc_debt
-		
-		fire_only_once = yes
-		
-		visible = {
-			has_completed_focus = GER_the_sanayiciler
-		}
-		days_remove = 60
-
-		cost = GER_the_sanayiciler?75
-		
-		complete_effect = {
-			add_ideas = GER_investing_in_podsos1
-		}
-		remove_effect = { 801 = {		
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-		remove_effect = { 211 = {		
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-						
-			}
-			remove_ideas = GER_investing_in_podsos1
-		}
-		
-	}
-	GER_financing_private_enterprise3 = {
-	
-		GER_financing_private_enterprise3 = generic_factory
-
-		allowed = { 
-			original_tag = GER
-		}
-		icon = GFX_decision_gre_paying_ifc_debt
-		
-		fire_only_once = yes
-		
-		visible = {
-			has_completed_focus = GER_the_sanayiciler2
-		}
-		days_remove = 40
-
-		cost = GER_the_sanayiciler2?100
-		
-		complete_effect = {
-			add_ideas = GER_investing_in_podsos3
-		}
-		remove_effect = { 154 = {		
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-		remove_effect = { 155 = {		
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-						
-			}
-			remove_ideas = GER_investing_in_podsos3
-		}
-
-		
-	}
-    GER_financing_private_enterprise4 = {
-	
-		GER_financing_private_enterprise4 = generic_factory
-
-		allowed = { 
-			original_tag = GER
-		}
-		icon = GFX_decision_gre_paying_ifc_debt
-		
-		fire_only_once = yes
-		
-		visible = {
-			has_completed_focus = GER_the_sanayiciler2
-		}
-		days_remove = 45
-
-		cost = GER_the_sanayiciler2?100
-		
-		complete_effect = {
-			add_ideas = GER_investing_in_podsos4
-		}
-		remove_effect = { 81 = {		
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-		remove_effect = { 79 = {		
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-						
-			}
-			remove_ideas = GER_investing_in_podsos4
-		}
-
-		
-	}
-	GER_financing_private_enterprise5 = {
-	
-		GER_financing_private_enterprise5 = generic_factory
-
-		allowed = { 
-			original_tag = GER
-		}
-		icon = GFX_decision_gre_paying_ifc_debt
-		
-		fire_only_once = yes
-		
-		visible = {
-			has_completed_focus = GER_the_sanayiciler2
-		}
-		days_remove = 60
-
-		cost = GER_the_sanayiciler2?100
-		
-		complete_effect = {
-			add_ideas = GER_investing_in_podsos5
-		}
-		remove_effect = { 801 = {		
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-		remove_effect = { 211 = {		
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-					
-			}
-				remove_ideas = GER_investing_in_podsos5
-		}
-
-		
 	}
 }
