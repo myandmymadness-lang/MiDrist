@@ -23,5 +23,9 @@ spriteTypes = {
 		name = "GFX_ost_cold_news"
 		texturefile = "gfx\event_pictures/ost_cold_news.dds"
 	}
+	spriteType = {
+		name = "GFX_MiHist_logo"
+		texturefile = "gfx/interface/MiHist_logo.dds"
+	}
 
 }
