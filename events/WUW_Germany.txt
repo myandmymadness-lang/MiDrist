@@ -25,6 +25,7 @@ add_namespace = wuw_GER_german_politics
 add_namespace = GER_operation_panzerfaust_events
 add_namespace = GOT_GER_amerikabomber
 add_namespace = GOT_GER_fading_eagle
+add_namespace = ost_cold_news
 
 #### INNER CIRCLE ###
 add_namespace = GER_inner_circle
@@ -37,7 +38,54 @@ add_namespace = GER_inner_circle_hess
 add_namespace = GER_inner_circle_bormann
 
 
+news_event = { 
+	id = ost_cold_news.1
+	title = ost_cold_news.1.t
+	desc = {
+		text = ost_cold_news.1.desc
+		trigger = {
+			original_tag = GER
+		}
+	}
+	desc = {
+		text = ost_cold_news.3.desc
+		trigger = {
+			original_tag = SOV
+		}
+	}
+	desc = {
+		text = ost_cold_news.4.desc
+		trigger = {
+			NOT = {
+				original_tag = GER
+				original_tag = SOV
+			}
+		}
+	}
+	picture = GFX_ost_cold_news
 
+	is_triggered_only = yes
+
+	option = {
+		name = ost_cold_news.1.a
+		trigger = { TAG = GER }
+	}
+	
+	option = {
+		name = ost_cold_news.2.a
+		trigger = { TAG = SOV }
+	}
+	
+	option = {
+		name = ost_cold_news.3.a
+		trigger = {
+			NOT = {
+				original_tag = GER
+				original_tag = SOV
+			}
+		}
+	}
+}
 
 country_event = { #MEFO Bills have been cancelled
 	id = germany_mefo_bills.1
