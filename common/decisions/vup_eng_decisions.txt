@@ -24,45 +24,6 @@ ENG_annex = {
 			add_threat = 20
 		}
 	}
-
-	boost_vb = {
-
-		icon = generic_industry
-		priority = 11
-		available = {
-			date > 1936.10.1
-		}
-		activation = {
-			#USA = {
-			#	exists = no
-			#}
-		}
-		visible = {
-			always = yes
-			#USA = {
-			#	exists = no
-			#}
-		}
-		days_mission_timeout = 276
-		is_good = no
-
-		fire_only_once = yes
-
-		complete_effect = {
-			if = {
-				limit = {
-					USA = {
-			 	        exists = no
-			        }
-				}
-				add_offsite_building = { type = industrial_complex level = 19 }
-			}
-			ELSE = {
-				add_offsite_building = { type = industrial_complex level = 10 }
-			}
-		}
-
-	}
 	
 	
 
@@ -442,40 +403,7 @@ ENG_annex = {
 			}			
 		}
 	}
-	ENG_annex_IRE = {
-	    cost = 100
-		icon = generic_army_support
-
-		available = {
-		    date > 1940.1.1
-			any_other_country = {
-				original_tag = IRE
-				exists = yes
-			}
-			
-		}
-
-		target_trigger = {
-			FROM = {
-				OR = {
-					original_tag = IRE
-				}
-			}
-		}
-		
-		fire_only_once = yes
-		
-		complete_effect = {
-			annex_country = { target = IRE }
-			every_state = {
-				limit = {
-					is_core_of = IRE
-					is_controlled_by = ENG
-					}
-				set_compliance = 100
-			}			
-		}
-	}
+	
 
 	ENG_rerol_country_USA = {
 
@@ -520,42 +448,3 @@ ENG_annex = {
  	}
 }
 
-ENG_translet = {
-            
-		ENG_translet_Portugal = {
-		     
-			icon = GFX_decision_hol_draw_up_staff_plans
-			 
-			 
-			cost = 50
-			fire_only_once = yes
-			
-			
-			complete_effect = {
-			
-			ENG = { 
-			 transfer_state = 698
-			 transfer_state = 697
-			}
-		}
-	}
-		
-		ENG_translet_Spr = {
-		     
-			icon = GFX_decision_hol_draw_up_staff_plans
-			 
-			 
-			cost = 50
-			fire_only_once = yes
-			
-			
-			complete_effect = {
-			
-			ENG = { 
-			 transfer_state = 178
-			 transfer_state = 702
-			}
-		}
-	}
-
-}
