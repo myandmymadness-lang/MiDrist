@@ -12,7 +12,7 @@ state={
 			owner = BHU
 			add_core_of = BHU
 		}
-		add_core_of = USA
+		add_core_of = HAW
 		buildings = {
 			infrastructure = 2
 			13050 = {

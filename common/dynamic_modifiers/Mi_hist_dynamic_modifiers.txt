@@ -1,16 +1,3 @@
-ger_total_war = {
-	enable = { always = yes }
-	icon = GFX_idea_hol_caved_to_the_germans
-	industrial_capacity_factory = GER_industrial_capacity_factory_total
-	production_factory_max_efficiency_factor = GER_production_factory_max_efficiency_factor_total
-	line_change_production_efficiency_factor = GER_line_change_production_efficiency_factor_total
-	production_lack_of_resource_penalty_factor = GER_production_lack_of_resource_penalty_factor_total
-	production_factory_efficiency_gain_factor = GER_production_factory_efficiency_gain_factor_toal
-	consumer_goods_expected_value = GER_consumer_goods_expected_value_total
-	production_oil_factor = GER_production_oil_factor_total
-	coastal_bunker_effectiveness_factor = GER_coastal_bunker_effectiveness_factor_TOTAL
-	land_bunker_effectiveness_factor = GER_land_bunker_effectiveness_factor_TOTAL
-}
 sov_fabriki = {
 	enable = { always = yes }
 	icon = GFX_modifiers_generic_military_plans

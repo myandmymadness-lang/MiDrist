@@ -29,10 +29,12 @@ state={
 			4076 = {
 				naval_base = 8
 			}
-			1071 = {
+1071 = {
 				naval_base = 5
 			}
 		}
+
+		add_core_of = EGY
 	}
 
 	provinces={

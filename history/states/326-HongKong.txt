@@ -7,12 +7,12 @@ state=
 	history=
 	{
 		owner = ENG 
-  		1936.1.1.13 = {
+  1936.1.1.13 = {
 			owner = BHU
 			add_core_of = BHU
 		}
-		add_core_of = ENG
-	
+		add_core_of = CHI
+		add_core_of = PRC
 		victory_points = {
 			10062 3 
 		}
