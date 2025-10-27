@@ -164,7 +164,6 @@ country_event = {
 			modifier = {
 				factor = 0
 				tag = JAP
-				has_completed_focus = JAP_the_unthinkable_option
 			}
 			modifier = {
 				factor = 0
@@ -1717,13 +1716,6 @@ country_event = {
 		JAP = {
 			country_event = { days = 1 id = japan.8 }
 		}
-		CHI = {
-			country_event = { days = 1 id = china.2 }
-			effect_tooltip = {
-				remove_ideas = german_advisors
-				show_ideas_tooltip = german_advisors
-			}
-		}
 	}
 	option = { # Refuse
 		name = germany.24.b
@@ -1757,16 +1749,11 @@ country_event = {
 
 	trigger = {
 		tag = GER
-		CHI = { has_idea = german_advisors }
 		has_opinion = { target = CHI value < -20 }
 	}
 
 	mean_time_to_happen = {
 		days = 1
-	}
-
-	immediate = {
-		CHI = { remove_ideas = german_advisors }
 	}
 
 	option = {
@@ -1788,16 +1775,11 @@ country_event = {
 
 	trigger = {
 		tag = GER
-		CHI = { has_idea = german_advisors }
 		has_war_with = CHI
 	}
 
 	mean_time_to_happen = {
 		days = 1
-	}
-
-	immediate = {
-		CHI = { remove_ideas = german_advisors }
 	}
 
 	option = {
@@ -1937,7 +1919,6 @@ country_event = {
 				limit = {
 					ITA = {
 						OR = {
-							has_completed_focus = ITA_guarantee_austrian_independence
 							has_guaranteed = AUS
 						}
 					}
@@ -1961,7 +1942,6 @@ country_event = {
 				factor = 0
 				is_historical_focus_on = yes
 				NOT = { HUN = { has_completed_focus = HUN_protect_austria } }
-				NOT = { ITA = { has_completed_focus = ITA_guarantee_austrian_independence } }
 				NOT = {
 					strength_ratio = {
 						tag = GER
@@ -1997,7 +1977,6 @@ country_event = {
 				add = 100
 				ITA = {
 					OR = {
-						has_completed_focus = ITA_guarantee_austrian_independence
 						is_in_faction_with = AUS
 					}
 				}
@@ -2054,7 +2033,6 @@ country_event = {
 			limit = {
 				ITA = {
 					OR = {
-						has_completed_focus = ITA_guarantee_austrian_independence
 						has_guaranteed = AUS
 					}
 					
@@ -2227,7 +2205,6 @@ country_event = {
 			}
 			if = {
 				limit = {
-					has_completed_focus = ENG_no_further_appeasement
 				}
 				add_political_power = -200
 			}
@@ -2459,7 +2436,6 @@ country_event = {
 			limit = {
 				is_in_faction_with = CZE
 				is_faction_leader = yes
-				has_completed_focus = FRA_strengthen_the_little_entente
 				NOT = { is_in_faction_with = ENG }
 			}
 			add_to_faction = ENG #Britain joins the little entente
@@ -3709,7 +3685,6 @@ country_event = {
 	option = { # Support France
 		name = germany.61.b
 		trigger = {
-			NOT = { has_completed_focus = ENG_a_change_in_course }
 		}
 		ai_chance = {
 			base = 10
@@ -3783,7 +3758,6 @@ country_event = {
 	option = {
 		name = germany.62.a
 		trigger = {
-			NOT = { has_completed_focus = ENG_a_change_in_course }
 		}
 
 		hidden_effect = {
@@ -3799,7 +3773,6 @@ country_event = {
 	option = {
 		name = germany.62.b
 		trigger = {
-			has_completed_focus = ENG_a_change_in_course
 		}
 
 		hidden_effect = {
@@ -5525,7 +5498,7 @@ country_event = {
 					main_armament_slot = tank_heavy_cannon_2
 					turret_type_slot = tank_heavy_two_man_tank_turret
 					suspension_type_slot = tank_torsion_bar_suspension
-					armor_type_slot = tank_riveted_armor
+					armor_type_slot = tank_welded_armor
 					engine_type_slot = tank_gasoline_engine
 					special_type_slot_1 = tank_radio_1
 					special_type_slot_2 = additional_machine_guns
@@ -5546,7 +5519,7 @@ country_event = {
 					main_armament_slot = tank_heavy_cannon_2
 					turret_type_slot = tank_heavy_fixed_superstructure_turret
 					suspension_type_slot = tank_torsion_bar_suspension
-					armor_type_slot = tank_riveted_armor
+					armor_type_slot = tank_welded_armor
 					engine_type_slot = tank_gasoline_engine
 					special_type_slot_1 = tank_radio_1
 					special_type_slot_2 = additional_machine_guns
@@ -6030,7 +6003,6 @@ country_event = {
 			OR = {
 				NOT = { FROM = { original_tag = POL } }
 				NOT = { original_tag = GER }
-				NOT = { has_completed_focus = GER_danzig_for_guarantees }
 			}
 		}
 	}
@@ -6039,7 +6011,6 @@ country_event = {
 		trigger = {
 			FROM = { original_tag = POL }
 			original_tag = GER
-			has_completed_focus = GER_danzig_for_guarantees
 		}
 	}
 	desc = {
@@ -6048,7 +6019,6 @@ country_event = {
 			OR = {
 				NOT = { FROM = { original_tag = POL } }
 				NOT = { original_tag = GER }
-				NOT = { has_completed_focus = GER_danzig_for_guarantees }
 			}
 		}
 	}
@@ -6057,7 +6027,6 @@ country_event = {
 		trigger = {
 			FROM = { original_tag = POL }
 			original_tag = GER
-			has_completed_focus = GER_danzig_for_guarantees
 		}
 	}
 	picture = GFX_report_event_soviet_tanks
@@ -6093,7 +6062,6 @@ country_event = {
 		trigger = {
 			NOT = { FROM = { original_tag = POL } }
 			NOT = { original_tag = GER }
-			NOT = { has_completed_focus = GER_danzig_for_guarantees }
 		}
 		ai_chance = {
 			base = 0
@@ -8525,7 +8493,6 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				FRA = { has_completed_focus = FRA_strengthen_the_little_entente }
 			}
 			modifier = {
 				factor = 0

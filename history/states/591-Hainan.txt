@@ -6,13 +6,13 @@ state={
 
 	history={
 		owner = CHI 
-  1936.1.1.13 = {
+  		1936.1.1.13 = {
 			owner = BHU
 			add_core_of = BHU
 		}
-		add_core_of = GXC
+		
 		add_core_of = CHI
-		add_core_of = PRC
+		
 		
 		victory_points = {
 			1070 1 

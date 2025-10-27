@@ -4171,7 +4171,6 @@ country_event = { #Germany makes us a volkskommissariat
 		IF = {
 			limit = {
 				FROM = {
-					has_completed_focus = GER_instill_german_discipline
 				}
 
 				NOT = {
@@ -4185,7 +4184,6 @@ country_event = { #Germany makes us a volkskommissariat
 		IF = {
 			limit = {
 				FROM = {
-					has_completed_focus = GER_integrate_subjects_economies
 				}
 
 				NOT = {
@@ -4220,7 +4218,6 @@ country_event = { #Germany wants us to be more communist, and might be plotting 
 		if = {
 			limit = {
 				FROM = {
-					has_completed_focus = GER_legacy_of_the_spartacus_league
 				}
 			}
 			custom_effect_tooltip = wuw_GER_diplomacy.72.a_tt
@@ -4321,7 +4318,6 @@ country_event = { #The Civil War broke out
 			IF = {
 				limit = {
 					GER = {
-						has_completed_focus = GER_the_proletarian_legion
 						NOT = {
 							has_idea = GER_proletarian_legion_ns
 						}
@@ -4377,7 +4373,6 @@ country_event = { #The Civil War broke out
 			IF = {
 				limit = {
 					GER = {
-						has_completed_focus = GER_the_proletarian_legion
 						NOT = {
 							has_idea = GER_proletarian_legion_ns
 						}
@@ -4526,7 +4521,6 @@ country_event = { #Germany insists Austria hold a referendum to join them
 				factor = 2
 				has_government = communism
 				FROM = {
-					has_completed_focus = GER_proletarian_dictatorship
 				}
 			}
 			modifier = {
@@ -4540,7 +4534,6 @@ country_event = { #Germany insists Austria hold a referendum to join them
 				factor = 3
 				has_government = democratic
 				FROM = {
-					has_completed_focus = GER_legacy_of_the_spartacus_league
 				}
 			}
 		}
@@ -10519,7 +10512,6 @@ country_event = {
 			}
 			ELSE_IF = {
 				limit = {
-					has_completed_focus = GER_heed_von_neuraths_concerns
 				}
 				GER = {
 					set_nationality = {
@@ -10561,7 +10553,6 @@ country_event = {
 			ELSE_IF = {
 				limit = {
 					ROOT = {
-						has_completed_focus = GER_heed_von_neuraths_concerns
 					}
 				}
 				GER_johannes_blaskowitz = {
@@ -10654,7 +10645,6 @@ country_event = {
 			}
 			ELSE_IF = { # The IF is left here so that it doesn't try to transfer a character back if it hasn' been moved here to begin with
 				limit = {
-					has_completed_focus = GER_heed_von_neuraths_concerns
 				}
 				RKH = {
 					set_nationality = {
@@ -13870,7 +13860,6 @@ country_event = { #Communist civil war starts
 			}
 			if = {
 				limit = {
-					NOT = { has_completed_focus = GER_reorganize_nationale_volksarmee }
 				}
 				PREV = {# Original country
 					GER_maximilian_von_weichs = { # Character
@@ -13903,7 +13892,6 @@ country_event = { #Communist civil war starts
 
 		if = { #Just to ensure that Communist generals stay Communist
 			limit = {
-				has_completed_focus = GER_reorganize_nationale_volksarmee
 			}
 			GER_vincenz_muller = {
 				set_nationality = ROOT
@@ -13921,7 +13909,6 @@ country_event = { #Communist civil war starts
 
 		if = {
 			limit = {
-				has_completed_focus = GER_ressurect_the_red_front_fighters_league
 			}
 			every_core_state = {
 				limit = {
@@ -14083,9 +14070,6 @@ country_event = {
 			base = 5
 		}
 		trigger = {
-			NOT = {
-				has_completed_focus = GER_start_the_proletarian_revolution
-			}
 		}
 		
 		army_experience = -50
@@ -15768,25 +15752,6 @@ country_event = {
 				random_hours = 5 
 			}
 		}
-
-		if = {
-			limit = {
-				FROM = {
-					has_completed_focus = GER_secure_finland
-				}
-				ROOT = {
-					original_tag = FIN
-				}
-			}
-			effect_tooltip = {
-				FROM = {
-					create_wargoal = {
-						type = annex_everything
-						target = ROOT
-					}
-				}
-			}
-		}
 	}
 }
 
@@ -15821,23 +15786,6 @@ country_event = { # FROM rejects our faction invitation - event for GER
 
 	option = { # They are missing out
 		name = wuw_GER_realpolitik.3.a	
-
-		if = {
-			limit = {
-				ROOT = {
-					has_completed_focus = GER_secure_finland
-				}
-				FROM = {
-					original_tag = FIN
-				}
-			}
-			ROOT = {
-				create_wargoal = {
-					type = annex_everything
-					target = FROM
-				}
-			}
-		}
 	}
 }
 
@@ -20548,56 +20496,6 @@ country_event = {
 				
 		add_political_power = -25
 		air_experience = -15
-	}
-}
-
-country_event = {
-	id = wuw_GER_uncertain_future.01
-	title = wuw_GER_uncertain_future.01.t
-	desc = wuw_GER_uncertain_future.01.desc
-	picture = GFX_report_event_gathering_protest
-
-	fire_only_once = yes
-
-	trigger = {
-		has_dlc = "Gotterdammerung"
-		original_tag = GER
-		has_country_leader = { 
-			ruling_only = yes
-			character = GER_august_von_mackensen
-		}
-		has_completed_focus = GER_oppose_hitler_ww
-		has_civil_war = no
-		NOT = {
-			OR = {
-				focus_progress = {
-				    focus = GER_start_the_proletarian_revolution
-				    progress > 0
-				}
-				focus_progress = {
-				    focus = GER_re_establish_free_elections_ww
-				    progress > 0
-				}
-				focus_progress = {
-				    focus = GER_return_of_the_kaiser_ww
-				    progress > 0
-				}
-				focus_progress = {
-				    focus = GER_military_dictatorship
-				    progress > 0
-				}
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 30
-	}
-
-	option = { #that's not great....
-		name = wuw_GER_uncertain_future.01.a
-				
-		activate_mission = GER_growing_public_dissent_mission
 	}
 }
 

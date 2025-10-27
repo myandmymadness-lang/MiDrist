@@ -1,0 +1,23 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_totaler_krieg_economy"
+		texturefile = "gfx/interface/ideas/totaler_krieg_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_sov_war_economy"
+		texturefile = "gfx/interface/ideas/sov_war_economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_tank_buster_1_medium"
+		texturefile = "gfx/interface/technologies/bba_tech_anti_tank_gun1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tank_buster_2_medium"
+		texturefile = "gfx/interface/technologies/bba_tech_anti_tank_gun2.dds"
+	}
+	SpriteType = {
+		name = "GFX_rocket_rails_medium"
+		texturefile = "gfx/interface/technologies/rocket_rails.dds"
+	}
+
+}

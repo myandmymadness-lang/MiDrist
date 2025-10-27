@@ -14,9 +14,6 @@ equipment_modules = {
 			build_cost_ic = 12
 			fuel_consumption = 0.16
 		}
-		multiply_stats = {
-			build_cost_ic = 2
-		}
 		
 	}
 
@@ -30,9 +27,6 @@ equipment_modules = {
 			build_cost_ic = 24
 			fuel_consumption = 0.32
 		}
-		multiply_stats = {
-			build_cost_ic = 2
-		}
 	}
 
 	engine_1_3x = {
@@ -44,9 +38,6 @@ equipment_modules = {
 			thrust = 23
 			build_cost_ic = 36
 			fuel_consumption = 0.48
-		}
-		multiply_stats = {
-			build_cost_ic = 2
 		}
 	}
 
@@ -60,9 +51,6 @@ equipment_modules = {
 			build_cost_ic = 48
 			fuel_consumption = 0.64
 		}
-		multiply_stats = {
-			build_cost_ic = 2
-		}
 	}
 
 	engine_1_6x = {
@@ -74,9 +62,6 @@ equipment_modules = {
 			thrust = 41
 			build_cost_ic = 68
 			fuel_consumption = 0.8
-		}
-		multiply_stats = {
-			build_cost_ic = 2
 		}
 	}
 
@@ -94,7 +79,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.20
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -117,7 +101,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.20
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -140,7 +123,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.20
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -163,7 +145,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.20
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -186,7 +167,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.20
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -209,7 +189,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.30
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -232,7 +211,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.30
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -255,7 +233,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.30
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -278,7 +255,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.30
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -301,7 +277,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.30
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -324,7 +299,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.45
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -347,7 +321,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.45
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -370,7 +343,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.45
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -393,7 +365,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.45
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -416,7 +387,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			maximum_speed = 0.45
-			build_cost_ic = 2
 		}
 
 		can_convert_from = {
@@ -440,7 +410,6 @@ equipment_modules = {
 		multiply_stats = {
 			air_range = -0.35
 			maximum_speed = 0.6
-			build_cost_ic = 2
 			air_agility = 0.05
 		}
 
@@ -469,7 +438,6 @@ equipment_modules = {
 		multiply_stats = {
 			air_range = -0.35
 			maximum_speed = 0.6
-			build_cost_ic = 2
 			air_agility = 0.05
 		}
 
@@ -498,7 +466,6 @@ equipment_modules = {
 		multiply_stats = {
 			air_range = -0.35
 			maximum_speed = 0.6
-			build_cost_ic = 2
 			air_agility = 0.05
 		}
 
@@ -527,7 +494,6 @@ equipment_modules = {
 		multiply_stats = {
 			air_range = -0.35
 			maximum_speed = 0.6
-			build_cost_ic = 2
 			air_agility = 0.05
 		}
 
@@ -555,7 +521,6 @@ equipment_modules = {
 		multiply_stats = {
 			air_range = -0.35
 			maximum_speed = 0.6
-			build_cost_ic = 2
 			air_agility = 0.05
 		}
 
@@ -583,7 +548,6 @@ equipment_modules = {
 		multiply_stats = {
 			air_range = -0.3
 			maximum_speed = 0.70
-			build_cost_ic = 2
 			air_agility = 0.05
 		}
 
@@ -606,7 +570,6 @@ equipment_modules = {
 		add_stats = {
 			thrust = 45
 			build_cost_ic = 40
-			build_cost_ic = 2
 			fuel_consumption = 0.8
 		}
 
@@ -635,7 +598,6 @@ equipment_modules = {
 		add_stats = {
 			thrust = 60
 			build_cost_ic = 60
-			build_cost_ic = 2
 			fuel_consumption = 1.2
 		}
 
@@ -664,7 +626,6 @@ equipment_modules = {
 		add_stats = {
 			thrust = 75
 			build_cost_ic = 80
-			build_cost_ic = 2
 			fuel_consumption = 1.6
 		}
 
@@ -693,7 +654,6 @@ equipment_modules = {
 		add_stats = {
 			thrust = 105
 			build_cost_ic = 120
-			build_cost_ic = 2
 			fuel_consumption = 2.4
 		}
 
@@ -725,7 +685,6 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			air_range = -0.7
-			build_cost_ic = 2
 			maximum_speed = 0.55
 		}
 		mission_type_stats = {
@@ -754,7 +713,6 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			air_range = -0.65
-			build_cost_ic = 2
 			maximum_speed = 0.60
 		}
 		mission_type_stats = {
@@ -784,7 +742,6 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			air_range = -0.6
-			build_cost_ic = 2
 			maximum_speed = 0.65
 		}
 		mission_type_stats = {

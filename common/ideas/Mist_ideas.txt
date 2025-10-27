@@ -1,7 +1,19 @@
 ideas = {
 
 	country = { 
-GER_mission_debaf_1 = {
+	
+		starting_production = {	
+			allowed = {
+				always = no
+			}
+			picture = chi_hyper_inflation5
+			removal_cost = -1
+			modifier = {
+                production_factory_start_efficiency_factor = 0.5
+			}
+		}
+	
+		GER_mission_debaf_1 = {
 			allowed = {
 					always = no
 			}
@@ -20,26 +32,16 @@ GER_mission_debaf_1 = {
 		}
 		
 	
-	no_ger = {
-
-			
-	available = {
-ENG = {
-			
-			   controls_state = 126
-			
-}
-					
-
+		no_ger = {
 	
-SOV = {
+			available = {
+				ENG = {
+					controls_state = 126			
+				}		
+				SOV = {
 					surrender_progress < 0.6
 				}
-	
-
-
-		
-}
+			}
 				
 			targeted_modifier = {
 				tag = GER
@@ -66,7 +68,7 @@ SOV = {
 				attack_bonus_against = -0.2
 				defense_bonus_against = -0.2
 			}
-}
+		}
 	    
 ##################################################
 ####################Africa########################

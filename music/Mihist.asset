@@ -1,0 +1,41 @@
+music = {
+    name = "Totalen_Krieg"
+    file = "Totalen_Krieg_war.ogg"
+    volume = 0.95
+}
+
+music = {
+    name = "War_with_USSR"
+    file = "Barbarossa_song.ogg"
+    volume = 0.8
+}
+
+music = {
+    name = "cze"
+    file = "cze.ogg"
+    volume = 1
+}
+
+music = {
+    name = "GER_declare_war_Allies"
+    file = "GER_declare_war_Allies.ogg"
+    volume = 1
+}
+
+music = {
+    name = "sp_ger_anschluss_this_land_is_german_ma"
+    file = "sp_ger_anschluss_this_land_is_german_ma.ogg"
+    volume = 1
+}
+
+music = {
+    name = "sp_ger_the_greatest_struggle_in_the_history_music"
+    file = "sp_ger_the_greatest_struggle_in_the_history_music.ogg"
+    volume = 1
+}
+
+music = {
+    name = "sp_ger_hitler_the_misery_of_the_sudeten_germans_ma"
+    file = "sp_ger_hitler_the_misery_of_the_sudeten_germans_ma.ogg"
+    volume = 1
+}

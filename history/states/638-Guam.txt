@@ -6,12 +6,12 @@ state=
 	manpower=75153
 	history=
 	{
-		owner = USA
+		owner = JAP
                 1936.1.1.13 = {
 			owner = BHU
 			add_core_of = BHU
 		}
-		add_core_of = GUM
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 3 #was: 5
 			12140 = {
