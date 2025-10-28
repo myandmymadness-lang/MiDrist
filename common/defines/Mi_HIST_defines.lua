@@ -117,11 +117,11 @@ NDefines.NMilitary.PIERCING_THRESHOLD_DAMAGE_VALUES = { 1.00, 0.25, 0.25, 0.25 }
 NDefines.NMilitary.INITIATIVE_PICK_COUNTER_ADVANTAGE_FACTOR = 1;   -- было --  бонус % к шансу прока контр тактики за 1 единицу разведки 
 
 ---ЗСУ/ПВО 
-NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.40 ---ПВО РЕДАКШЕН(ВАНИЛА-0.7)
-NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.15
-NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.03
-NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.00125 --0.005 ---пво нерв
-NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.02
+NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.40 ---ПВО РЕДАКШЕН(ВАНИЛА 0.7)
+NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.0
+NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.00
+NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0 --0.005 ---пво нерв
+NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.0
 
 ---Аир
 NDefines.NAir.AIR_DEPLOYMENT_DAYS = 0 ---моментальная развертка

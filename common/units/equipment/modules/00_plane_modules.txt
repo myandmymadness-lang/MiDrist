@@ -884,14 +884,6 @@ equipment_modules = {
 			air_superiority
 			interception
 		}
-		mission_type_stats = {
-			limit = {
-				attack_logistics
-			}
-			add_stats = {
-				air_ground_attack = 1
-			}
-		}
 		can_convert_from = {
 			module = heavy_mg_2x
 			convert_cost_ic = 2
@@ -933,14 +925,6 @@ equipment_modules = {
 		allow_mission_type = {
 			air_superiority
 			interception
-		}
-		mission_type_stats = {
-			limit = {
-				attack_logistics
-			}
-			add_stats = {
-				air_ground_attack = 2
-			}
 		}
 		can_convert_from = {
 			module = aircraft_cannon_1_1x
@@ -984,14 +968,6 @@ equipment_modules = {
 			air_superiority
 			interception
 		}
-		mission_type_stats = {
-			limit = {
-				attack_logistics
-			}
-			add_stats = {
-				air_ground_attack = 2
-			}
-		}
 		can_convert_from = {
 			module = aircraft_cannon_2_1x
 			convert_cost_ic = 4
@@ -1034,14 +1010,6 @@ equipment_modules = {
 			air_superiority
 			interception
 		}
-		mission_type_stats = {
-			limit = {
-				attack_logistics
-			}
-			add_stats = {
-				air_ground_attack = 2
-			}
-		}
 		can_convert_from = {
 			module = aircraft_cannon_2_1x
 			convert_cost_ic = 4
@@ -1060,13 +1028,11 @@ equipment_modules = {
 		xp_cost = 0
 		allow_mission_type = {
 			cas
-			attack_logistics
 			naval_bomber
 		}
 		mission_type_stats = {
 			limit = {
 				cas
-				attack_logistics
 			}
 			add_stats = {
 				air_agility = -15
@@ -1102,13 +1068,11 @@ equipment_modules = {
 		xp_cost = 0
 		allow_mission_type = {
 			cas
-			attack_logistics
 			naval_bomber
 		}
 		mission_type_stats = {
 			limit = {
 				cas
-				attack_logistics
 			}
 			add_stats = {
 				air_agility = -20
@@ -1144,13 +1108,11 @@ equipment_modules = {
 		xp_cost = 0
 		allow_mission_type = {
 			cas
-			attack_logistics
 			naval_bomber
 		}
 		mission_type_stats = {
 			limit = {
 				cas
-				attack_logistics
 			}
 			add_stats = {
 				air_agility = -20
@@ -1186,12 +1148,10 @@ equipment_modules = {
 		xp_cost = 0
 		allow_mission_type = {
 			cas
-			attack_logistics
 		}
 		mission_type_stats = {
 			limit = {
 				cas
-				attack_logistics
 			}
 			add_stats = {
 				air_ground_attack = 4
@@ -1215,13 +1175,11 @@ equipment_modules = {
 		xp_cost = 0
 		allow_mission_type = {
 			cas
-			attack_logistics
 			port_strike
 		}
 		mission_type_stats = {
 			limit = {
 				cas
-				attack_logistics
 			}
 			add_stats = {
 				air_ground_attack = 8
@@ -1258,14 +1216,12 @@ equipment_modules = {
 		xp_cost = 0
 		allow_mission_type = {
 			cas
-			attack_logistics
 			strategic_bomber
 			port_strike
 		}
 		mission_type_stats = {
 			limit = {
 				cas
-				attack_logistics
 			}
 			add_stats = {
 				air_ground_attack = 6
@@ -1348,7 +1304,6 @@ equipment_modules = {
 		xp_cost = 0
 		allow_mission_type = {
 			cas
-			attack_logistics
 		}
 		dismantle_cost_ic = 1.5
 	}
@@ -1368,7 +1323,6 @@ equipment_modules = {
 		xp_cost = 0
 		allow_mission_type = {
 			cas
-			attack_logistics
 		}
 		dismantle_cost_ic = 3.5
 	}
@@ -2245,7 +2199,6 @@ equipment_modules = {
 				strategic_bomber
 				naval_patrol
 				cas
-				attack_logistics
 				naval_mines_planting
 			}
 
@@ -2294,7 +2247,6 @@ equipment_modules = {
 				strategic_bomber
 				naval_patrol
 				cas
-				attack_logistics
 				naval_mines_planting
 			}
 
@@ -2343,7 +2295,6 @@ equipment_modules = {
 				strategic_bomber
 				naval_patrol
 				cas
-				attack_logistics
 				naval_mines_planting
 			}
 			add_stats = {
@@ -2391,7 +2342,6 @@ equipment_modules = {
 				strategic_bomber
 				naval_patrol
 				cas
-				attack_logistics
 				naval_mines_planting
 			}
 			add_stats = {
@@ -2439,7 +2389,6 @@ equipment_modules = {
 				strategic_bomber
 				naval_patrol
 				cas
-				attack_logistics
 				naval_mines_planting
 			}
 			add_stats = {
@@ -2483,7 +2432,6 @@ equipment_modules = {
 				strategic_bomber
 				naval_patrol
 				cas
-				attack_logistics
 				naval_mines_planting
 			}
 			add_stats = {
