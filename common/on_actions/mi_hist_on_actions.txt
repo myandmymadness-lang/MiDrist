@@ -288,4 +288,12 @@ on_actions = {
 			}
 		}
 	}
+	on_daily = {
+		effect = {
+			if = {
+				limit = { date > 1941.11.1 }
+				country_event = ost_cold_news.1
+			} 	
+		}
+	}
 }
