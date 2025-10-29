@@ -296,4 +296,21 @@ on_actions = {
 			} 	
 		}
 	}
+	on_daily_GER = {
+		effect = {
+			if = {
+				limit = {
+					GER = {
+						OR = {
+							has_war_with = FRA
+							has_war_with = POL
+							has_war_with = HOL
+							has_war_with = ENG
+						}
+					} 
+				}
+				remove_dynamic_modifier = {modifier = GER_recovering_economy_modifier}
+			} 	
+		}
+	}
 }
